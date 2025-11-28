@@ -1,5 +1,7 @@
 # Property Explorer
 
+https://github.com/user-attachments/assets/985f559e-127e-4b37-b3cf-a7dac809e290
+
 A personal project to explore properties for sale within a given area using 3D map tiles from Google Maps.
 
 The web app is built with React. It uses [Resium](https://resium.reearth.io) ([Cesium](https://cesium.com) for React)
