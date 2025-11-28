@@ -8,7 +8,34 @@ alongside Google Maps 3D tiles for photorealistic mapping of buildings, gardens,
 The data for properties are from various online real estate listing sites. They are not covered by the license for this
 repo and are used here for personal, non-commercial use only.
 
-## Run web app
+## Try the web app
+
+It is hosted at https://craigwalton.github.io/PropertyExplorer/
+
+> [!NOTE]  
+> This uses a Google Maps tiles API key which will expire in February 2026 due to billing reasons.
+
+### Features
+
+* Navigate the 3D environment (drag to pan, hold `ctrl` key to orbit) to explore the area.
+* Select a property marker to see basic info like price, main photo.
+* You can shortlist or reject any property, and write notes.
+
+## Limitations
+
+* Google Maps 3D tiles are not available in all areas. Apple Maps 3D tiles are more widely available, but there is no
+  public API to access them.
+* The web app is designed for use on a laptop/desktop rather than touch or mobile screens.
+
+## Data
+
+The areas I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not have 3D tiles further West
+for Milltimber, Peterculter or Banchory. This web app still supports properties in 2D-only areas, but the UX needs some
+work (see TODOs).
+
+The data are in `web-app/public/data/properties.json`. The scripts used to obtain the data are not made available.
+
+## Run web app locally (for development)
 
 Create a `web-app/.env` file and add a Google Maps API key. The API key should be restricted to just 3D map tiles.
 Consider also restricting which domain requests can come from.
@@ -26,20 +53,7 @@ Then run the web app:
 
 and open a browser at the URL shown in your terminal.
 
-## Limitations
-
-* Google Maps 3D tiles are not available in all areas. Apple Maps 3D tiles are more widely available, but there is no
-  public API to access them.
-
-## Data
-
-The areas I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not have 3D tiles further West
-for Milltimber, Peterculter or Banchory. This web app still supports properties in 2D-only areas, but the UX needs some
-work (see TODOs).
-
-The data are in `web-app/public/data/properties.json`. The scripts used to obtain the data are not made available.
-
-## TODO:
+## TODO
 
 ### Features
 
