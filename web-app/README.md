@@ -5,6 +5,9 @@ A personal project to explore properties for sale within a given area using 3D m
 The web app is built with React. It uses [Resium](https://resium.reearth.io) ([Cesium](https://cesium.com) for React)
 alongside Google Maps 3D tiles for photorealistic mapping of buildings, gardens, trees, etc.
 
+The data for properties are from various online real estate listing sites. They are not covered by the license for this
+repo and are used here for personal, non-commercial use only.
+
 ## Run
 
 Add a Google Maps API key to a .env file in the root of this repo. The API key should be restricted to just 3D map
@@ -28,9 +31,6 @@ and open a browser at the URL shown in your terminal.
   public API to access them.
 
 ## Data
-
-Property data are from various online real estate listing sites. The data are owned by the respective listing sites and
-are used here for personal, non-commercial use only.
 
 The areas I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not have 3D tiles further West
 for Milltimber, Peterculter or Banchory. This web app still supports properties in 2D-only areas, but the UX needs some
