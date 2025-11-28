@@ -59,7 +59,6 @@ function MarkerComponent({property, isSelected, isHovered, setSelectedProperty, 
                 width: 2,
             }}
             onClick={() => {
-                console.log(`Selected property: ${property.id}`);
                 setSelectedProperty(property);
                 flyTo(property.cartesianCoordinates);
             }}

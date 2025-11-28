@@ -201,7 +201,7 @@ export function App(): JSX.Element {
                                 const position = 'endPosition' in movement ? movement.endPosition : movement.position;
                                 const picked = viewer.scene.pick(position);
 
-                                if (picked && picked.id && picked.id.id) {
+                                if (picked?.id?.id) {
                                     const property = filteredProperties.find(p => p.id === picked.id.id);
                                     setHoveredProperty(property || null);
                                     setCursor("pointer");
@@ -226,7 +226,13 @@ export function App(): JSX.Element {
                                 const cartographic = Cesium.Cartographic.fromCartesian(cartesian);
                                 const latitude = Cesium.Math.toDegrees(cartographic.latitude);
                                 const longitude = Cesium.Math.toDegrees(cartographic.longitude);
-                                console.log(`Left click at lat/lon: ${latitude.toFixed(6)}, ${longitude.toFixed(6)}`);
+                                // If the click was not on a marker, log info to help user override the selected
+                                // property's coordinates.
+                                if (!viewer.scene.pick(position)?.id?.id) {
+                                    console.log(
+                                        `Left click at lat/lon: ${latitude.toFixed(6)}, ${longitude.toFixed(6)}` +
+                                        `; selected property is ${selectedProperty?.id || 'none'}`);
+                                }
                             }}
                         />
                     </ScreenSpaceEventHandler>
