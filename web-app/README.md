@@ -12,7 +12,11 @@ tiles. Consider also restricting which domain requests can come from.
 
     VITE_GOOGLE_MAPS_API_KEY=
 
-Then run:
+Ensure you have Vite installed:
+
+    npm install -D vite
+
+Then run the web app:
 
     npx vite
 
