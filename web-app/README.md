@@ -2,8 +2,8 @@
 
 A personal project to explore properties for sale within a given area using 3D map tiles from Google Maps.
 
-The web app is built with React. It uses Resium ([Cesium](https://cesium.com) for React) alongside Google Maps 3D
-tiles for photorealistic mapping of buildings, gardens, trees, etc.
+The web app is built with React. It uses [Resium](https://resium.reearth.io) ([Cesium](https://cesium.com) for React)
+alongside Google Maps 3D tiles for photorealistic mapping of buildings, gardens, trees, etc.
 
 ## Run
 
@@ -24,7 +24,7 @@ and open a browser at the URL shown in your terminal.
 
 ## Limitations
 
-* Google Maps 3D tiles are not available in all areas. Apple Maps 3D tiles are more widely available, but there is no 
+* Google Maps 3D tiles are not available in all areas. Apple Maps 3D tiles are more widely available, but there is no
   public API to access them.
 
 ## Data
