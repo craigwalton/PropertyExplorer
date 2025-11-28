@@ -8,10 +8,10 @@ alongside Google Maps 3D tiles for photorealistic mapping of buildings, gardens,
 The data for properties are from various online real estate listing sites. They are not covered by the license for this
 repo and are used here for personal, non-commercial use only.
 
-## Run
+## Run web app
 
-Add a Google Maps API key to a .env file in the root of this repo. The API key should be restricted to just 3D map
-tiles. Consider also restricting which domain requests can come from.
+Create a `web-app/.env` file and add a Google Maps API key. The API key should be restricted to just 3D map tiles.
+Consider also restricting which domain requests can come from.
 
     VITE_GOOGLE_MAPS_API_KEY=
 
@@ -21,6 +21,7 @@ Ensure you have Vite installed:
 
 Then run the web app:
 
+    cd web-app/
     npx vite
 
 and open a browser at the URL shown in your terminal.
@@ -36,7 +37,7 @@ The areas I selected are generally Cults and Bieldside. Unfortunately, Google Ma
 for Milltimber, Peterculter or Banchory. This web app still supports properties in 2D-only areas, but the UX needs some
 work (see TODOs).
 
-The data are in `public/data/properties.json`. The scripts used to obtain the data are not made available.
+The data are in `web-app/public/data/properties.json`. The scripts used to obtain the data are not made available.
 
 ## TODO:
 
