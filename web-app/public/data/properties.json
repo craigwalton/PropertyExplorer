@@ -1253,8 +1253,8 @@
     "location_line_1": "The Cedars,  8a Hillhead Road",
     "location_line_2": "Bieldside, Aberdeen, AB15\u00a09EJ",
     "coordinates": {
-      "lat": 57.1116768,
-      "lng": -2.2117587
+      "lat": 57.111989,
+      "lng": -2.209923
     },
     "photos": [
       {
@@ -4621,8 +4621,8 @@
     "location_line_1": "29 Hillhead Road",
     "location_line_2": "Bieldside, Aberdeen, AB15\u00a09EJ",
     "coordinates": {
-      "lat": 57.1129597,
-      "lng": -2.2136864
+      "lat": 57.112755,
+      "lng": -2.214287
     },
     "photos": [
       {
@@ -7196,106 +7196,6 @@
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381237/Image/6690767.jpg",
         "description": "Communal grounds view 2"
-      }
-    ]
-  },
-  {
-    "id": "aspc_436317",
-    "provider_id": "436317",
-    "provider": "ASPC",
-    "url": "https://www.aspc.co.uk/search/property/436317",
-    "price": 232000,
-    "bedrooms": 3,
-    "location_line_1": "3 Countesswells Park Place",
-    "location_line_2": "Aberdeen, AB15\u00a08FJ",
-    "coordinates": {
-      "lat": 57.1349019328637,
-      "lng": -2.2161390888855
-    },
-    "photos": [
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640907.jpg",
-        "description": "External"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640915.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640906.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640908.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640914.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640909.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640910.jpg",
-        "description": "Dining"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640911.jpg",
-        "description": "WC"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640912.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640913.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640919.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640917.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640920.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640916.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640924.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640918.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640922.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640921.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640923.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640925.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/383309/Image/6640926.jpg",
-        "description": "External"
       }
     ]
   },
