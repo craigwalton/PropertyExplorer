@@ -221,7 +221,7 @@ export function App(): JSX.Element {
                                 const viewer = viewerRef.current;
                                 if (!viewer) return;
                                 const position = 'endPosition' in click ? click.endPosition : click.position;
-                                const cartesian = viewer.camera.pickEllipsoid(position);
+                                const cartesian = viewer.scene.pickPosition(position);
                                 if (!cartesian) return;
                                 const cartographic = Cesium.Cartographic.fromCartesian(cartesian);
                                 const latitude = Cesium.Math.toDegrees(cartographic.latitude);
