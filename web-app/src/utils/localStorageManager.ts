@@ -5,6 +5,8 @@ export const PROPERTY_CLASSIFICATIONS_KEY = 'property-classifications' as const;
 export const PROPERTY_NOTES_KEY = 'property-notes' as const;
 export const FILTER_CLASSIFICATION_SELECTION_KEY = 'filter-classification-selection' as const;
 export const SHOW_CATCHMENT_AREAS_KEY = 'show-catchment-areas' as const;
+export const FILTER_PRICE_MIN_KEY = 'filter-price-min' as const;
+export const FILTER_PRICE_MAX_KEY = 'filter-price-max' as const;
 
 // List all the keys to import and export to JSON.
 export interface LocalStorageData {
@@ -12,6 +14,8 @@ export interface LocalStorageData {
     [PROPERTY_NOTES_KEY]: Record<string, string>;
     [FILTER_CLASSIFICATION_SELECTION_KEY]: string;
     [SHOW_CATCHMENT_AREAS_KEY]: boolean;
+    [FILTER_PRICE_MIN_KEY]: number | null;
+    [FILTER_PRICE_MAX_KEY]: number | null;
 }
 
 const STORAGE_KEYS = [
@@ -19,6 +23,8 @@ const STORAGE_KEYS = [
     PROPERTY_NOTES_KEY,
     FILTER_CLASSIFICATION_SELECTION_KEY,
     SHOW_CATCHMENT_AREAS_KEY,
+    FILTER_PRICE_MIN_KEY,
+    FILTER_PRICE_MAX_KEY,
 ] as const;
 
 // Also export version & timestamp in case they are useful for debugging or migrating data.
