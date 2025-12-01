@@ -61,7 +61,7 @@ export function CesiumEventHandlers({
         const picked = viewer.scene.pick(position);
         const pickedEntityPropertyBag = picked?.id?.properties;
 
-        if (!pickedEntityPropertyBag.hasProperty(PROPERTY_MARKER_IDENTIFIER)) {
+        if (!pickedEntityPropertyBag?.hasProperty(PROPERTY_MARKER_IDENTIFIER)) {
             const cartesian = viewer.scene.pickPosition(position);
             const {latitude, longitude} = cartesianToLatLon(cartesian, viewer);
             console.log(
