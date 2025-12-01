@@ -1,4 +1,4 @@
-import {JSX, useEffect, useMemo} from 'react';
+import {type JSX, useEffect, useMemo} from 'react';
 import {useLocalStorage} from 'react-use';
 import './Filters.css';
 import {Filter as FilterIcon} from 'lucide-react';
