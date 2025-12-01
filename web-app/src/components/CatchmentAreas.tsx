@@ -5,15 +5,24 @@ import {CATCHMENT_AREA_IDENTIFIER} from "../types/constants.ts";
 
 export function CatchmentAreas({show}: { show: boolean }) {
     const handleOnLoad = (dataSource: CesiumGeoJsonDataSource) => {
-        dataSource.entities.values.forEach((entity: Entity, index: number) => {
+        const colorDict: Record<string, Color> = {};
+        dataSource.entities.values.forEach((entity: Entity) => {
             if (entity.polygon) {
-                const color = Color.fromHsl(
-                    // Golden ratio - 1 to distribute colors evenly.
-                    (index * 0.618033988749895) % 1.0,
-                    0.7,
-                    0.5,
-                    0.3,
-                );
+                // Colours should be unique by name, not polygon as some areas are split into multiple polygons.
+                const name = entity.properties!["name"].getValue();
+                let color: Color;
+                if (colorDict[name]) {
+                    color = colorDict[name];
+                } else {
+                    color = Color.fromHsl(
+                        // Golden ratio - 1 to distribute colors evenly.
+                        (Object.keys(colorDict).length * 0.618033988749895) % 1.0,
+                        0.7,
+                        0.5,
+                        0.3,
+                    );
+                    colorDict[name] = color;
+                }
                 entity.polygon.material = new ColorMaterialProperty(color);
                 // Disable the outline as it is not supported on 3D Tiles.
                 entity.polygon.outline = new ConstantProperty(false);
