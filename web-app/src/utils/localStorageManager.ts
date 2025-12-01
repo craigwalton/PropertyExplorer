@@ -4,18 +4,21 @@ import packageJson from '../../package.json';
 export const PROPERTY_CLASSIFICATIONS_KEY = 'property-classifications' as const;
 export const PROPERTY_NOTES_KEY = 'property-notes' as const;
 export const FILTER_CLASSIFICATION_SELECTION_KEY = 'filter-classification-selection' as const;
+export const SHOW_CATCHMENT_AREAS_KEY = 'show-catchment-areas' as const;
 
 // List all the keys to import and export to JSON.
 export interface LocalStorageData {
     [PROPERTY_CLASSIFICATIONS_KEY]: Record<string, string>;
     [PROPERTY_NOTES_KEY]: Record<string, string>;
     [FILTER_CLASSIFICATION_SELECTION_KEY]: string;
+    [SHOW_CATCHMENT_AREAS_KEY]: boolean;
 }
 
 const STORAGE_KEYS = [
     PROPERTY_CLASSIFICATIONS_KEY,
     PROPERTY_NOTES_KEY,
     FILTER_CLASSIFICATION_SELECTION_KEY,
+    SHOW_CATCHMENT_AREAS_KEY,
 ] as const;
 
 // Also export version & timestamp in case they are useful for debugging or migrating data.
@@ -51,7 +54,7 @@ export function downloadLocalStorage(): void {
         .slice(0, 19);
 
     link.href = url;
-    link.download = `property-map-data-${timestamp}.json`;
+    link.download = `property-explorer-data-${timestamp}.json`;
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);

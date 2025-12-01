@@ -53,6 +53,10 @@ function MarkerComponent({property, isSelected, isHovered, setSelectedProperty, 
             id={property.id}
             position={verticalLine[1]}
             name={property.title}
+            properties={{
+                isPropertyMarker: true,
+                propertyId: property.id,
+            }}
             polyline={{
                 positions: verticalLine,
                 material: verticalLineColor,

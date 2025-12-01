@@ -1,14 +1,6 @@
 import './App.css'
-import {
-    Cesium3DTileset,
-    Globe,
-    Scene,
-    ScreenSpaceEvent,
-    ScreenSpaceEventHandler,
-    Viewer
-} from "resium";
+import {Cesium3DTileset, Globe, Scene, Viewer} from "resium";
 import * as Cesium from "cesium";
-import {Cartesian2} from "cesium";
 import {useCallback, useRef, useState} from "react";
 import type {JSX} from "react";
 import type {CesiumComponentRef} from "resium";
@@ -16,12 +8,24 @@ import type {CesiumComponentRef} from "resium";
 import {ZoomButtons} from "./components/ZoomControls.tsx";
 import {Sidebar} from "./components/Sidebar.tsx";
 import {Header} from "./components/Header.tsx";
+import {CatchmentAreas} from "./components/CatchmentAreas.tsx";
+import {CatchmentTooltip} from "./components/CatchmentTooltip.tsx";
+import {CesiumEventHandlers} from "./components/CesiumEventHandlers.tsx";
 import type {Classification} from "./types/classification";
 import type {Property} from "./types/property";
-import {FLY_TO_PITCH, FLY_TO_RANGE, INITIAL_CAMERA_DESTINATION, INITIAL_CAMERA_ORIENTATION} from "./types/constants";
+import {
+    FLY_TO_PITCH,
+    FLY_TO_RANGE,
+    INITIAL_CAMERA_DESTINATION,
+    INITIAL_CAMERA_ORIENTATION
+} from "./types/constants";
 import {Marker} from "./components/Marker.tsx";
 import {useLocalStorage} from "react-use";
-import {PROPERTY_CLASSIFICATIONS_KEY, PROPERTY_NOTES_KEY} from "./utils/localStorageManager.ts";
+import {
+    PROPERTY_CLASSIFICATIONS_KEY,
+    PROPERTY_NOTES_KEY,
+    SHOW_CATCHMENT_AREAS_KEY
+} from "./utils/localStorageManager.ts";
 
 
 export function App(): JSX.Element {
@@ -31,6 +35,7 @@ export function App(): JSX.Element {
     const [properties, setProperties] = useState<Property[]>([]);
     const [filteredProperties, setFilteredProperties] = useState<Property[]>([]);
     const [cursor, setCursor] = useState<"default" | "pointer">("default");
+    const [hoveredCatchmentArea, setHoveredCatchmentArea] = useState<string | null>(null);
 
     const handleFilterChange = useCallback((newFilteredProperties: Property[]) => {
         setFilteredProperties(newFilteredProperties);
@@ -58,7 +63,7 @@ export function App(): JSX.Element {
                 duration: 1,
             }
         );
-    }, [viewerRef]);
+    }, []);
 
     const handleSidebarClose = useCallback(() => {
         setSelectedProperty(null);
@@ -107,7 +112,7 @@ export function App(): JSX.Element {
             ...prev,
             [property.id]: classification,
         }));
-    }, []);
+    }, [setClassifications]);
 
     const [notes, setNotes] = useLocalStorage<Record<string, string>>(
         PROPERTY_NOTES_KEY,
@@ -119,7 +124,12 @@ export function App(): JSX.Element {
             ...prev,
             [property.id]: noteText,
         }));
-    }, []);
+    }, [setNotes]);
+
+    const [showCatchmentAreas, setShowCatchmentAreas] = useLocalStorage<boolean>(
+        SHOW_CATCHMENT_AREAS_KEY,
+        false
+    );
 
     const handleViewerReady = useCallback(
         (ref: CesiumComponentRef<Cesium.Viewer> | null) => {
@@ -138,7 +148,9 @@ export function App(): JSX.Element {
         <>
             <Header properties={properties}
                     onFilterChange={handleFilterChange}
-                    classifications={classifications ?? {}}/>
+                    classifications={classifications ?? {}}
+                    showCatchmentAreas={showCatchmentAreas ?? false}
+                    setShowCatchmentAreas={setShowCatchmentAreas}/>
             <div className="main-content">
                 <Sidebar selectedProperty={selectedProperty}
                          hoveredProperty={hoveredProperty}
@@ -148,95 +160,60 @@ export function App(): JSX.Element {
                          classifyProperty={classifyProperty}
                          notes={selectedProperty ? notes?.[selectedProperty.id] || '' : ''}
                          updateNotes={updatePropertyNotes}/>
-                <Viewer ref={handleViewerReady}
-                        className={"cesium-viewer"}
-                        infoBox={false}
-                        fullscreenButton={false}
-                        baseLayerPicker={false}
-                        homeButton={false}
-                        navigationHelpButton={false}
-                        sceneModePicker={false}
-                        geocoder={false}
-                        selectionIndicator={false}
-                        timeline={false}
-                        animation={false}
-                        terrainProvider={new Cesium.EllipsoidTerrainProvider()}
-                        style={{cursor: cursor}}
-                >
-                    <Globe show={false}/>
-                    <Cesium3DTileset
-                        url={`https://tile.googleapis.com/v1/3dtiles/root.json?key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`}
-                        onInitialTilesLoad={async () => {
-                            // TODO: Do we need to wait until all initial titleset loaded to be able to compute accurate heights?
-                            const scene = viewerRef.current?.scene;
-                            if (!scene) throw new Error("Scene ought to be ready before tileset is loaded.");
-                            await loadPropertyData(scene);
-                        }}
-                    />
-
-                    <Scene/>
-
-                    {filteredProperties.map((p) => {
-                        return (
-                            <Marker key={p.id}
-                                    property={p}
-                                    isSelected={p.id == selectedProperty?.id}
-                                    isHovered={p.id == hoveredProperty?.id}
-                                    setSelectedProperty={setSelectedProperty}
-                                    flyTo={flyTo}
-                            />
-                        );
-                    })}
-                    <ZoomButtons/>
-                    <ScreenSpaceEventHandler>
-                        <ScreenSpaceEvent
-                            type={Cesium.ScreenSpaceEventType.MOUSE_MOVE}
-                            action={(movement: { position: Cartesian2 } | {
-                                startPosition: Cartesian2;
-                                endPosition: Cartesian2
-                            }) => {
-                                const viewer = viewerRef.current;
-                                if (!viewer) return;
-
-                                const position = 'endPosition' in movement ? movement.endPosition : movement.position;
-                                const picked = viewer.scene.pick(position);
-
-                                if (picked?.id?.id) {
-                                    const property = filteredProperties.find(p => p.id === picked.id.id);
-                                    setHoveredProperty(property || null);
-                                    setCursor("pointer");
-                                } else {
-                                    setHoveredProperty(null);
-                                    setCursor("default");
-                                }
+                <div className="viewer-container">
+                    <Viewer ref={handleViewerReady}
+                            className={"cesium-viewer"}
+                            infoBox={false}
+                            fullscreenButton={false}
+                            baseLayerPicker={false}
+                            homeButton={false}
+                            navigationHelpButton={false}
+                            sceneModePicker={false}
+                            geocoder={false}
+                            selectionIndicator={false}
+                            timeline={false}
+                            animation={false}
+                            terrainProvider={new Cesium.EllipsoidTerrainProvider()}
+                            style={{cursor: cursor}}
+                    >
+                        <Globe show={false}/>
+                        <Cesium3DTileset
+                            url={`https://tile.googleapis.com/v1/3dtiles/root.json?key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`}
+                            onInitialTilesLoad={async () => {
+                                // TODO: Do we need to wait until all initial titleset loaded to be able to compute accurate heights?
+                                const scene = viewerRef.current?.scene;
+                                if (!scene) throw new Error("Scene ought to be ready before tileset is loaded.");
+                                await loadPropertyData(scene);
                             }}
                         />
-                        <ScreenSpaceEvent
-                            type={Cesium.ScreenSpaceEventType.LEFT_CLICK}
-                            action={(click: { position: Cartesian2 } | {
-                                startPosition: Cartesian2;
-                                endPosition: Cartesian2
-                            }) => {
-                                // To help with debugging and extracting coordinates for constants.
-                                const viewer = viewerRef.current;
-                                if (!viewer) return;
-                                const position = 'endPosition' in click ? click.endPosition : click.position;
-                                const cartesian = viewer.scene.pickPosition(position);
-                                if (!cartesian) return;
-                                const cartographic = Cesium.Cartographic.fromCartesian(cartesian);
-                                const latitude = Cesium.Math.toDegrees(cartographic.latitude);
-                                const longitude = Cesium.Math.toDegrees(cartographic.longitude);
-                                // If the click was not on a marker, log info to help user override the selected
-                                // property's coordinates.
-                                if (!viewer.scene.pick(position)?.id?.id) {
-                                    console.log(
-                                        `Left click at lat/lon: ${latitude.toFixed(6)}, ${longitude.toFixed(6)}` +
-                                        `; selected property is ${selectedProperty?.id || 'none'}`);
-                                }
-                            }}
+
+                        <Scene/>
+
+                        <CatchmentAreas show={showCatchmentAreas ?? false}/>
+
+                        {filteredProperties.map((p) => {
+                            return (
+                                <Marker key={p.id}
+                                        property={p}
+                                        isSelected={p.id == selectedProperty?.id}
+                                        isHovered={p.id == hoveredProperty?.id}
+                                        setSelectedProperty={setSelectedProperty}
+                                        flyTo={flyTo}
+                                />
+                            );
+                        })}
+                        <ZoomButtons/>
+                        <CesiumEventHandlers
+                            viewerRef={viewerRef}
+                            filteredProperties={filteredProperties}
+                            selectedProperty={selectedProperty}
+                            setHoveredProperty={setHoveredProperty}
+                            setHoveredCatchmentArea={setHoveredCatchmentArea}
+                            setCursor={setCursor}
                         />
-                    </ScreenSpaceEventHandler>
-                </Viewer>
+                    </Viewer>
+                    <CatchmentTooltip catchmentName={hoveredCatchmentArea}/>
+                </div>
             </div>
         </>
     )
