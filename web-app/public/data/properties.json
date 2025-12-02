@@ -1,5 +1,199 @@
 [
   {
+    "id": "aspc_438484",
+    "provider_id": "438484",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438484",
+    "price": 424995,
+    "bedrooms": 4,
+    "location_line_1": "14 Gairnhill",
+    "location_line_2": "Countesswells, Aberdeen, AB15\u00a08FZ",
+    "coordinates": {
+      "lat": 57.1313334,
+      "lng": -2.215433
+    },
+    "published_datetime": "2025-12-02T14:11:23.877000",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756120.jpg",
+        "description": "External"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756121.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756131.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756133.jpg",
+        "description": "Kitchen/Dining"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756124.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756129.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756122.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756130.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756132.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756123.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756126.jpg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756125.jpg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756128.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6756127.jpg",
+        "description": "Garden"
+      }
+    ]
+  },
+  {
+    "id": "aspc_438478",
+    "provider_id": "438478",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438478",
+    "price": 215000,
+    "bedrooms": 3,
+    "location_line_1": "14 Burnett Drive",
+    "location_line_2": "Aberdeen, AB15\u00a08GX",
+    "coordinates": {
+      "lat": 57.1366223949159,
+      "lng": -2.21508836368485
+    },
+    "published_datetime": "2025-12-02T09:58:33.820000",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755332.jpg",
+        "description": "External"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755331.jpg",
+        "description": "Hallway"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755334.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755333.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755337.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755335.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755336.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755339.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755338.jpg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755343.jpg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755340.jpg",
+        "description": "Toilet"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755341.jpg",
+        "description": "Toilet"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755342.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755347.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755344.jpg",
+        "description": "Shower Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755345.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755346.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755349.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755348.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755350.jpg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755356.jpg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755351.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755352.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755353.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755354.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385579/Image/6755355.jpg",
+        "description": "External"
+      }
+    ]
+  },
+  {
     "id": "aspc_438475",
     "provider_id": "438475",
     "provider": "ASPC",
@@ -590,79 +784,6 @@
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385515/Image/6751490.jpg",
         "description": "External"
-      }
-    ]
-  },
-  {
-    "id": "aspc_438328",
-    "provider_id": "438328",
-    "provider": "ASPC",
-    "url": "https://www.aspc.co.uk/search/property/438328",
-    "price": 424995,
-    "bedrooms": 4,
-    "location_line_1": "14 Gairnhill",
-    "location_line_2": "Aberdeen, AB15\u00a08FZ",
-    "coordinates": {
-      "lat": 57.1313334,
-      "lng": -2.215433
-    },
-    "published_datetime": "2025-11-21T09:22:23.193000",
-    "photos": [
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754946.jpg",
-        "description": "External"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754947.jpg",
-        "description": "Hall"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754957.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754959.jpg",
-        "description": "Kitchen/Dining"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754950.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754955.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754948.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754956.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754958.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754949.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754952.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754951.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754954.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385417/Image/6754953.jpg",
-        "description": "Garden"
       }
     ]
   },
@@ -3370,127 +3491,6 @@
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384322/Image/6730572.jpg",
         "description": "Rear Exterior"
-      }
-    ]
-  },
-  {
-    "id": "aspc_437550",
-    "provider_id": "437550",
-    "provider": "ASPC",
-    "url": "https://www.aspc.co.uk/search/property/437550",
-    "price": 214999,
-    "bedrooms": 3,
-    "location_line_1": "14 Burnett Drive",
-    "location_line_2": "Aberdeen, AB15\u00a08GX",
-    "coordinates": {
-      "lat": 57.1366223949159,
-      "lng": -2.21508836368485
-    },
-    "published_datetime": "2025-10-14T11:44:18.730000",
-    "photos": [
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712650.jpg",
-        "description": "External"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712649.jpg",
-        "description": "Hallway"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712652.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712651.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712655.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712653.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712654.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712657.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712656.jpg",
-        "description": "Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712661.jpg",
-        "description": "Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712658.jpg",
-        "description": "Toilet"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712659.jpg",
-        "description": "Toilet"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712660.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712665.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712662.jpg",
-        "description": "Shower Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712663.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712664.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712667.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712666.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712668.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712674.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712669.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712670.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712671.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712672.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384587/Image/6712673.jpg",
-        "description": "External"
       }
     ]
   },
@@ -13891,71 +13891,71 @@
     "published_datetime": "2023-09-05T14:35:30.787000",
     "photos": [
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667866.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756154.jpg",
         "description": "External"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667869.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756157.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667868.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756156.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667867.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756155.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667878.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756166.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667870.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756158.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667872.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756160.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667871.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756159.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667882.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756170.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667873.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756161.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667874.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756162.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667875.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756163.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667876.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756164.jpg",
         "description": "En-suite"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667877.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756165.jpg",
         "description": "Bathroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667881.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756169.jpg",
         "description": "Bathroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667879.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756167.jpg",
         "description": "Upper Hall"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/5667880.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/364881/Image/6756168.jpg",
         "description": "Rear Garden"
       }
     ]
@@ -16250,245 +16250,80 @@
     "published_datetime": "2025-09-11T14:40:16Z",
     "photos": [
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_00_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/07951a4ff/166882382/07951a4ff57b81c8926940e5af725657_max_476x317.jpeg",
         "description": "Campbell - Caledonia housetype range"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_01_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5b268300a/166882382/5b268300acae945f2b3b87cf303bff44_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_21"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_02_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/eb938a142/166882382/eb938a1426f2fa9a189adf10ad223b43_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_17"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_03_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5b3653e10/166882382/5b3653e10f8a097fef5dc73e07180e41_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_09"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_04_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6ef83cd07/166882382/6ef83cd07595ed91bb27386da68680af_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_13"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_05_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f188981db/166882382/f188981db2e32d9b524802a18f231cca_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_10"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_06_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/decfc363a/166882382/decfc363a96b4dd9adb428840f50b674_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_06"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_07_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9d0a23728/166882382/9d0a23728cb7e83cdd7470e5d435fbda_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_08"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_08_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/36326229e/166882382/36326229ebfd32e316d6c10f5dc46657_max_476x317.jpeg",
         "description": "Campbell_BCBL_DEV-002606_270723_11"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_09_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cfefbc4e9/166882382/cfefbc4e90b83dcbbe61aefc227b2d59_max_476x317.jpeg",
         "description": "Kings Gallop_DEV001167_street scenes_003_07022024"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_10_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6d63502b6/166882382/6d63502b663e92c0a1d08b26a1cbc73d_max_476x317.jpeg",
         "description": "Kings Gallop-Glamis-BGAM02GD-100123-20"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_11_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3f9cb6d35/166882382/3f9cb6d35e46e5532a8ffa134758c894_max_476x317.jpeg",
         "description": "Local-Area-Green-open-space-and-park"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_12_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/76893e95a/166882382/76893e95a62894c7553b54483a4683b9_max_476x317.jpeg",
         "description": "Kings Gallop_DEV001167_street scenes_008_07022024"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_13_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/03189942f/166882382/03189942fe528bf530696b74a235df18_max_476x317.jpeg",
         "description": "Kings Gallop-Fenton-BFOE02GD-100123-03"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_14_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6917d53c9/166882382/6917d53c93254174dfa889e9fd754ce2_max_476x317.jpeg",
         "description": "People on horses, nature"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_15_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/00bb1856b/166882382/00bb1856bb88d3b93a9a84e6dd7abc9e_max_476x317.jpeg",
         "description": "Fasque housetype"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_16_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8aa7244e9/166882382/8aa7244e98c20fed2c6bf9dd240c5bfb_max_476x317.jpeg",
         "description": "Kings Gallop-Glamis-BGAM02GD-100123-18"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_17_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/517741579/166882382/517741579a2c300c7893bee1e50f3347_max_476x317.jpeg",
         "description": "Local-Area local park and swing"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/166882382/250082_4_H8496185_IMG_18_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/fabe7aa8c/166882382/fabe7aa8ca3ff4b9a96e12ef4b932c1f_max_476x317.jpeg",
         "description": "dev002606_Hopecroft_Sam_2023 -013"
-      }
-    ]
-  },
-  {
-    "id": "rightmove_166075355",
-    "provider_id": "166075355",
-    "provider": "Rightmove",
-    "url": "https://www.rightmove.co.uk/properties/166075355#/?channel=RES_BUY",
-    "price": 425000,
-    "bedrooms": 3,
-    "location_line_1": "1 Burnside Cottages",
-    "location_line_2": "Blairs, Aberdeen, AB12 5YQ",
-    "coordinates": {
-      "lat": 57.101796,
-      "lng": -2.199881
-    },
-    "published_datetime": "2025-08-21T17:54:45Z",
-    "photos": [
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_00_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_01_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_02_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_03_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_04_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_05_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_06_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_07_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_08_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_09_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_10_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_11_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_12_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_13_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_14_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_15_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_16_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_17_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_18_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_19_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_20_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_21_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_22_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_23_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_24_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_25_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_26_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_27_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_28_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_31_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_32_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_33_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_34_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_35_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_36_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_37_0000_max_476x317.jpeg",
-        "description": ""
-      },
-      {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/252k/251369/166075355/251369_220683086_IMG_38_0000_max_476x317.jpeg",
-        "description": ""
       }
     ]
   },
@@ -16941,6 +16776,135 @@
     ]
   },
   {
+    "id": "rightmove_162913730",
+    "provider_id": "162913730",
+    "provider": "Rightmove",
+    "url": "https://www.rightmove.co.uk/properties/162913730#/?channel=RES_BUY",
+    "price": 1500000,
+    "bedrooms": 6,
+    "location_line_1": "Sunert House",
+    "location_line_2": "Sunert Road, Milltimber, Aberdeenshire, AB13 0JQ",
+    "coordinates": {
+      "lat": 57.105742,
+      "lng": -2.218507
+    },
+    "published_datetime": "2025-06-05T15:54:53Z",
+    "photos": [
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/38102fa70/162913730/38102fa70bfaed14910d71902e8769f4_max_476x317.jpeg",
+        "description": "Sunert House 1"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f2a0e5a55/162913730/f2a0e5a550c71cfa9cef7ab339be640c_max_476x317.jpeg",
+        "description": "Sunert House 2"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b7cb7fe07/162913730/b7cb7fe0708e8aefc5c696b58e6dfc6c_max_476x317.jpeg",
+        "description": "Sunert House 3"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/0c3af83a8/162913730/0c3af83a8afca78081fb50e6f81ac986_max_476x317.jpeg",
+        "description": "Sunert House 4"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/0e92e8313/162913730/0e92e83131367b9be68dc3341d8860e8_max_476x317.jpeg",
+        "description": "Sunert House 5"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/27f30b969/162913730/27f30b96922162d86eadbfda8ac9ddde_max_476x317.jpeg",
+        "description": "Sunert House 6"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9ef37a48d/162913730/9ef37a48de9c48cd97fffe7705b19e73_max_476x317.jpeg",
+        "description": "Sunert House 7"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bb0b2b59d/162913730/bb0b2b59de2cf23713d340bed0260c0b_max_476x317.jpeg",
+        "description": "Sunert House 8"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5d9cc7499/162913730/5d9cc749962c2c63f3329d2e58edd082_max_476x317.jpeg",
+        "description": "Sunert House 9"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6580b52bb/162913730/6580b52bb5550507b36640dde22352a6_max_476x317.jpeg",
+        "description": "Sunert House 10"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2dd03e703/162913730/2dd03e70320aa07313d1e5cd75e2037d_max_476x317.jpeg",
+        "description": "Sunert House 11"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c57734c73/162913730/c57734c7363940da8764400b5731e409_max_476x317.jpeg",
+        "description": "Sunert House 12"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dec65d405/162913730/dec65d405e6cde55c17170d9eea78f07_max_476x317.jpeg",
+        "description": "Sunert House 13"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2c7215a5e/162913730/2c7215a5e651ad11417c758d3ca87572_max_476x317.jpeg",
+        "description": "Sunert House 14"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1ca8d2165/162913730/1ca8d216505a200fbf0613f8cd41c1bb_max_476x317.jpeg",
+        "description": "Sunert House 15"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/169a40fe8/162913730/169a40fe8d50cf5f0bb60b02a363df76_max_476x317.jpeg",
+        "description": "Sunert House 16"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/00394e11a/162913730/00394e11aecf975a15a73ee5aa4d145f_max_476x317.jpeg",
+        "description": "Sunert House 17"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/a89557c3c/162913730/a89557c3ca71c03d683753b9bae3007d_max_476x317.jpeg",
+        "description": "Sunert House 18"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/377b52ef5/162913730/377b52ef578cf0c7251bdea48d8b3344_max_476x317.jpeg",
+        "description": "Sunert House 19"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d855aae31/162913730/d855aae3144965699f23dad96e0e6251_max_476x317.jpeg",
+        "description": "Sunert House 20"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/680b18d4b/162913730/680b18d4b9253ef1aefa9103b2d1f0fc_max_476x317.jpeg",
+        "description": "Sunert House 21"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/240ed3826/162913730/240ed382604fae32d7d50c26899429cb_max_476x317.jpeg",
+        "description": "Sunert House 22"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e4f32c5c2/162913730/e4f32c5c2e57905793297b9808a33e32_max_476x317.jpeg",
+        "description": "Sunert House 23"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/481aad77a/162913730/481aad77a2b9968004e514e2473998bf_max_476x317.jpeg",
+        "description": "Sunert House 24"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5c157b9ab/162913730/5c157b9abf70904cbb4bad0b10dbb89e_max_476x317.jpeg",
+        "description": "Sunert House 25"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9fec22369/162913730/9fec22369d9a2078dcf766c5c254f322_max_476x317.jpeg",
+        "description": "Sunert House 26"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/63b19eab7/162913730/63b19eab76e574b7e06170adbbccf09b_max_476x317.jpeg",
+        "description": "Sunert House 27"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/bb278a7b8/162913730/bb278a7b8b77440eb3fcb9d6482ad050_max_476x317.jpeg",
+        "description": "Sunert House 28"
+      }
+    ]
+  },
+  {
     "id": "rightmove_162528869",
     "provider_id": "162528869",
     "provider": "Rightmove",
@@ -17296,6 +17260,71 @@
     ]
   },
   {
+    "id": "rightmove_159068867",
+    "provider_id": "159068867",
+    "provider": "Rightmove",
+    "url": "https://www.rightmove.co.uk/properties/159068867#/?channel=RES_BUY",
+    "price": 1050000,
+    "bedrooms": 4,
+    "location_line_1": "Baylissburn House",
+    "location_line_2": "Dalmuinzie Road, Bieldside, Aberdeen, AB15",
+    "coordinates": {
+      "lat": 57.112741,
+      "lng": -2.205307
+    },
+    "published_datetime": "2025-03-06T12:03:47Z",
+    "photos": [
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_00_0000_max_476x317.jpeg",
+        "description": "Main Image"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_01_0000_max_476x317.jpeg",
+        "description": "Front Elevation"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_02_0000_max_476x317.jpeg",
+        "description": "Kitchen Diner"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_03_0000_max_476x317.jpeg",
+        "description": "Garden Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_04_0000_max_476x317.jpeg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_05_0000_max_476x317.jpeg",
+        "description": "Sitting Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_06_0000_max_476x317.jpeg",
+        "description": "Principal Bedroom"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_07_0000_max_476x317.jpeg",
+        "description": "Principal En Suite"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_08_0000_max_476x317.jpeg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_09_0000_max_476x317.jpeg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_11_0000_max_476x317.jpeg",
+        "description": "Double Garage"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_10_0000_max_476x317.jpeg",
+        "description": "Pond View"
+      }
+    ]
+  },
+  {
     "id": "rightmove_155613293",
     "provider_id": "155613293",
     "provider": "Rightmove",
@@ -17558,6 +17587,262 @@
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/98k/97867/155103266/97867_ABN240143_IMG_13_0000_max_476x317.jpeg",
         "description": "Location Map"
+      }
+    ]
+  },
+  {
+    "id": "rightmove_148239872",
+    "provider_id": "148239872",
+    "provider": "Rightmove",
+    "url": "https://www.rightmove.co.uk/properties/148239872#/?channel=RES_BUY",
+    "price": 1200000,
+    "bedrooms": 5,
+    "location_line_1": "Dunlin House",
+    "location_line_2": "Dalmuinzie Road, Bieldside, Aberdeen, AB15",
+    "coordinates": {
+      "lat": 57.114454,
+      "lng": -2.20992
+    },
+    "published_datetime": "2024-05-21T15:04:22Z",
+    "photos": [
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_11_0001_max_476x317.jpeg",
+        "description": "Aerial View"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_00_0000_max_476x317.jpeg",
+        "description": "Main Image"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_02_0000_max_476x317.jpeg",
+        "description": "Entranceway"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_03_0000_max_476x317.jpeg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_04_0000_max_476x317.jpeg",
+        "description": "Family Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_05_0000_max_476x317.jpeg",
+        "description": "Sitting Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_06_0000_max_476x317.jpeg",
+        "description": "Principal Bedroom"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_07_0000_max_476x317.jpeg",
+        "description": "Principal En Suite"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_08_0000_max_476x317.jpeg",
+        "description": "Family Bathroom"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_09_0000_max_476x317.jpeg",
+        "description": "Gym"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_10_0000_max_476x317.jpeg",
+        "description": "Patio"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_01_0000_max_476x317.jpeg",
+        "description": "Front Gates"
+      }
+    ]
+  },
+  {
+    "id": "rightmove_124004657",
+    "provider_id": "124004657",
+    "provider": "Rightmove",
+    "url": "https://www.rightmove.co.uk/properties/124004657#/?channel=RES_BUY",
+    "price": 1150000,
+    "bedrooms": 6,
+    "location_line_1": "Cults House",
+    "location_line_2": "Cults Avenue, Cults, Aberdeen, AB15",
+    "coordinates": {
+      "lat": 57.117433,
+      "lng": -2.182115
+    },
+    "published_datetime": "2022-06-17T00:26:04Z",
+    "photos": [
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2c2bebf37/124004657/2c2bebf3789247b7b4c5f05a3331c595_max_476x317.jpeg",
+        "description": "Front Of House"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1daea3662/124004657/1daea3662c79ef72e5cd3bbde791d0fe_max_476x317.jpeg",
+        "description": "Sitting Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e7f86daa4/124004657/e7f86daa454742917765fe8f4281c76a_max_476x317.jpeg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ec1df6149/124004657/ec1df61499c0e3b9372f10be659f1bea_max_476x317.jpeg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c7ee37473/124004657/c7ee37473bfa07e5a16c4f4c8bc9a7db_max_476x317.jpeg",
+        "description": "Family Area"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/dae5ce3d5/124004657/dae5ce3d5c561647f4236736d70cc721_max_476x317.jpeg",
+        "description": "Sun Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/31936da66/124004657/31936da66ffdb454afb6bbe7f2f75f8b_max_476x317.jpeg",
+        "description": "Library"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/502933e85/124004657/502933e85d152e6cf8ec2bd0b906396e_max_476x317.jpeg",
+        "description": "Games Room"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2b62507b1/124004657/2b62507b165318d6bfc8efa32a3c6ad1_max_476x317.jpeg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/99a3ed5c1/124004657/99a3ed5c1646d5e4cf95501958684566_max_476x317.jpeg",
+        "description": "En Suite"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8e6e37342/124004657/8e6e37342d312eda6e878dd05bc5e4cc_max_476x317.jpeg",
+        "description": "Courtyard"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/cbadc9e43/124004657/cbadc9e435b280c38230a5ad2dee8803_max_476x317.jpeg",
+        "description": "Aerial"
+      }
+    ]
+  },
+  {
+    "id": "zoopla_71897578",
+    "provider_id": "71897578",
+    "provider": "Zoopla",
+    "url": "https://www.zoopla.co.uk/for-sale/details/71897578/",
+    "price": 140000,
+    "bedrooms": 2,
+    "location_line_1": "Craig Gardens",
+    "location_line_2": "Cults, Aberdeen, Aberdeenshire AB15",
+    "coordinates": {
+      "lat": 57.116224,
+      "lng": -2.191577
+    },
+    "published_datetime": "0001-01-01T00:00:00",
+    "photos": [
+      {
+        "url": "https://lid.zoocdn.com/645/430/061a65d6d46fb74acb8e51d35916ed2d20fc19c1.jpg:p",
+        "description": "Property 1 of 19."
+      }
+    ]
+  },
+  {
+    "id": "zoopla_71574208",
+    "provider_id": "71574208",
+    "provider": "Zoopla",
+    "url": "https://www.zoopla.co.uk/for-sale/details/71574208/",
+    "price": 260000,
+    "bedrooms": 2,
+    "location_line_1": "Forest View Road",
+    "location_line_2": "Cults, Aberdeen, Aberdeenshire AB15",
+    "coordinates": {
+      "lat": 57.1181383842795,
+      "lng": -2.18607631877729
+    },
+    "published_datetime": "0001-01-01T00:00:00",
+    "photos": [
+      {
+        "url": "https://lid.zoocdn.com/645/430/0aaaf8853b1c5014c0893398fcca03b1d4d30391.jpg:p",
+        "description": "Property 1 of 16."
+      }
+    ]
+  },
+  {
+    "id": "zoopla_70583215",
+    "provider_id": "70583215",
+    "provider": "Zoopla",
+    "url": "https://www.zoopla.co.uk/new-homes/details/70583215/",
+    "price": 444995,
+    "bedrooms": 4,
+    "location_line_1": "\"Colville\" at Gairnhill",
+    "location_line_2": "Aberdeen AB15",
+    "coordinates": {
+      "lat": 57.130945,
+      "lng": -2.214764
+    },
+    "published_datetime": "0001-01-01T00:00:00",
+    "photos": [
+      {
+        "url": "https://lid.zoocdn.com/645/430/f9b597b97e84644e1959bbfc32af79b2c13857d1.jpg:p",
+        "description": "Property 1 of 10. Colville At Countesswells, Aberdeen"
+      }
+    ]
+  },
+  {
+    "id": "zoopla_68393786",
+    "provider_id": "68393786",
+    "provider": "Zoopla",
+    "url": "https://www.zoopla.co.uk/new-homes/details/68393786/",
+    "price": 424995,
+    "bedrooms": 4,
+    "location_line_1": "\"Colville\" at Gairnhill",
+    "location_line_2": "Aberdeen AB15",
+    "coordinates": {
+      "lat": 57.130945,
+      "lng": -2.214764
+    },
+    "published_datetime": "0001-01-01T00:00:00",
+    "photos": [
+      {
+        "url": "https://lid.zoocdn.com/645/430/f9b597b97e84644e1959bbfc32af79b2c13857d1.jpg:p",
+        "description": "Property 1 of 10. Colville At Countesswells, Aberdeen"
+      }
+    ]
+  },
+  {
+    "id": "zoopla_60311756",
+    "provider_id": "60311756",
+    "provider": "Zoopla",
+    "url": "https://www.zoopla.co.uk/new-homes/details/60311756/",
+    "price": 359990,
+    "bedrooms": 4,
+    "location_line_1": "Deer Park View",
+    "location_line_2": "Countesswells, Aberdeen AB15",
+    "coordinates": {
+      "lat": 57.133256,
+      "lng": -2.211866
+    },
+    "published_datetime": "0001-01-01T00:00:00",
+    "photos": [
+      {
+        "url": "https://lid.zoocdn.com/645/430/2325a19a5a077cf05ba9d6e31b1c12c8c8f46008.jpg:p",
+        "description": "Property 1 of 8."
+      }
+    ]
+  },
+  {
+    "id": "zoopla_60310764",
+    "provider_id": "60310764",
+    "provider": "Zoopla",
+    "url": "https://www.zoopla.co.uk/new-homes/details/60310764/",
+    "price": 244995,
+    "bedrooms": 3,
+    "location_line_1": "Deer Park Walk",
+    "location_line_2": "Countesswells, Aberdeen AB15",
+    "coordinates": {
+      "lat": 57.133139,
+      "lng": -2.210386
+    },
+    "published_datetime": "0001-01-01T00:00:00",
+    "photos": [
+      {
+        "url": "https://lid.zoocdn.com/645/430/81e39aa73aea9fcfaaf3804fca990e31c31d7fc6.jpg:p",
+        "description": "Property 1 of 10."
       }
     ]
   }
