@@ -74,13 +74,16 @@
 
 .price-filter-select {
     width: 90px;
-    padding: 0.375rem 0.5rem;
+    padding: 0.375rem 1.5rem 0.375rem 0.5rem;
     font-size: 0.875rem;
     border: 1px solid #d1d5db;
     border-radius: 0.375rem;
-    background-color: white;
     color: #374151;
     cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: white url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="gray" d="M6 9L1 4h10z"/></svg>') no-repeat right 0.5rem center;
 }
 
 .price-filter-select:hover {
