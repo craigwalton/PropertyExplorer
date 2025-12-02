@@ -31,11 +31,25 @@ It is hosted at https://craigwalton.github.io/PropertyExplorer/
 
 ## Data
 
-The areas I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not have 3D tiles further West
-for Milltimber, Peterculter or Banchory. This web app still supports properties in 2D-only areas, but the UX needs some
-work (see TODOs).
+### Properties
 
-The data are in `web-app/public/data/properties.json`. The scripts used to obtain the data are not made available.
+Property data are obtained from [ASPC](https://aspc.co.uk) and [Rightmove](https://www.rightmove.co.uk/).
+
+The areas for properties which I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not have 3D
+tiles further West for Milltimber, Peterculter or Banchory. This web app still supports properties in 2D-only areas, but
+the UX needs some work (see TODOs).
+
+The properties are stored in `web-app/public/data/properties.json`. The scripts used to obtain the data are not made
+available.
+
+### Secondary school catchment areas
+
+The school catchment areas were obtained
+from [Aberdeen City Council](https://spatialdata-accabdn.opendata.arcgis.com/datasets/c8e7887f4519434b8564a608754002cb_5/explore?location=57.178321%2C-2.183192%2C11.85)
+and [Aberdeenshire Council](https://opendata.scot/datasets/aberdeenshire+council-school+catchments+-+aberdeenshire/) in
+November 2025. Only the catchment areas around the property data were retained.
+
+The GeoJSON files are stored in `web-app/public/data/school-catchments.geojson`.
 
 ## Run web app locally (for development)
 
@@ -66,7 +80,6 @@ and open a browser at the URL shown in your terminal.
 * Allow user to override property location coordinates.
 * Add setting to not "fly to" a property when selected.
 * Add 2D/3D toggle (useful for areas without 3D tiles).
-* Overlay school catchment areas.
 
 ### Other
 
