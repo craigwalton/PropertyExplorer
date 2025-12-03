@@ -1,9 +1,9 @@
 import './App.css'
+import type {CesiumComponentRef} from "resium";
 import {Cesium3DTileset, Globe, Scene, Viewer} from "resium";
 import * as Cesium from "cesium";
-import {useCallback, useRef, useState} from "react";
 import type {JSX} from "react";
-import type {CesiumComponentRef} from "resium";
+import {useCallback, useEffect, useRef, useState} from "react";
 
 import {ZoomButtons} from "./components/ZoomControls.tsx";
 import {Sidebar} from "./components/Sidebar.tsx";
@@ -13,12 +13,7 @@ import {CatchmentTooltip} from "./components/CatchmentTooltip.tsx";
 import {CesiumEventHandlers} from "./components/CesiumEventHandlers.tsx";
 import type {Classification} from "./types/classification";
 import type {Property} from "./types/property";
-import {
-    FLY_TO_PITCH,
-    FLY_TO_RANGE,
-    INITIAL_CAMERA_DESTINATION,
-    INITIAL_CAMERA_ORIENTATION
-} from "./types/constants";
+import {FLY_TO_PITCH, FLY_TO_RANGE, INITIAL_CAMERA_DESTINATION, INITIAL_CAMERA_ORIENTATION} from "./types/constants";
 import {Marker} from "./components/Marker.tsx";
 import {useLocalStorage} from "react-use";
 import {
@@ -107,24 +102,24 @@ export function App(): JSX.Element {
         {}
     );
 
-    const classifyProperty = useCallback((property: Property, classification: Classification) => {
-        setClassifications(prev => ({
-            ...prev,
+    const classifyProperty = (property: Property, classification: Classification) => {
+        setClassifications({
+            ...(classifications || {}),
             [property.id]: classification,
-        }));
-    }, [setClassifications]);
+        });
+    };
 
     const [notes, setNotes] = useLocalStorage<Record<string, string>>(
         PROPERTY_NOTES_KEY,
         {}
     );
 
-    const updatePropertyNotes = useCallback((property: Property, noteText: string) => {
-        setNotes(prev => ({
-            ...prev,
+    const updatePropertyNotes = (property: Property, noteText: string) => {
+        setNotes({
+            ...(notes || {}),
             [property.id]: noteText,
-        }));
-    }, [setNotes]);
+        });
+    };
 
     const [showCatchmentAreas, setShowCatchmentAreas] = useLocalStorage<boolean>(
         SHOW_CATCHMENT_AREAS_KEY,
