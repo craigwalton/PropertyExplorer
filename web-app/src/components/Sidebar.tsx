@@ -160,7 +160,7 @@ function SelectedSidebarContentComponent({
 
                     <button onClick={() => flyTo(property.cartesianCoordinates)}>
                         <Locate size={14}/>
-                        Center on Map
+                        Centre on Map
                     </button>
 
                     <button onClick={onClose}>
