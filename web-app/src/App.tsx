@@ -102,24 +102,24 @@ export function App(): JSX.Element {
         {}
     );
 
-    const classifyProperty = (property: Property, classification: Classification) => {
+    const classifyProperty = useCallback((property: Property, classification: Classification) => {
         setClassifications({
             ...(classifications || {}),
             [property.id]: classification,
         });
-    };
+    }, [classifications, setClassifications]);
 
     const [notes, setNotes] = useLocalStorage<Record<string, string>>(
         PROPERTY_NOTES_KEY,
         {}
     );
 
-    const updatePropertyNotes = (property: Property, noteText: string) => {
+    const updatePropertyNotes = useCallback((property: Property, noteText: string) => {
         setNotes({
             ...(notes || {}),
             [property.id]: noteText,
         });
-    };
+    }, [notes,  setNotes]);
 
     const [showCatchmentAreas, setShowCatchmentAreas] = useLocalStorage<boolean>(
         SHOW_CATCHMENT_AREAS_KEY,
