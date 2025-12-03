@@ -154,3 +154,18 @@
     font-size: 0.75rem;
     color: #9ca3af;
 }
+
+.settings-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    cursor: pointer;
+    font-size: 0.9375rem;
+    color: #374151;
+}
+
+.settings-checkbox input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+    cursor: pointer;
+}

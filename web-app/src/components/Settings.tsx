@@ -1,10 +1,13 @@
 import {useState} from 'react';
-import {Download, Upload, Settings as SettingsIcon, X} from 'lucide-react';
+import {Download, Settings as SettingsIcon, Upload, X} from 'lucide-react';
 import './Settings.css';
 import {downloadLocalStorage, uploadLocalStorage} from "../utils/localStorageManager.ts";
 import packageJson from '../../package.json';
 
-export function Settings() {
+export function Settings({centreMapOnSelectedProperty, setCentreMapOnSelectedProperty}: {
+    centreMapOnSelectedProperty: boolean;
+    setCentreMapOnSelectedProperty: (value: boolean) => void;
+}) {
     const [isOpen, setIsOpen] = useState(false);
     const [uploadError, setUploadError] = useState<string | null>(null);
 
@@ -47,6 +50,17 @@ export function Settings() {
                             </button>
                         </div>
                         <div className="settings-content">
+                            <div className="settings-section">
+                                <h3>Map Behaviour</h3>
+                                <label className="settings-checkbox">
+                                    <input
+                                        type="checkbox"
+                                        checked={centreMapOnSelectedProperty}
+                                        onChange={(e) => setCentreMapOnSelectedProperty(e.target.checked)}
+                                    />
+                                    <span>Centre map on selected property</span>
+                                </label>
+                            </div>
                             <div className="settings-section">
                                 <h3>Data Management</h3>
                                 <p className="settings-description">

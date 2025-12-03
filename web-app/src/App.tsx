@@ -3,7 +3,7 @@ import type {CesiumComponentRef} from "resium";
 import {Cesium3DTileset, Globe, Scene, Viewer} from "resium";
 import * as Cesium from "cesium";
 import type {JSX} from "react";
-import {useCallback, useEffect, useRef, useState} from "react";
+import {useCallback, useRef, useState} from "react";
 
 import {ZoomButtons} from "./components/ZoomControls.tsx";
 import {Sidebar} from "./components/Sidebar.tsx";
@@ -19,7 +19,8 @@ import {useLocalStorage} from "react-use";
 import {
     PROPERTY_CLASSIFICATIONS_KEY,
     PROPERTY_NOTES_KEY,
-    SHOW_CATCHMENT_AREAS_KEY
+    SHOW_CATCHMENT_AREAS_KEY,
+    CENTRE_MAP_ON_SELECTED_PROPERTY_KEY
 } from "./utils/localStorageManager.ts";
 
 
@@ -59,11 +60,6 @@ export function App(): JSX.Element {
             }
         );
     }, []);
-
-    const onPropertyMarkerClick = useCallback((property: Property) => {
-        setSelectedProperty(property);
-        flyTo(property.cartesianCoordinates);
-    }, [flyTo]);
 
     const handleSidebarClose = useCallback(() => {
         setSelectedProperty(null);
@@ -131,6 +127,18 @@ export function App(): JSX.Element {
         false
     );
 
+    const [centreMapOnSelectedProperty, setCentreMapOnSelectedProperty] = useLocalStorage<boolean>(
+        CENTRE_MAP_ON_SELECTED_PROPERTY_KEY,
+        true
+    );
+
+    const onPropertyMarkerClick = useCallback((property: Property) => {
+        setSelectedProperty(property);
+        if (centreMapOnSelectedProperty ?? true) {
+            flyTo(property.cartesianCoordinates);
+        }
+    }, [flyTo, centreMapOnSelectedProperty]);
+
     const handleViewerReady = useCallback(
         (ref: CesiumComponentRef<Cesium.Viewer> | null) => {
             const viewer = ref?.cesiumElement;
@@ -150,7 +158,9 @@ export function App(): JSX.Element {
                     onFilterChange={handleFilterChange}
                     classifications={classifications ?? {}}
                     showCatchmentAreas={showCatchmentAreas ?? false}
-                    setShowCatchmentAreas={setShowCatchmentAreas}/>
+                    setShowCatchmentAreas={setShowCatchmentAreas}
+                    centreMapOnSelectedProperty={centreMapOnSelectedProperty ?? true}
+                    setCentreMapOnSelectedProperty={setCentreMapOnSelectedProperty}/>
             <div className="main-content">
                 <Sidebar selectedProperty={selectedProperty}
                          hoveredProperty={hoveredProperty}
