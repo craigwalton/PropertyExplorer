@@ -205,7 +205,6 @@ export function App(): JSX.Element {
                                         property={p}
                                         isSelected={p.id == selectedProperty?.id}
                                         isHovered={p.id == hoveredProperty?.id}
-                                        setSelectedProperty={setSelectedProperty}
                                         onClick={onPropertyMarkerClick}
                                 />
                             );
