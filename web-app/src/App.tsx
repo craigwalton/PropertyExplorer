@@ -60,6 +60,11 @@ export function App(): JSX.Element {
         );
     }, []);
 
+    const onPropertyMarkerClick = useCallback((property: Property) => {
+        setSelectedProperty(property);
+        flyTo(property.cartesianCoordinates);
+    }, [flyTo]);
+
     const handleSidebarClose = useCallback(() => {
         setSelectedProperty(null);
     }, []);
@@ -193,7 +198,7 @@ export function App(): JSX.Element {
                                         isSelected={p.id == selectedProperty?.id}
                                         isHovered={p.id == hoveredProperty?.id}
                                         setSelectedProperty={setSelectedProperty}
-                                        flyTo={flyTo}
+                                        onClick={onPropertyMarkerClick}
                                 />
                             );
                         })}

@@ -30,12 +30,11 @@ function createMarkerSvg(circleColor: string, homeColor: string): string {
     return `data:image/svg+xml,${encodeURIComponent(updatedSvg)}`;
 }
 
-function MarkerComponent({property, isSelected, isHovered, setSelectedProperty, flyTo}: {
+function MarkerComponent({property, isSelected, isHovered, onClick}: {
     property: Property,
     isSelected: boolean,
     isHovered: boolean,
-    setSelectedProperty: (property: Property) => void,
-    flyTo: (coordinates: Cartesian3) => void,
+    onClick: (property: Property) => void,
 }): JSX.Element {
     const verticalLine = useMemo<[Cartesian3, Cartesian3]>(
         () => {
@@ -62,10 +61,7 @@ function MarkerComponent({property, isSelected, isHovered, setSelectedProperty, 
                 material: verticalLineColor,
                 width: 2,
             }}
-            onClick={() => {
-                setSelectedProperty(property);
-                flyTo(property.cartesianCoordinates);
-            }}
+            onClick={() => onClick(property)}
         >
             <BillboardGraphics
                 image={markerSvg}
