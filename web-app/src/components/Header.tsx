@@ -8,18 +8,14 @@ export function Header({
                            properties,
                            onFilterChange,
                            classifications,
-                           showCatchmentAreas,
-                           setShowCatchmentAreas,
-                           centreMapOnSelectedProperty,
-                           setCentreMapOnSelectedProperty
+                           showCatchmentAreasState,
+                           centreMapOnSelectedPropertyState
                        }: {
     properties: Property[],
     onFilterChange: (filteredProperties: Property[]) => void,
     classifications: Record<string, string>,
-    showCatchmentAreas: boolean,
-    setShowCatchmentAreas: (value: boolean) => void,
-    centreMapOnSelectedProperty: boolean,
-    setCentreMapOnSelectedProperty: (value: boolean) => void,
+    showCatchmentAreasState: [boolean | undefined, (value: boolean | undefined) => void],
+    centreMapOnSelectedPropertyState: [boolean | undefined, (value: boolean | undefined) => void],
 }) {
     return (
         <div className="header">
@@ -29,13 +25,10 @@ export function Header({
                     onFilterChange={onFilterChange}
                     classifications={classifications}
                 />
-                <VisibilityControls
-                    setShowCatchmentAreas={setShowCatchmentAreas}
-                    showCatchmentAreas={showCatchmentAreas}/>
+                <VisibilityControls showCatchmentAreasState={showCatchmentAreasState}/>
             </div>
             <Settings
-                centreMapOnSelectedProperty={centreMapOnSelectedProperty}
-                setCentreMapOnSelectedProperty={setCentreMapOnSelectedProperty}
+                centreMapOnSelectedPropertyState={centreMapOnSelectedPropertyState}
             />
         </div>
     );

@@ -157,10 +157,8 @@ export function App(): JSX.Element {
             <Header properties={properties}
                     onFilterChange={handleFilterChange}
                     classifications={classifications ?? {}}
-                    showCatchmentAreas={showCatchmentAreas ?? false}
-                    setShowCatchmentAreas={setShowCatchmentAreas}
-                    centreMapOnSelectedProperty={centreMapOnSelectedProperty ?? true}
-                    setCentreMapOnSelectedProperty={setCentreMapOnSelectedProperty}/>
+                    showCatchmentAreasState={[showCatchmentAreas, setShowCatchmentAreas]}
+                    centreMapOnSelectedPropertyState={[centreMapOnSelectedProperty, setCentreMapOnSelectedProperty]}/>
             <div className="main-content">
                 <Sidebar selectedProperty={selectedProperty}
                          hoveredProperty={hoveredProperty}

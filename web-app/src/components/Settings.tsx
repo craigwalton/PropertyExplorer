@@ -4,10 +4,10 @@ import './Settings.css';
 import {downloadLocalStorage, uploadLocalStorage} from "../utils/localStorageManager.ts";
 import packageJson from '../../package.json';
 
-export function Settings({centreMapOnSelectedProperty, setCentreMapOnSelectedProperty}: {
-    centreMapOnSelectedProperty: boolean;
-    setCentreMapOnSelectedProperty: (value: boolean) => void;
+export function Settings({centreMapOnSelectedPropertyState}: {
+    centreMapOnSelectedPropertyState: [boolean | undefined, (value: boolean | undefined) => void],
 }) {
+    const [centreMapOnSelectedProperty, setCentreMapOnSelectedProperty] = centreMapOnSelectedPropertyState;
     const [isOpen, setIsOpen] = useState(false);
     const [uploadError, setUploadError] = useState<string | null>(null);
 
@@ -55,7 +55,7 @@ export function Settings({centreMapOnSelectedProperty, setCentreMapOnSelectedPro
                                 <label className="settings-checkbox">
                                     <input
                                         type="checkbox"
-                                        checked={centreMapOnSelectedProperty}
+                                        checked={centreMapOnSelectedProperty ?? true}
                                         onChange={(e) => setCentreMapOnSelectedProperty(e.target.checked)}
                                     />
                                     <span>Centre map on selected property</span>
