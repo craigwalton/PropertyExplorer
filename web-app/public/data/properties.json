@@ -1,5 +1,122 @@
 [
   {
+    "id": "aspc_438502",
+    "provider_id": "438502",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438502",
+    "price": 249000,
+    "bedrooms": 3,
+    "location_line_1": "5 Beech Tree Avenue",
+    "location_line_2": "Countesswells, Aberdeen, AB15\u00a08GU",
+    "coordinates": {
+      "lat": 57.131178,
+      "lng": -2.2123479
+    },
+    "published_datetime": "2025-12-03T15:50:40.553000",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757629.jpg",
+        "description": "External"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757628.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757632.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757631.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757630.jpg",
+        "description": "Lounge/Dining"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757634.jpg",
+        "description": "Dining"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757633.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757638.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757635.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757636.jpg",
+        "description": "Utility Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757637.jpg",
+        "description": "WC"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757642.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757639.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757645.jpg",
+        "description": "En-Suite"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757648.jpg",
+        "description": "En-Suite"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757643.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757646.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757647.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757644.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757641.jpg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757640.jpg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757650.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757651.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757649.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6757652.jpg",
+        "description": "External"
+      }
+    ]
+  },
+  {
     "id": "aspc_438484",
     "provider_id": "438484",
     "provider": "ASPC",
@@ -4942,123 +5059,6 @@
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384106/Image/6659120.jpg",
         "description": "Garden"
-      }
-    ]
-  },
-  {
-    "id": "aspc_437090",
-    "provider_id": "437090",
-    "provider": "ASPC",
-    "url": "https://www.aspc.co.uk/search/property/437090",
-    "price": 249000,
-    "bedrooms": 3,
-    "location_line_1": "5 Beech Tree Avenue",
-    "location_line_2": "Countesswells, Aberdeen, AB15\u00a08GU",
-    "coordinates": {
-      "lat": 57.131178,
-      "lng": -2.2123479
-    },
-    "published_datetime": "2025-09-24T11:42:00.280000",
-    "photos": [
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743265.jpg",
-        "description": "External"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743264.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743268.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743267.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743266.jpg",
-        "description": "Lounge/Dining"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743270.jpg",
-        "description": "Dining"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743269.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743274.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743271.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743272.jpg",
-        "description": "Utility Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743273.jpg",
-        "description": "WC"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743278.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743275.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743281.jpg",
-        "description": "En-Suite"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743284.jpg",
-        "description": "En-Suite"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743279.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743282.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743283.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743280.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743277.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743276.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743286.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743287.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743285.jpg",
-        "description": "Garden"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384105/Image/6743288.jpg",
-        "description": "External"
       }
     ]
   },
@@ -14737,6 +14737,103 @@
     ]
   },
   {
+    "id": "rightmove_169952174",
+    "provider_id": "169952174",
+    "provider": "Rightmove",
+    "url": "https://www.rightmove.co.uk/properties/169952174#/?channel=RES_BUY",
+    "price": 232995,
+    "bedrooms": 3,
+    "location_line_1": "1 Fifeshill Drive",
+    "location_line_2": "Countesswells, Aberdeen, \r\nAB15 8UR",
+    "coordinates": {
+      "lat": 57.13786,
+      "lng": -2.21195
+    },
+    "published_datetime": "2025-12-03T11:38:19Z",
+    "photos": [
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_00_0000_max_476x317.jpeg",
+        "description": "Kings Gallop_DEV-001167_Cupar_010"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_01_0000_max_476x317.jpeg",
+        "description": "Lounge in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_02_0000_max_476x317.jpeg",
+        "description": "Lounge space in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_03_0000_max_476x317.jpeg",
+        "description": "Kitchen/dining space in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_04_0000_max_476x317.jpeg",
+        "description": "Kitchen space in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_05_0000_max_476x317.jpeg",
+        "description": "WC and utility space in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_06_0000_max_476x317.jpeg",
+        "description": "Bedroom in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_07_0000_max_476x317.jpeg",
+        "description": "Coull Show Home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_08_0000_max_476x317.jpeg",
+        "description": "Single bedroom in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_09_0000_max_476x317.jpeg",
+        "description": "Bathroom in 3 bedroom Coull home"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_10_0000_max_476x317.jpeg",
+        "description": "Kings Gallop_DEV001167_street scenes_003_07022024"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_11_0000_max_476x317.jpeg",
+        "description": "Kings Gallop-Glamis-BGAM02GD-100123-20"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_12_0000_max_476x317.jpeg",
+        "description": "Local-Area-Green-open-space-and-park"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_13_0000_max_476x317.jpeg",
+        "description": "Kings Gallop_DEV001167_street scenes_008_07022024"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_14_0000_max_476x317.jpeg",
+        "description": "Kings Gallop-Fenton-BFOE02GD-100123-03"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_15_0000_max_476x317.jpeg",
+        "description": "People on horses, nature"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_16_0000_max_476x317.jpeg",
+        "description": "Fasque housetype"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_17_0000_max_476x317.jpeg",
+        "description": "Kings Gallop-Glamis-BGAM02GD-100123-18"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_18_0000_max_476x317.jpeg",
+        "description": "Local-Area local park and swing"
+      },
+      {
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/251k/250082/169952174/250082_3_H8496166_IMG_19_0000_max_476x317.jpeg",
+        "description": "dev002606_Hopecroft_Sam_2023 -013"
+      }
+    ]
+  },
+  {
     "id": "rightmove_169767605",
     "provider_id": "169767605",
     "provider": "Rightmove",
@@ -15573,7 +15670,7 @@
     "provider_id": "168461864",
     "provider": "Rightmove",
     "url": "https://www.rightmove.co.uk/properties/168461864#/?channel=RES_BUY",
-    "price": 259995,
+    "price": 252995,
     "bedrooms": 3,
     "location_line_1": "1 Fifeshill Drive",
     "location_line_2": "Countesswells, Aberdeen, \r\nAB15 8UR",
@@ -16586,7 +16683,7 @@
     "provider_id": "164861501",
     "provider": "Rightmove",
     "url": "https://www.rightmove.co.uk/properties/164861501#/?channel=RES_BUY",
-    "price": 444995,
+    "price": 429995,
     "bedrooms": 4,
     "location_line_1": "Aberdeen",
     "location_line_2": "AB15",
@@ -17214,47 +17311,47 @@
     "published_datetime": "2025-04-09T10:59:10Z",
     "photos": [
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_11_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6a2e60aa5/160446251/6a2e60aa5c41470d301b3bb51c485c88_max_476x317.jpeg",
         "description": "Lead Image"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_01_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2067e2292/160446251/2067e2292a2c3717b718327378f45828_max_476x317.jpeg",
         "description": "Kitchen"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_02_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/1993d74a1/160446251/1993d74a15df1f578ecb1fb97d00e460_max_476x317.jpeg",
         "description": "Dining Room"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_03_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/5fd97916f/160446251/5fd97916f1cebcd3b34284480023401d_max_476x317.jpeg",
         "description": "Sitting Room"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_04_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/731e378f9/160446251/731e378f91fb1ad86975015f63639d8b_max_476x317.jpeg",
         "description": "Lounge"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_05_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/ef9986e13/160446251/ef9986e1375b0819ca0e75b8188adca6_max_476x317.jpeg",
         "description": "Lounge Aspect"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_06_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7b3e26c8c/160446251/7b3e26c8c18ded7c9aad2937cd84cfb6_max_476x317.jpeg",
         "description": "Family Bathroom"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_07_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/484c4edfe/160446251/484c4edfe0d6177eed57c93cf0281290_max_476x317.jpeg",
         "description": "Principal Bedroom"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_08_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d82bcb1ab/160446251/d82bcb1abe286dfb82dd163d79876699_max_476x317.jpeg",
         "description": "Bedroom Two"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_09_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/8ec06cee8/160446251/8ec06cee8397838bbdaebf607f13b169_max_476x317.jpeg",
         "description": "Courtyard"
       },
       {
-        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/160446251/119857_CLI244639_IMG_10_0000_max_476x317.jpeg",
+        "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/4ea1d5758/160446251/4ea1d5758ebda98aaca2f5a7911e97c3_max_476x317.jpeg",
         "description": "Garden"
       }
     ]
@@ -17733,11 +17830,83 @@
       "lat": 57.116224,
       "lng": -2.191577
     },
-    "published_datetime": "0001-01-01T00:00:00",
+    "published_datetime": "2025-11-26T19:58:03",
     "photos": [
       {
-        "url": "https://lid.zoocdn.com/645/430/061a65d6d46fb74acb8e51d35916ed2d20fc19c1.jpg:p",
-        "description": "Property 1 of 19."
+        "url": "https://lid.zoocdn.com/u/1200/900/061a65d6d46fb74acb8e51d35916ed2d20fc19c1.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/8cb8e11c6fb3dfa9846bfe878b21222c96ac184f.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/40c7c54115cf7bf99fe67520ced1e861c0a34186.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/37f4216095608e3041dfd7faf8662c96262ebc3d.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/eee35e61516d77b23aa2ad86f37efc91bf24068b.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/2825bf458ce6ef8500fa19314c65991f9a6d7a63.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/496e8feed754998481f32a9d43276392589e12ed.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/7deeef37a032bf3e25bec88d729ec78d9d2cdf45.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/7c2e410352dc2184f722ff83cf8f996fc6b92ecb.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/e53f1838375f80f262d406d317a8cd691ee86307.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/07a8d05751622d37489bb267f3af4470fe5bdef2.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/ce8f2f3d1be9ef31abe24c968b9e7f1d746c52af.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/5f0035b10d863942f02cffc59d0c442387f1607a.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/69debf3e57874733d808689c259aa48e99f50f5a.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/d2b279806f23aa7257417b23d27f5a021efc0759.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/70c66dc54b451a13c72c0bfed95516b8ed7aaf7b.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/93f5f692cd34a122f98cd1eca44998b12f05ead9.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/02f667644ef61904e00278190dbbce76f2209333.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/d89887caaeb55ba35bca997d275a160cb822b26d.jpg",
+        "description": ""
       }
     ]
   },
@@ -17754,11 +17923,71 @@
       "lat": 57.1181383842795,
       "lng": -2.18607631877729
     },
-    "published_datetime": "0001-01-01T00:00:00",
+    "published_datetime": "2025-10-15T19:59:07",
     "photos": [
       {
-        "url": "https://lid.zoocdn.com/645/430/0aaaf8853b1c5014c0893398fcca03b1d4d30391.jpg:p",
-        "description": "Property 1 of 16."
+        "url": "https://lid.zoocdn.com/u/1200/900/0aaaf8853b1c5014c0893398fcca03b1d4d30391.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/3e906b6f170b171a71720570b26a7a202af50e7b.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/1f41c62e5006f9b24d0960579824c007ded38cf1.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/ff03dbcd623e529db82812ac6ce7e45a8ee70ede.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/b68102111a4eeefb4f74341f7bbfc0e09e715b8f.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/406ff568457ad7ec47d78ca8bb3d16b7f131b89d.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/93f79fc2c86cd19fe1742a9790c7b07d7259a4dc.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/f614a8724c61d0c1c7a6958ef276ee05502c40c5.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/2a539f8f87602d4d6a2c62e464f1c7edd06ca43a.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/bd85674fa6dcf77d1102dabb97a4ee292a266a06.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/755c6ee7a6ffc8d13d1664820fe1c12d4a874de0.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/f7ce99513b1512d5ac9e540e6c834206317983d3.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/78c87e4d8103769b14e92b69284c5af408f52a4f.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/435ebcfe35668ed2ab50ef4f83c34f9b0f3d9aca.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/fdcf8987ce6436f9aedc86c03b0789ee6e092432.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/577cfc27cae406980f190d69d786beadc721dd69.jpg",
+        "description": ""
       }
     ]
   },
@@ -17767,7 +17996,7 @@
     "provider_id": "70583215",
     "provider": "Zoopla",
     "url": "https://www.zoopla.co.uk/new-homes/details/70583215/",
-    "price": 444995,
+    "price": 429995,
     "bedrooms": 4,
     "location_line_1": "\"Colville\" at Gairnhill",
     "location_line_2": "Aberdeen AB15",
@@ -17775,11 +18004,47 @@
       "lat": 57.130945,
       "lng": -2.214764
     },
-    "published_datetime": "0001-01-01T00:00:00",
+    "published_datetime": "2025-06-24T13:59:05",
     "photos": [
       {
-        "url": "https://lid.zoocdn.com/645/430/f9b597b97e84644e1959bbfc32af79b2c13857d1.jpg:p",
-        "description": "Property 1 of 10. Colville At Countesswells, Aberdeen"
+        "url": "https://lid.zoocdn.com/u/1200/900/f9b597b97e84644e1959bbfc32af79b2c13857d1.jpg",
+        "description": "Colville At Countesswells, Aberdeen"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/575dbc39a8e34cafa2fc570a5c7bd29099e345c7.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/8ac074165d718ae145fc88b6beb7658fe6d1ac22.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/9256ae889496676a2fae475c306910708d8e702b.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/89e0ecd035ca212e3d633baf9f84f1d2038ecdf3.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/75f300de9b51d540ecb351aa9ce7bb4f9ff5d701.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/9ef4c4a1016f2f153581dbcb5c9a42e895471bba.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/07ad756e59a7f59b45a76df6c22086c8861c4cdf.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/f96ea340b27831a61cd041dee72c5b8057939303.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/25e21defe372352ca86ef54e76d07747d6abf3c1.jpg",
+        "description": "The Colville"
       }
     ]
   },
@@ -17796,11 +18061,47 @@
       "lat": 57.130945,
       "lng": -2.214764
     },
-    "published_datetime": "0001-01-01T00:00:00",
+    "published_datetime": "2024-09-24T20:20:35",
     "photos": [
       {
-        "url": "https://lid.zoocdn.com/645/430/f9b597b97e84644e1959bbfc32af79b2c13857d1.jpg:p",
-        "description": "Property 1 of 10. Colville At Countesswells, Aberdeen"
+        "url": "https://lid.zoocdn.com/u/1200/900/f9b597b97e84644e1959bbfc32af79b2c13857d1.jpg",
+        "description": "Colville At Countesswells, Aberdeen"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/575dbc39a8e34cafa2fc570a5c7bd29099e345c7.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/b8eedcb7add912f00092df20d3637378fd2a8f6c.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/782d54276daa255646ea3179d79a9617f81ce60d.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/8211d5ab25574c97eb83cd53df735038d6dc4c8f.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/9b090626b01eb28ec587f275ca27a8c30d4f7350.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/96896a96bb3fbb9109ca7ba5c6ef35f079d10bdf.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/e55a8831ec508bee15778a296ed935b8e213e5a4.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/74596cbc802ab43618c5e0d82918d73afc2f1e35.jpg",
+        "description": "The Colville"
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/fe2aec140e9aa0413e44620c819fc03e5191d5ad.jpg",
+        "description": "The Colville"
       }
     ]
   },
@@ -17817,11 +18118,39 @@
       "lat": 57.133256,
       "lng": -2.211866
     },
-    "published_datetime": "0001-01-01T00:00:00",
+    "published_datetime": "2021-12-02T15:14:53",
     "photos": [
       {
-        "url": "https://lid.zoocdn.com/645/430/2325a19a5a077cf05ba9d6e31b1c12c8c8f46008.jpg:p",
-        "description": "Property 1 of 8."
+        "url": "https://lid.zoocdn.com/u/1200/900/2325a19a5a077cf05ba9d6e31b1c12c8c8f46008.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/7fbbf92639569b6c7dfc00f4abcb10656785595c.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/e80978988711e1f972bb9ce60635775eb9f9653e.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/bbb855d6f070f91fa6d432936bc1e8c9ae7c6461.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/b3cab6d7dfa136c1d551bb047e171adc70cb49de.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/e7b6ea0a3324f0c40dd7ce0e5d68aed3afbcbf21.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/302e2f5f62d37409fddeccf3c72f12e85adc1b47.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/bedf3f1e650fc0ed215a8336e9f54234777c3775.jpg",
+        "description": ""
       }
     ]
   },
@@ -17838,11 +18167,47 @@
       "lat": 57.133139,
       "lng": -2.210386
     },
-    "published_datetime": "0001-01-01T00:00:00",
+    "published_datetime": "2021-12-02T13:30:05",
     "photos": [
       {
-        "url": "https://lid.zoocdn.com/645/430/81e39aa73aea9fcfaaf3804fca990e31c31d7fc6.jpg:p",
-        "description": "Property 1 of 10."
+        "url": "https://lid.zoocdn.com/u/1200/900/81e39aa73aea9fcfaaf3804fca990e31c31d7fc6.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/6c27de21061b8213dad418ceb5e07a2cbeade8f1.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/53d40c0b203c9ce5773cddc4267c95cd5db1d0d0.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/820fd2fe199492712e551d206f9ac523f5c65a0e.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/c24dff79b672daced8b59e02f02301e668e67f4a.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/a45a7323a2ca6d98b653aa4813d1e0665646c108.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/97eba74276cd5aa0339da3e78a5d14285183c644.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/31e921401715e4e78ceab73ecbce5d4919adf9a5.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/823151bc8365fa57fd399890deaa2f6bfcf22b14.jpg",
+        "description": ""
+      },
+      {
+        "url": "https://lid.zoocdn.com/u/1200/900/e20f0823c9d3e46abccaedcc46df03b2fc011363.jpg",
+        "description": ""
       }
     ]
   }
