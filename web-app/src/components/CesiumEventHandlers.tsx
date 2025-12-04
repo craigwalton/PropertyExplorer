@@ -39,8 +39,15 @@ export function CesiumEventHandlers({
             setHoveredCatchmentArea(null);
             setCursor("pointer");
         } else if (pickedEntityPropertyBag?.hasProperty(CATCHMENT_AREA_IDENTIFIER)) {
-            const catchmentName = pickedEntityPropertyBag["name"].getValue();
-            setHoveredCatchmentArea(catchmentName);
+            // Catchment areas can overlap - show user all that are under the pointer.
+            const hoveredAreas: string[] = [];
+            viewer.scene.drillPick(position).forEach(p => {
+                if (p?.id?.properties?.hasProperty(CATCHMENT_AREA_IDENTIFIER))
+                {
+                    hoveredAreas.push(p.id.properties["name"].getValue());
+                }
+            });
+            setHoveredCatchmentArea(hoveredAreas.join(", "));
             setHoveredProperty(null);
             setCursor("default");
         } else {
