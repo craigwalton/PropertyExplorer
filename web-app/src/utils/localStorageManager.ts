@@ -4,7 +4,8 @@ import packageJson from '../../package.json';
 export const PROPERTY_CLASSIFICATIONS_KEY = 'property-classifications' as const;
 export const PROPERTY_NOTES_KEY = 'property-notes' as const;
 export const FILTER_CLASSIFICATION_SELECTION_KEY = 'filter-classification-selection' as const;
-export const SHOW_CATCHMENT_AREAS_KEY = 'show-catchment-areas' as const;
+export const SHOW_PRIMARY_CATCHMENT_AREAS_KEY = 'show-primary-catchment-areas' as const;
+export const SHOW_SECONDARY_CATCHMENT_AREAS_KEY = 'show-secondary-catchment-areas' as const;
 export const FILTER_PRICE_MIN_KEY = 'filter-price-min' as const;
 export const FILTER_PRICE_MAX_KEY = 'filter-price-max' as const;
 export const CENTRE_MAP_ON_SELECTED_PROPERTY_KEY = 'centre-map-on-selected-property' as const;
@@ -14,7 +15,8 @@ export interface LocalStorageData {
     [PROPERTY_CLASSIFICATIONS_KEY]: Record<string, string>;
     [PROPERTY_NOTES_KEY]: Record<string, string>;
     [FILTER_CLASSIFICATION_SELECTION_KEY]: string;
-    [SHOW_CATCHMENT_AREAS_KEY]: boolean;
+    [SHOW_PRIMARY_CATCHMENT_AREAS_KEY]: boolean;
+    [SHOW_SECONDARY_CATCHMENT_AREAS_KEY]: boolean;
     [FILTER_PRICE_MIN_KEY]: number | null;
     [FILTER_PRICE_MAX_KEY]: number | null;
     [CENTRE_MAP_ON_SELECTED_PROPERTY_KEY]: boolean;
@@ -24,7 +26,8 @@ const STORAGE_KEYS = [
     PROPERTY_CLASSIFICATIONS_KEY,
     PROPERTY_NOTES_KEY,
     FILTER_CLASSIFICATION_SELECTION_KEY,
-    SHOW_CATCHMENT_AREAS_KEY,
+    SHOW_PRIMARY_CATCHMENT_AREAS_KEY,
+    SHOW_SECONDARY_CATCHMENT_AREAS_KEY,
     FILTER_PRICE_MIN_KEY,
     FILTER_PRICE_MAX_KEY,
     CENTRE_MAP_ON_SELECTED_PROPERTY_KEY,

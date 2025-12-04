@@ -19,8 +19,9 @@ import {useLocalStorage} from "react-use";
 import {
     PROPERTY_CLASSIFICATIONS_KEY,
     PROPERTY_NOTES_KEY,
-    SHOW_CATCHMENT_AREAS_KEY,
-    CENTRE_MAP_ON_SELECTED_PROPERTY_KEY
+    SHOW_PRIMARY_CATCHMENT_AREAS_KEY,
+    SHOW_SECONDARY_CATCHMENT_AREAS_KEY,
+    CENTRE_MAP_ON_SELECTED_PROPERTY_KEY,
 } from "./utils/localStorageManager.ts";
 
 
@@ -120,10 +121,15 @@ export function App(): JSX.Element {
             ...(notes || {}),
             [property.id]: noteText,
         });
-    }, [notes,  setNotes]);
+    }, [notes, setNotes]);
 
-    const [showCatchmentAreas, setShowCatchmentAreas] = useLocalStorage<boolean>(
-        SHOW_CATCHMENT_AREAS_KEY,
+    const [showPrimaryCatchments, setShowPrimaryCatchments] = useLocalStorage<boolean>(
+        SHOW_PRIMARY_CATCHMENT_AREAS_KEY,
+        false
+    );
+
+    const [showSecondaryCatchments, setShowSecondaryCatchments] = useLocalStorage<boolean>(
+        SHOW_SECONDARY_CATCHMENT_AREAS_KEY,
         false
     );
 
@@ -157,7 +163,8 @@ export function App(): JSX.Element {
             <Header properties={properties}
                     onFilterChange={handleFilterChange}
                     classifications={classifications ?? {}}
-                    showCatchmentAreasState={[showCatchmentAreas, setShowCatchmentAreas]}
+                    showPrimaryCatchmentsState={[showPrimaryCatchments, setShowPrimaryCatchments]}
+                    showSecondaryCatchmentsState={[showSecondaryCatchments, setShowSecondaryCatchments]}
                     centreMapOnSelectedPropertyState={[centreMapOnSelectedProperty, setCentreMapOnSelectedProperty]}/>
             <div className="main-content">
                 <Sidebar selectedProperty={selectedProperty}
@@ -188,7 +195,8 @@ export function App(): JSX.Element {
                         <Cesium3DTileset
                             url={`https://tile.googleapis.com/v1/3dtiles/root.json?key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`}
                             onInitialTilesLoad={async () => {
-                                // TODO: Do we need to wait until all initial titleset loaded to be able to compute accurate heights?
+                                // TODO: Do we need to wait until all initial titleset loaded to be able to compute
+                                // accurate heights?
                                 const scene = viewerRef.current?.scene;
                                 if (!scene) throw new Error("Scene ought to be ready before tileset is loaded.");
                                 await loadPropertyData(scene);
@@ -197,7 +205,10 @@ export function App(): JSX.Element {
 
                         <Scene/>
 
-                        <CatchmentAreas show={showCatchmentAreas ?? false}/>
+                        <CatchmentAreas filename={"data/primary-school-catchments.geojson"}
+                                        show={showPrimaryCatchments ?? false}/>
+                        <CatchmentAreas filename={"data/secondary-school-catchments.geojson"}
+                                        show={showSecondaryCatchments ?? false}/>
 
                         {filteredProperties.map((p) => {
                             return (

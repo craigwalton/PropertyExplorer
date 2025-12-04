@@ -1,21 +1,32 @@
 import './VisibilityControls.css';
-import {Eye} from 'lucide-react';
+import {Eye, GraduationCap} from 'lucide-react';
 
 
-export function VisibilityControls({showCatchmentAreasState}: {
-    showCatchmentAreasState: [boolean | undefined, (value: boolean | undefined) => void],
+export function VisibilityControls({showPrimaryCatchmentsState, showSecondaryCatchmentsState}: {
+    showPrimaryCatchmentsState: [boolean | undefined, (value: boolean | undefined) => void],
+    showSecondaryCatchmentsState: [boolean | undefined, (value: boolean | undefined) => void],
 }) {
-    const [showCatchmentAreas, setShowCatchmentAreas] = showCatchmentAreasState;
+    const [showPrimaryCatchments, setShowPrimaryCatchments] = showPrimaryCatchmentsState;
+    const [showSecondaryCatchments, setShowSecondaryCatchmentAreas] = showSecondaryCatchmentsState;
 
     return (
         <div className={"visibility-controls-container"}>
             <Eye color="gray"/>
             <button
-                onClick={() => setShowCatchmentAreas(!showCatchmentAreas)}
-                className={`catchment-toggle ${showCatchmentAreas ? 'active' : ''}`}
-                title={showCatchmentAreas ? 'Hide school catchments' : 'Show school catchments'}
+                onClick={() => setShowPrimaryCatchments(!showPrimaryCatchments)}
+                className={`catchment-toggle ${showPrimaryCatchments ? 'active' : ''}`}
+                title={showPrimaryCatchments ? 'Hide primary school catchments' : 'Show primary school catchments'}
             >
-                <span>School catchments</span>
+                <GraduationCap />
+                <span>Primary</span>
+            </button>
+            <button
+                onClick={() => setShowSecondaryCatchmentAreas(!showSecondaryCatchments)}
+                className={`catchment-toggle ${showSecondaryCatchments ? 'active' : ''}`}
+                title={showSecondaryCatchments ? 'Hide secondary school catchments' : 'Show secondary school catchments'}
+            >
+                <GraduationCap />
+                <span>Secondary</span>
             </button>
         </div>
 

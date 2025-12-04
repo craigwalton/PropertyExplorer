@@ -3,7 +3,7 @@ import {Color, ColorMaterialProperty, ConstantProperty} from "cesium";
 import type {GeoJsonDataSource as CesiumGeoJsonDataSource, Entity} from "cesium";
 import {CATCHMENT_AREA_IDENTIFIER} from "../types/constants.ts";
 
-export function CatchmentAreas({show}: { show: boolean }) {
+export function CatchmentAreas({show, filename}: { show: boolean, filename: string }) {
     const handleOnLoad = (dataSource: CesiumGeoJsonDataSource) => {
         const colorDict: Record<string, Color> = {};
         dataSource.entities.values.forEach((entity: Entity) => {
@@ -33,7 +33,7 @@ export function CatchmentAreas({show}: { show: boolean }) {
 
     return (
         <GeoJsonDataSource
-            data="data/school-catchments.geojson"
+            data={filename}
             clampToGround={true}
             onLoad={handleOnLoad}
             show={show}
