@@ -13,19 +13,25 @@ export function VisibilityControls({showPrimaryCatchmentsState, showSecondaryCat
         <div className={"visibility-controls-container"}>
             <Eye color="gray"/>
             <button
-                onClick={() => setShowPrimaryCatchments(!showPrimaryCatchments)}
+                onClick={() => {
+                    setShowPrimaryCatchments(!showPrimaryCatchments);
+                    setShowSecondaryCatchmentAreas(false);
+                }}
                 className={`catchment-toggle ${showPrimaryCatchments ? 'active' : ''}`}
                 title={showPrimaryCatchments ? 'Hide primary school catchments' : 'Show primary school catchments'}
             >
-                <GraduationCap />
+                <GraduationCap/>
                 <span>Primary</span>
             </button>
             <button
-                onClick={() => setShowSecondaryCatchmentAreas(!showSecondaryCatchments)}
+                onClick={() => {
+                    setShowSecondaryCatchmentAreas(!showSecondaryCatchments);
+                    setShowPrimaryCatchments(false);
+                }}
                 className={`catchment-toggle ${showSecondaryCatchments ? 'active' : ''}`}
                 title={showSecondaryCatchments ? 'Hide secondary school catchments' : 'Show secondary school catchments'}
             >
-                <GraduationCap />
+                <GraduationCap/>
                 <span>Secondary</span>
             </button>
         </div>
