@@ -33,23 +33,30 @@ It is hosted at https://craigwalton.github.io/PropertyExplorer/
 
 ### Properties
 
-Property data are obtained from [ASPC](https://aspc.co.uk) and [Rightmove](https://www.rightmove.co.uk/).
-
-The areas for properties which I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not have 3D
-tiles further West for Milltimber, Peterculter or Banchory. This web app still supports properties in 2D-only areas, but
-the UX needs some work (see TODOs).
+Property data are obtained from [ASPC](https://aspc.co.uk), [Rightmove](https://www.rightmove.co.uk/)
+and [Zoopla](https://www.zoopla.co.uk/).
 
 The properties are stored in `web-app/public/data/properties.json`. The scripts used to obtain the data are not made
 available.
 
-### Secondary school catchment areas
+The areas for properties which I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not
+currently have 3D tiles further West for Milltimber, Peterculter or Banchory. This web app still supports properties in
+2D-only areas, but the UX needs some work (see TODOs).
+
+### School catchment areas
 
 The school catchment areas were obtained
-from [Aberdeen City Council](https://spatialdata-accabdn.opendata.arcgis.com/datasets/c8e7887f4519434b8564a608754002cb_5/explore?location=57.178321%2C-2.183192%2C11.85)
-and [Aberdeenshire Council](https://opendata.scot/datasets/aberdeenshire+council-school+catchments+-+aberdeenshire/) in
-November 2025. Only the catchment areas around the property data were retained.
+from Aberdeen City Council and Aberdeenshire Council in November 2025. Only the catchment areas of interest were
+retained.
 
-The GeoJSON files are stored in `web-app/public/data/school-catchments.geojson`.
+| Dataset                         | Source                                                                                               |
+|---------------------------------|------------------------------------------------------------------------------------------------------|
+| Aberdeen City Primary Schools   | https://spatialdata-accabdn.opendata.arcgis.com/datasets/f606a1b1b5b746aea68955d5d8458e6e_58/explore |
+| Aberdeen City Secondary Schools | https://spatialdata-accabdn.opendata.arcgis.com/datasets/c8e7887f4519434b8564a608754002cb_5/explore  |
+| Aberdeenshire Primary Schools   | https://opendata.scot/datasets/aberdeenshire+council-school+catchments+-+aberdeenshire/              |
+| Aberdeenshire Secondary Schools | https://opendata.scot/datasets/aberdeenshire+council-school+catchments+-+aberdeenshire/              |
+
+The GeoJSON files are stored in `web-app/public/data/*-school-catchments.geojson`.
 
 ## Run web app locally (for development)
 
