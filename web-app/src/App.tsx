@@ -3,7 +3,7 @@ import type {CesiumComponentRef} from "resium";
 import {Cesium3DTileset, Globe, Scene, Viewer} from "resium";
 import * as Cesium from "cesium";
 import type {JSX} from "react";
-import {useCallback, useRef, useState} from "react";
+import {useCallback, useEffect, useRef, useState} from "react";
 
 import {ZoomButtons} from "./components/ZoomControls.tsx";
 import {Sidebar} from "./components/Sidebar.tsx";
@@ -17,12 +17,13 @@ import {FLY_TO_PITCH, FLY_TO_RANGE, INITIAL_CAMERA_DESTINATION, INITIAL_CAMERA_O
 import {Marker} from "./components/Marker.tsx";
 import {useLocalStorage} from "react-use";
 import {
+    CENTRE_MAP_ON_SELECTED_PROPERTY_KEY,
     PROPERTY_CLASSIFICATIONS_KEY,
     PROPERTY_NOTES_KEY,
     SHOW_PRIMARY_CATCHMENT_AREAS_KEY,
     SHOW_SECONDARY_CATCHMENT_AREAS_KEY,
-    CENTRE_MAP_ON_SELECTED_PROPERTY_KEY,
 } from "./utils/localStorageManager.ts";
+import {loadPropertyData} from "./utils/propertyDataLoader.ts";
 
 
 export function App(): JSX.Element {
@@ -34,6 +35,8 @@ export function App(): JSX.Element {
     const [cursor, setCursor] = useState<"default" | "pointer">("default");
     const [hoveredCatchmentArea, setHoveredCatchmentArea] = useState<string | null>(null);
 
+    useEffect(() => {loadPropertyData().then(setProperties);}, []);
+
     const handleFilterChange = useCallback((newFilteredProperties: Property[]) => {
         setFilteredProperties(newFilteredProperties);
         // Clear selection if it's no longer in the filtered dataset (without taking a dependency on selectedProperty).
@@ -44,60 +47,34 @@ export function App(): JSX.Element {
         );
     }, []);
 
-    const flyTo = useCallback((position: Cesium.Cartesian3) => {
+    const flyTo = useCallback((property: Property) => {
         const viewer = viewerRef.current;
         if (!viewer) return;
 
-        viewer.camera.flyToBoundingSphere(
-            new Cesium.BoundingSphere(position, 0),
-            {
-                offset:
-                    {
-                        heading: viewer.camera.heading,
-                        pitch: FLY_TO_PITCH,
-                        range: FLY_TO_RANGE,
-                    },
-                duration: 1,
-            }
+        const target = Cesium.Cartesian3.fromDegrees(
+            property.coordinates.longitude,
+            property.coordinates.latitude
         );
+        viewer.scene.clampToHeightMostDetailed([target])
+            .then(([clampedPosition]) => {
+                viewer.camera.flyToBoundingSphere(
+                    new Cesium.BoundingSphere(clampedPosition ?? target, 0),
+                    {
+                        offset: new Cesium.HeadingPitchRange(
+                            viewer.camera.heading,
+                            FLY_TO_PITCH,
+                            FLY_TO_RANGE
+                        ),
+                        duration: 1,
+                    }
+                );
+            });
     }, []);
 
     const handleSidebarClose = useCallback(() => {
         setSelectedProperty(null);
     }, []);
 
-    // TODO: Consider loading property data up front, and computing height adjustments once tileset is loaded.
-    async function loadPropertyData(scene: Cesium.Scene) {
-        const result = await fetch("data/properties.json");
-        const properties = await result.json();
-        const coordinates = properties.map((property: any) => {
-            return Cesium.Cartesian3.fromDegrees(property.coordinates.lng, property.coordinates.lat);
-        });
-        // clampToHeightMostDetailed mutates the input coordinates, so pass in a copy.
-        const coordsCopy = coordinates.map((c: Cesium.Cartesian3) => c.clone());
-        const heightAdjustedCoordinates = await scene.clampToHeightMostDetailed(coordsCopy);
-        const results: Property[] = [];
-        for (let i = 0; i < coordinates.length; i++) {
-            const p = properties[i];
-            results.push({
-                // heightAdjustedCoordinates will be be undefined for areas without 3D tile coverage.
-                cartesianCoordinates: heightAdjustedCoordinates[i] || coordinates[i],
-                coordinates: {
-                    latitude: p['coordinates'].lat,
-                    longitude: p['coordinates'].lng,
-                },
-                id: p['id'],
-                title: p['location_line_1'],
-                location: p['location_line_2'],
-                price: p['price'],
-                bedrooms: p['bedrooms'],
-                imgUrl: p['photos'][0]['url'],
-                linkUrl: p['url'],
-                provider: p['provider'],
-            });
-        }
-        setProperties(results);
-    }
 
     const [classifications, setClassifications] = useLocalStorage<Record<string, Classification>>(
         PROPERTY_CLASSIFICATIONS_KEY,
@@ -138,10 +115,10 @@ export function App(): JSX.Element {
         true
     );
 
-    const onPropertyMarkerClick = useCallback((property: Property) => {
+    const onPropertyMarkerClick = useCallback(async (property: Property) => {
         setSelectedProperty(property);
         if (centreMapOnSelectedProperty ?? true) {
-            flyTo(property.cartesianCoordinates);
+            flyTo(property);
         }
     }, [flyTo, centreMapOnSelectedProperty]);
 
@@ -193,14 +170,8 @@ export function App(): JSX.Element {
                     >
                         <Globe show={false}/>
                         <Cesium3DTileset
+                            enableCollision={true}
                             url={`https://tile.googleapis.com/v1/3dtiles/root.json?key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`}
-                            onInitialTilesLoad={async () => {
-                                // TODO: Do we need to wait until all initial titleset loaded to be able to compute
-                                // accurate heights?
-                                const scene = viewerRef.current?.scene;
-                                if (!scene) throw new Error("Scene ought to be ready before tileset is loaded.");
-                                await loadPropertyData(scene);
-                            }}
                         />
 
                         <Scene/>

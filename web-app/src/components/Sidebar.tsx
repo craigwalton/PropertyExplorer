@@ -1,5 +1,4 @@
 import './Sidebar.css';
-import * as Cesium from "cesium";
 import {ThumbsUp, ThumbsDown, CircleQuestionMark, ExternalLink, Locate, CircleX, Map, Bed} from 'lucide-react';
 import type {Classification} from '../types/classification';
 import type {Property} from '../types/property';
@@ -20,7 +19,7 @@ function SidebarComponent({
     selectedProperty: Property | null;
     hoveredProperty: Property | null;
     onClose: () => void;
-    flyTo: (coordinates: Cesium.Cartesian3) => void;
+    flyTo: (property: Property) => void;
     classification: Classification | undefined;
     classifyProperty: (property: Property, classification: Classification) => void;
     notes: string;
@@ -63,7 +62,7 @@ function SelectedSidebarContentComponent({
                                          }: {
     property: Property;
     onClose: () => void;
-    flyTo: (coordinates: Cesium.Cartesian3) => void;
+    flyTo: (property: Property) => void;
     classification: Classification | undefined;
     classifyProperty: (property: Property, classification: Classification) => void;
     notes: string;
@@ -158,7 +157,7 @@ function SelectedSidebarContentComponent({
                         </button>
                     )}
 
-                    <button onClick={() => flyTo(property.cartesianCoordinates)}>
+                    <button onClick={() => flyTo(property)}>
                         <Locate size={14}/>
                         Centre on Map
                     </button>
