@@ -1,7 +1,7 @@
 import './Marker.css';
 import type {Property} from "../types/property.ts";
 import {BillboardGraphics, Entity} from "resium";
-import {Cartesian3, HeightReference, VerticalOrigin} from "cesium";
+import {Cartesian3, HeightReference, NearFarScalar, VerticalOrigin} from "cesium";
 import {type JSX, memo, useMemo} from "react";
 import homeSvg from '/assets/icons/home-marker.svg?raw';
 
@@ -47,6 +47,8 @@ function MarkerComponent({property, isSelected, isHovered, onClick}: {
                 image={markerSvg}
                 heightReference={HeightReference.CLAMP_TO_3D_TILE}
                 verticalOrigin={VerticalOrigin.BOTTOM}
+                // Allow nearby markers to overlap buildings/trees.
+                disableDepthTestDistance={250}
             />
         </Entity>
     );
