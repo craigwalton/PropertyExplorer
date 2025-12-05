@@ -1,5 +1,5 @@
 import './Sidebar.css';
-import {ThumbsUp, ThumbsDown, CircleQuestionMark, ExternalLink, Locate, CircleX, Map, Bed} from 'lucide-react';
+import {ThumbsUp, ThumbsDown, CircleQuestionMark, ExternalLink, Locate, CircleX, Map, Bed, Upload} from 'lucide-react';
 import type {Classification} from '../types/classification';
 import type {Property} from '../types/property';
 import {type JSX, memo} from "react";
@@ -86,6 +86,8 @@ function SelectedSidebarContentComponent({
                 </div>
 
                 <PropertyBedrooms count={property.bedrooms}/>
+                
+                <PublishedOn date={property.publishedOn}/>
 
                 <img className="property-detail-image"
                      src={property.imgUrl}
@@ -195,6 +197,8 @@ function HoveredSidebarContentComponent({property}: {
 
                 <PropertyBedrooms count={property.bedrooms}/>
 
+                <PublishedOn date={property.publishedOn}/>
+
                 <img className="property-detail-image"
                      src={property.imgUrl}
                      key={property.imgUrl}
@@ -212,6 +216,19 @@ function PropertyBedrooms({count}: { count: number }): JSX.Element {
         <div className="property-detail-bedrooms">
             <Bed size={14}/>
             <span>{count} bedroom{count !== 1 ? 's' : ''}</span>
+        </div>
+    );
+}
+
+function PublishedOn({date}: { date: Date }): JSX.Element {
+    return (
+        <div className="property-details-published-on">
+            <Upload size={14}/>
+            <span>{date.toLocaleDateString([], {
+                year: 'numeric',
+                month: 'long',
+                day: 'numeric',
+            })}</span>
         </div>
     );
 }

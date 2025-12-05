@@ -13,6 +13,7 @@ export async function loadPropertyData(): Promise<Property[]> {
         location: p.location_line_2,
         price: p.price,
         bedrooms: p.bedrooms,
+        publishedOn: new Date(p.published_datetime),
         imgUrl: p.photos[0]?.url ?? '',
         linkUrl: p.url,
         provider: p.provider,
