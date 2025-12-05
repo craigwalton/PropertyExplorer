@@ -87,3 +87,4 @@ and open a browser at the URL shown in your terminal.
 * Why do markers/billboards have rendering artifacts when overlapping? This is not an issue when using Cesium without
   Resium.
 * Can we make markers load more quickly (no need to wait until all tiles are loaded)?
+* Poor UX: Catchment areas interfere with normal panning and double-clicking on them zooms to fit.
