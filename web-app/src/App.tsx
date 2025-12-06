@@ -5,7 +5,7 @@ import * as Cesium from "cesium";
 import type {JSX} from "react";
 import {useCallback, useEffect, useRef, useState} from "react";
 
-import {ZoomButtons} from "./components/ZoomControls.tsx";
+import {MapButtons} from "./components/MapControls.tsx";
 import {Sidebar} from "./components/Sidebar.tsx";
 import {Header} from "./components/Header.tsx";
 import {CatchmentAreas} from "./components/CatchmentAreas.tsx";
@@ -190,7 +190,7 @@ export function App(): JSX.Element {
                                 />
                             );
                         })}
-                        <ZoomButtons/>
+                        <MapButtons/>
                         <CesiumEventHandlers
                             viewerRef={viewerRef}
                             filteredProperties={filteredProperties}

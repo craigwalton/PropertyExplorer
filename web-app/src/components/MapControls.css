@@ -1,38 +1,38 @@
-.zoom-control {
-    --zoom-control-start: 1.25rem;
+.map-control {
+    --map-control-start: 1.25rem;
     position: absolute;
-    bottom: calc(var(--zoom-control-start) + 1rem);
+    bottom: calc(var(--map-control-start) + 1rem);
     right: 1rem;
     z-index: 1;
     display: flex;
     flex-direction: column;
 }
 
-.zoom-control .zoom-control-button {
+.map-control .map-control-button {
     background-color: rgba(0, 0, 0, 0.54);
     height: 40px;
     padding: 0.5rem;
     border: 1px solid #5f6368;
 }
 
-.zoom-control .zoom-control-button:hover {
+.map-control .map-control-button:hover {
     background-color: rgba(0, 0, 0, 0.8);
 }
 
-.zoom-control .zoom-in-button {
+.map-control .zoom-in-button {
     border-radius: 0.25rem 0.25rem 0 0;
     border-bottom: none;
 }
 
-.zoom-control .zoom-reset-button {
+.map-control .map-reset-button {
     border-radius: 0;
 }
 
-.zoom-control .zoom-out-button {
+.map-control .zoom-out-button {
     border-radius: 0 0 0.25rem 0.25rem;
     border-top: none;
 }
 
-.zoom-control-button > img {
+.map-control-button > img {
     opacity: 1;
 }
