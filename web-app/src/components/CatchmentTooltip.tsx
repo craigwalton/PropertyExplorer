@@ -1,6 +1,6 @@
 import './CatchmentTooltip.css';
 
-export function CatchmentTooltip({ catchmentName }: { catchmentName: string | null }) {
+export function CatchmentTooltip({catchmentName}: { catchmentName: string | null }) {
     if (!catchmentName) {
         return null;
     }

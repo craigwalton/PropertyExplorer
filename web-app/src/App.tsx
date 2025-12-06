@@ -34,8 +34,26 @@ export function App(): JSX.Element {
     const [filteredProperties, setFilteredProperties] = useState<Property[]>([]);
     const [cursor, setCursor] = useState<"default" | "pointer">("default");
     const [hoveredCatchmentArea, setHoveredCatchmentArea] = useState<string | null>(null);
+    const [showPrimaryCatchments, setShowPrimaryCatchments] = useLocalStorage<boolean>(
+        SHOW_PRIMARY_CATCHMENT_AREAS_KEY,
+        false
+    );
+    const [showSecondaryCatchments, setShowSecondaryCatchments] = useLocalStorage<boolean>(
+        SHOW_SECONDARY_CATCHMENT_AREAS_KEY,
+        false
+    );
+    const [centreMapOnSelectedProperty, setCentreMapOnSelectedProperty] = useLocalStorage<boolean>(
+        CENTRE_MAP_ON_SELECTED_PROPERTY_KEY,
+        true
+    );
+    const [classifications, setClassifications] = useLocalStorage<Record<string, Classification>>(
+        PROPERTY_CLASSIFICATIONS_KEY,
+        {}
+    );
 
-    useEffect(() => {loadPropertyData().then(setProperties);}, []);
+    useEffect(() => {
+        loadPropertyData().then(setProperties);
+    }, []);
 
     const handleFilterChange = useCallback((newFilteredProperties: Property[]) => {
         setFilteredProperties(newFilteredProperties);
@@ -71,15 +89,10 @@ export function App(): JSX.Element {
             });
     }, []);
 
+    // Whilst the sidebar itself does not close, this handles the close button being clicked.
     const handleSidebarClose = useCallback(() => {
         setSelectedProperty(null);
     }, []);
-
-
-    const [classifications, setClassifications] = useLocalStorage<Record<string, Classification>>(
-        PROPERTY_CLASSIFICATIONS_KEY,
-        {}
-    );
 
     const classifyProperty = useCallback((property: Property, classification: Classification) => {
         setClassifications({
@@ -100,20 +113,6 @@ export function App(): JSX.Element {
         });
     }, [notes, setNotes]);
 
-    const [showPrimaryCatchments, setShowPrimaryCatchments] = useLocalStorage<boolean>(
-        SHOW_PRIMARY_CATCHMENT_AREAS_KEY,
-        false
-    );
-
-    const [showSecondaryCatchments, setShowSecondaryCatchments] = useLocalStorage<boolean>(
-        SHOW_SECONDARY_CATCHMENT_AREAS_KEY,
-        false
-    );
-
-    const [centreMapOnSelectedProperty, setCentreMapOnSelectedProperty] = useLocalStorage<boolean>(
-        CENTRE_MAP_ON_SELECTED_PROPERTY_KEY,
-        true
-    );
 
     const onPropertyMarkerClick = useCallback(async (property: Property) => {
         setSelectedProperty(property);
