@@ -49,6 +49,9 @@ function MarkerComponent({property, isSelected, isHovered, onClick}: {
                 verticalOrigin={VerticalOrigin.BOTTOM}
                 // Allow nearby markers to overlap buildings/trees.
                 disableDepthTestDistance={250}
+                // When viewing from directly above (pitch=-90), the markers sometimes hide behind the terrain.
+                // This is a balance - too great a -Z offset, and they disappear when the user zooms in close.
+                eyeOffset={new Cartesian3(0, 0, -10)}
             />
         </Entity>
     );
