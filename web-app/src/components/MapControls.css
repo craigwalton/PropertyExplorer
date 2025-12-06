@@ -1,7 +1,6 @@
 .map-control {
-    --map-control-start: 1.25rem;
     position: absolute;
-    bottom: calc(var(--map-control-start) + 1rem);
+    bottom: 1rem;
     right: 1rem;
     z-index: 1;
     display: flex;
@@ -31,6 +30,19 @@
 .map-control .zoom-out-button {
     border-radius: 0 0 0.25rem 0.25rem;
     border-top: none;
+}
+
+.map-control .view-mode-button {
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+    position: relative;
+}
+
+.map-control .view-mode-button span {
+    position: relative;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .map-control-button > img {

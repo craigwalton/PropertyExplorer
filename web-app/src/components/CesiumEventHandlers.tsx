@@ -7,13 +7,13 @@ import type {Property} from "../types/property";
 import {CATCHMENT_AREA_IDENTIFIER, PROPERTY_MARKER_IDENTIFIER} from "../types/constants";
 
 export function CesiumEventHandlers({
-    viewerRef,
-    filteredProperties,
-    selectedProperty,
-    setHoveredProperty,
-    setHoveredCatchmentArea,
-    setCursor,
-}: {
+                                        viewerRef,
+                                        filteredProperties,
+                                        selectedProperty,
+                                        setHoveredProperty,
+                                        setHoveredCatchmentArea,
+                                        setCursor,
+                                    }: {
     viewerRef: RefObject<Cesium.Viewer | null>;
     filteredProperties: Property[];
     selectedProperty: Property | null;
@@ -42,8 +42,7 @@ export function CesiumEventHandlers({
             // Catchment areas can overlap - show user all that are under the pointer.
             const hoveredAreas: string[] = [];
             viewer.scene.drillPick(position).forEach(p => {
-                if (p?.id?.properties?.hasProperty(CATCHMENT_AREA_IDENTIFIER))
-                {
+                if (p?.id?.properties?.hasProperty(CATCHMENT_AREA_IDENTIFIER)) {
                     hoveredAreas.push(p.id.properties["name"].getValue());
                 }
             });
@@ -76,6 +75,9 @@ export function CesiumEventHandlers({
                 `; selected property is ${selectedProperty?.id || 'none'}`);
         }
     }, [viewerRef, selectedProperty]);
+
+    // TODO: If the user tries to pitch in 2D mode, consider advising them to switch to 3D mode.
+    // Alternatively, automatically switch to 3D mode.
 
     return (
         <ScreenSpaceEventHandler>

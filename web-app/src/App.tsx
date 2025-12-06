@@ -1,6 +1,6 @@
 import './App.css'
 import type {CesiumComponentRef} from "resium";
-import {Cesium3DTileset, Globe, Scene, Viewer} from "resium";
+import {Cesium3DTileset, Globe, Scene, ScreenSpaceCameraController, Viewer} from "resium";
 import * as Cesium from "cesium";
 import type {JSX} from "react";
 import {useCallback, useEffect, useRef, useState} from "react";
@@ -13,7 +13,6 @@ import {CatchmentTooltip} from "./components/CatchmentTooltip.tsx";
 import {CesiumEventHandlers} from "./components/CesiumEventHandlers.tsx";
 import type {Classification} from "./types/classification";
 import type {Property} from "./types/property";
-import {FLY_TO_PITCH, FLY_TO_RANGE, INITIAL_CAMERA_DESTINATION, INITIAL_CAMERA_ORIENTATION} from "./types/constants";
 import {Marker} from "./components/Marker.tsx";
 import {useLocalStorage} from "react-use";
 import {
@@ -24,6 +23,7 @@ import {
     SHOW_SECONDARY_CATCHMENT_AREAS_KEY,
 } from "./utils/localStorageManager.ts";
 import {loadPropertyData} from "./utils/propertyDataLoader.ts";
+import {flyCameraToPosition, resetCamera} from "./utils/cameraController.ts";
 
 const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
@@ -35,6 +35,7 @@ export function App(): JSX.Element {
     const [filteredProperties, setFilteredProperties] = useState<Property[]>([]);
     const [cursor, setCursor] = useState<"default" | "pointer">("default");
     const [hoveredCatchmentArea, setHoveredCatchmentArea] = useState<string | null>(null);
+    const [viewMode, setViewMode] = useState<"2D" | "3D">("3D");
     const [showPrimaryCatchments, setShowPrimaryCatchments] = useLocalStorage<boolean>(
         SHOW_PRIMARY_CATCHMENT_AREAS_KEY,
         false
@@ -69,26 +70,8 @@ export function App(): JSX.Element {
     const flyTo = useCallback((property: Property) => {
         const viewer = viewerRef.current;
         if (!viewer) return;
-
-        const target = Cesium.Cartesian3.fromDegrees(
-            property.coordinates.longitude,
-            property.coordinates.latitude
-        );
-        viewer.scene.clampToHeightMostDetailed([target])
-            .then(([clampedPosition]) => {
-                viewer.camera.flyToBoundingSphere(
-                    new Cesium.BoundingSphere(clampedPosition ?? target, 0),
-                    {
-                        offset: new Cesium.HeadingPitchRange(
-                            viewer.camera.heading,
-                            FLY_TO_PITCH,
-                            FLY_TO_RANGE
-                        ),
-                        duration: 1,
-                    }
-                );
-            });
-    }, []);
+        flyCameraToPosition(viewer, property.coordinates.latitude, property.coordinates.longitude, viewMode);
+    }, [viewMode]);
 
     // Whilst the sidebar itself does not close, this handles the close button being clicked.
     const handleSidebarClose = useCallback(() => {
@@ -128,11 +111,7 @@ export function App(): JSX.Element {
             if (!viewer) return;
 
             viewerRef.current = viewer;
-            viewer.camera.flyTo({
-                destination: INITIAL_CAMERA_DESTINATION,
-                orientation: INITIAL_CAMERA_ORIENTATION,
-                duration: 0,
-            });
+            resetCamera(viewer, "3D", 0);
         }, []);
 
     return (
@@ -189,10 +168,11 @@ export function App(): JSX.Element {
                                         isSelected={p.id == selectedProperty?.id}
                                         isHovered={p.id == hoveredProperty?.id}
                                         onClick={onPropertyMarkerClick}
+                                        viewMode={viewMode}
                                 />
                             );
                         })}
-                        <MapButtons/>
+                        <MapButtons viewMode={viewMode} setViewMode={setViewMode}/>
                         <CesiumEventHandlers
                             viewerRef={viewerRef}
                             filteredProperties={filteredProperties}
@@ -200,6 +180,10 @@ export function App(): JSX.Element {
                             setHoveredProperty={setHoveredProperty}
                             setHoveredCatchmentArea={setHoveredCatchmentArea}
                             setCursor={setCursor}
+                        />
+                        <ScreenSpaceCameraController
+                            enableTilt={viewMode === "3D"}
+                            enableLook={viewMode === "3D"}
                         />
                     </Viewer>
                     <CatchmentTooltip catchmentName={hoveredCatchmentArea}/>
