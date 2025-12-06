@@ -41,6 +41,18 @@ export function Filters({properties, onFilterChange, classifications}: {
     const [minPriceFilter, setMinPriceFilter] = useLocalStorage<number | null>(FILTER_PRICE_MIN_KEY, null);
     const [maxPriceFilter, setMaxPriceFilter] = useLocalStorage<number | null>(FILTER_PRICE_MAX_KEY, null);
 
+    const classificationCounts = useMemo(() => {
+        const counts: Record<string, number> = {all: properties.length};
+        CLASSIFICATION_OPTIONS.forEach(option => {
+            counts[option.id] = 0;
+        });
+        properties.forEach(property => {
+            const classification = classifications[property.id] || "unclassified";
+            counts[classification]++;
+        });
+        return counts;
+    }, [properties, classifications]);
+
     const filteredProperties = useMemo(() => {
         return properties.filter(property => {
             return passesClassificationFilter(property, classifications, classificationFilter) &&
@@ -56,18 +68,24 @@ export function Filters({properties, onFilterChange, classifications}: {
         <div className="filter-container">
             <FilterIcon color="gray"/>
             <div className="classification-filter">
-                {CLASSIFICATION_FILTERS.map((filter) => (
-                    <button
-                        key={filter.id}
-                        onClick={() => setClassificationFilter(filter.id)}
-                        className={`classification-filter-button ${
-                            classificationFilter === filter.id ? 'active' : ''
-                        }`}
-                        data-filter-type={filter.id}
-                    >
-                        {filter.display}
-                    </button>
-                ))}
+                {CLASSIFICATION_FILTERS.map((filter) => {
+                    const count = classificationCounts[filter.id];
+                    const tooltipText = `${count} ${count === 1 ? 'property' : 'properties'}`;
+
+                    return (
+                        <button
+                            key={filter.id}
+                            onClick={() => setClassificationFilter(filter.id)}
+                            className={`classification-filter-button ${
+                                classificationFilter === filter.id ? 'active' : ''
+                            }`}
+                            data-filter-type={filter.id}
+                            data-tooltip={tooltipText}
+                        >
+                            {filter.display}
+                        </button>
+                    );
+                })}
             </div>
             <div className="price-filter">
                 <PriceSelect

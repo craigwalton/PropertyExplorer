@@ -83,7 +83,6 @@ and open a browser at the URL shown in your terminal.
 * Back button for viewer (with an undo stack).
 * Add orbit cursor icon when ctrl held down (to help user figure out which modifier keys do what).
 * Add move/orbit/pan buttons next to zoom controls.
-* Show number of properties for each filter (maybe on hover).
 * Allow user to override property location coordinates.
 * Add setting to not "fly to" a property when selected.
 * Add 2D/3D toggle (useful for areas without 3D tiles).
