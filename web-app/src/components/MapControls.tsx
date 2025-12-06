@@ -21,7 +21,7 @@ function MapButtonsComponent(): JSX.Element {
             orientation: INITIAL_CAMERA_ORIENTATION,
             duration: 0.8,
         });
-    }, []);
+    }, [viewer]);
 
     return (
         <div className="map-control">
