@@ -1,6 +1,6 @@
 # Property Explorer
 
-https://github.com/user-attachments/assets/985f559e-127e-4b37-b3cf-a7dac809e290
+https://github.com/user-attachments/assets/7263c420-3c08-4940-b752-088950eb3665
 
 A personal project to explore properties for sale within a given area using 3D map tiles from Google Maps.
 
