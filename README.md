@@ -84,7 +84,6 @@ and open a browser at the URL shown in your terminal.
 * Add orbit cursor icon when ctrl held down (to help user figure out which modifier keys do what).
 * Add move/orbit/pan buttons next to zoom controls.
 * Allow user to override property location coordinates.
-* Add setting to not "fly to" a property when selected.
 * Add 2D/3D toggle (useful for areas without 3D tiles).
 
 ### Other
@@ -92,5 +91,4 @@ and open a browser at the URL shown in your terminal.
 * Consolidate button styles (index.css, Filters.css, Sidebar.css)
 * Why do markers/billboards have rendering artifacts when overlapping? This is not an issue when using Cesium without
   Resium.
-* Can we make markers load more quickly (no need to wait until all tiles are loaded)?
 * Poor UX: Catchment areas interfere with normal panning and double-clicking on them zooms to fit.
