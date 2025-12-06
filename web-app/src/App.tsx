@@ -25,6 +25,7 @@ import {
 } from "./utils/localStorageManager.ts";
 import {loadPropertyData} from "./utils/propertyDataLoader.ts";
 
+const GOOGLE_MAPS_API_KEY = import.meta.env.VITE_GOOGLE_MAPS_API_KEY;
 
 export function App(): JSX.Element {
     const viewerRef = useRef<Cesium.Viewer | null>(null);
@@ -167,10 +168,11 @@ export function App(): JSX.Element {
                             terrainProvider={new Cesium.EllipsoidTerrainProvider()}
                             style={{cursor: cursor}}
                     >
+                        {/*Only display Google's 3D tiles. Note that there will be tiles even in non fully 3D areas.*/}
                         <Globe show={false}/>
                         <Cesium3DTileset
                             enableCollision={true}
-                            url={`https://tile.googleapis.com/v1/3dtiles/root.json?key=${import.meta.env.VITE_GOOGLE_MAPS_API_KEY}`}
+                            url={`https://tile.googleapis.com/v1/3dtiles/root.json?key=${GOOGLE_MAPS_API_KEY}`}
                         />
 
                         <Scene/>
