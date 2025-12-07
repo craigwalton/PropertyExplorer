@@ -40,8 +40,8 @@ The properties are stored in `web-app/public/data/properties.json`. The scripts 
 available.
 
 The areas for properties which I selected are generally Cults and Bieldside. Unfortunately, Google Maps does not
-currently have 3D tiles further West for Milltimber, Peterculter or Banchory. This web app still supports properties in
-2D-only areas, but the UX needs some work (see TODOs).
+currently have 3D tiles further West for Milltimber, Peterculter or Banchory. Consider using the "2D" mode in those
+areas.
 
 ### School catchment areas
 
@@ -84,7 +84,6 @@ and open a browser at the URL shown in your terminal.
 * Add orbit cursor icon when ctrl held down (to help user figure out which modifier keys do what).
 * Add move/orbit/pan buttons next to zoom controls.
 * Allow user to override property location coordinates.
-* Add 2D/3D toggle (useful for areas without 3D tiles).
 
 ### Other
 
