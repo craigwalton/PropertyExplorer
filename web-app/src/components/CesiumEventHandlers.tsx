@@ -21,6 +21,7 @@ export function CesiumEventHandlers({
     setHoveredCatchmentArea: (name: string | null) => void;
     setCursor: (cursor: "default" | "pointer") => void;
 }) {
+    // TODO: Set hovered items to null when mouse exits the Cesium canvas.
     const handleMouseMove = useCallback((movement: { position: Cartesian2 } | {
         startPosition: Cartesian2;
         endPosition: Cartesian2
