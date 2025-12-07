@@ -183,7 +183,8 @@ export function App(): JSX.Element {
                         />
                         <ScreenSpaceCameraController
                             enableTilt={viewMode === "3D"}
-                            enableLook={viewMode === "3D"}
+                            // The look function results in a non-zero camera rotation.
+                            enableLook={false}
                         />
                     </Viewer>
                     <CatchmentTooltip catchmentName={hoveredCatchmentArea}/>
