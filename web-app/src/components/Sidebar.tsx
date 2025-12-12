@@ -1,5 +1,16 @@
 import './Sidebar.css';
-import {ThumbsUp, ThumbsDown, CircleQuestionMark, ExternalLink, Locate, CircleX, Map, Bed, Upload} from 'lucide-react';
+import {
+    Bed,
+    Binoculars,
+    CircleQuestionMark,
+    CircleX,
+    ExternalLink,
+    Locate,
+    Map,
+    ThumbsDown,
+    ThumbsUp,
+    Upload
+} from 'lucide-react';
 import type {Classification} from '../types/classification';
 import type {Property} from '../types/property';
 import {type JSX, memo} from "react";
@@ -69,6 +80,7 @@ function SelectedSidebarContentComponent({
     updateNotes: (property: Property, notes: string) => void;
 }): JSX.Element {
     const appleMapsUri = `maps://?ll=${property.coordinates.latitude},${property.coordinates.longitude}&z=40&t=k&q=${property.title}`;
+    const streetViewUri = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${property.coordinates.latitude},${property.coordinates.longitude}`;
 
     return (
         <div className="sidebar">
@@ -86,7 +98,7 @@ function SelectedSidebarContentComponent({
                 </div>
 
                 <PropertyBedrooms count={property.bedrooms}/>
-                
+
                 <PublishedOn date={property.publishedOn}/>
 
                 <img className="property-detail-image"
@@ -158,6 +170,11 @@ function SelectedSidebarContentComponent({
                             Open in Apple Maps
                         </button>
                     )}
+
+                    <button onClick={() => window.open(streetViewUri, '_blank')}>
+                        <Binoculars size={14}/>
+                        Open in Street View
+                    </button>
 
                     <button onClick={() => flyTo(property)}>
                         <Locate size={14}/>
