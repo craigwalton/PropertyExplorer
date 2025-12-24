@@ -61,4 +61,24 @@ export function flyCameraToPosition(viewer: Cesium.Viewer, lat: number, lon: num
             );
         });
 }
-   
+
+export function zoomToFitMarkers(
+    viewer: Cesium.Viewer,
+    coordinates: Array<{ latitude: number; longitude: number }>,
+    viewMode: "2D" | "3D"
+) {
+    if (coordinates.length === 0) return;
+
+    const points = coordinates.map(coord =>
+        Cesium.Cartesian3.fromDegrees(coord.longitude, coord.latitude)
+    );
+    const boundingSphere = Cesium.BoundingSphere.fromPoints(points);
+    viewer.camera.flyToBoundingSphere(boundingSphere, {
+        offset: new Cesium.HeadingPitchRange(
+            NORTH_HEADING,
+            viewMode === "3D" ? DEFAULT_3D_PITCH : FIXED_2D_PITCH
+        ),
+        duration: 1,
+    });
+}
+

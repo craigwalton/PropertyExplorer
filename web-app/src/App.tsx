@@ -180,6 +180,7 @@ export function App(): JSX.Element {
                             setHoveredProperty={setHoveredProperty}
                             setHoveredCatchmentArea={setHoveredCatchmentArea}
                             setCursor={setCursor}
+                            viewMode={viewMode}
                         />
                         <ScreenSpaceCameraController
                             enableTilt={viewMode === "3D"}

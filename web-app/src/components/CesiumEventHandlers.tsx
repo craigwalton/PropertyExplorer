@@ -5,6 +5,7 @@ import type {RefObject} from "react";
 import {useCallback} from "react";
 import type {Property} from "../types/property";
 import {CATCHMENT_AREA_IDENTIFIER, PROPERTY_MARKER_IDENTIFIER} from "../types/constants";
+import {zoomToFitMarkers} from "../utils/cameraController";
 
 export function CesiumEventHandlers({
                                         viewerRef,
@@ -13,6 +14,7 @@ export function CesiumEventHandlers({
                                         setHoveredProperty,
                                         setHoveredCatchmentArea,
                                         setCursor,
+                                        viewMode,
                                     }: {
     viewerRef: RefObject<Cesium.Viewer | null>;
     filteredProperties: Property[];
@@ -20,6 +22,7 @@ export function CesiumEventHandlers({
     setHoveredProperty: (property: Property | null) => void;
     setHoveredCatchmentArea: (name: string | null) => void;
     setCursor: (cursor: "default" | "pointer") => void;
+    viewMode: "2D" | "3D";
 }) {
     // TODO: Set hovered items to null when mouse exits the Cesium canvas.
     const handleMouseMove = useCallback((movement: { position: Cartesian2 } | {
@@ -77,6 +80,14 @@ export function CesiumEventHandlers({
         }
     }, [viewerRef, selectedProperty]);
 
+    const handleDoubleClick = useCallback(() => {
+        const viewer = viewerRef.current;
+        if (!viewer) return;
+
+        const coordinates = filteredProperties.map(p => p.coordinates);
+        zoomToFitMarkers(viewer, coordinates, viewMode);
+    }, [viewerRef, filteredProperties, viewMode]);
+
     // TODO: If the user tries to pitch in 2D mode, consider advising them to switch to 3D mode.
     // Alternatively, automatically switch to 3D mode.
 
@@ -89,6 +100,10 @@ export function CesiumEventHandlers({
             <ScreenSpaceEvent
                 type={Cesium.ScreenSpaceEventType.LEFT_CLICK}
                 action={handleLeftClick}
+            />
+            <ScreenSpaceEvent
+                type={Cesium.ScreenSpaceEventType.LEFT_DOUBLE_CLICK}
+                action={handleDoubleClick}
             />
         </ScreenSpaceEventHandler>
     );
