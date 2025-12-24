@@ -57,6 +57,13 @@ export function App(): JSX.Element {
         loadPropertyData().then(setProperties);
     }, []);
 
+    useEffect(() => {
+        const staticTitle = '3D Property Explorer';
+        document.title = selectedProperty
+            ? `${selectedProperty.title} - ${staticTitle}`
+            : staticTitle;
+    }, [selectedProperty]);
+
     const handleFilterChange = useCallback((newFilteredProperties: Property[]) => {
         setFilteredProperties(newFilteredProperties);
         // Clear selection if it's no longer in the filtered dataset (without taking a dependency on selectedProperty).
