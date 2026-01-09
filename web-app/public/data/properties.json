@@ -1,5 +1,685 @@
 [
   {
+    "id": "aspc_438809",
+    "provider_id": "438809",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438809",
+    "price": 115000,
+    "bedrooms": 2,
+    "location_line_1": "1 Hillside Place",
+    "location_line_2": "Peterculter, AB14\u00a00TU",
+    "coordinates": {
+      "lat": 57.0994884,
+      "lng": -2.2666444
+    },
+    "published_datetime": "2026-01-09T16:58:48.713000",
+    "retrieved_datetime": "2026-01-09T17:45:42.400972Z",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779980.jpg",
+        "description": "1 Hillside Place"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6780006.jpg",
+        "description": "Car Park"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779984.jpg",
+        "description": "Entrance Hallway"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779993.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779990.jpg",
+        "description": "Fully Fitted Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779986.jpg",
+        "description": "Shower Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779987.jpg",
+        "description": "Alternative view of Shower Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779996.jpg",
+        "description": "Lounge with bay window"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779995.jpg",
+        "description": "Alternative view of Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779991.jpg",
+        "description": "Fully Fitted Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779988.jpg",
+        "description": "Double Bedroom (1)"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779989.jpg",
+        "description": "Alternative view of Double Bedroom (1)"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779997.jpg",
+        "description": "Bedroom (2)"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779982.jpg",
+        "description": "1 Hillside Place"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779998.jpg",
+        "description": "Outside"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6779999.jpg",
+        "description": "Outside"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6780000.jpg",
+        "description": "Car Park"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6780020.jpg",
+        "description": "Outside"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385817/Image/6780021.jpg",
+        "description": "Outside"
+      }
+    ]
+  },
+  {
+    "id": "aspc_438807",
+    "provider_id": "438807",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438807",
+    "price": 415000,
+    "bedrooms": 4,
+    "location_line_1": "11 Craigbank Drive",
+    "location_line_2": "Cults, Aberdeen, AB15\u00a09EG",
+    "coordinates": {
+      "lat": 57.1235746,
+      "lng": -2.1838095
+    },
+    "published_datetime": "2026-01-09T15:43:01.773000",
+    "retrieved_datetime": "2026-01-09T17:45:43.002101Z",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782280.jpg",
+        "description": "External Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782275.jpg",
+        "description": "Entrance"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782276.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782281.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782277.jpg",
+        "description": "Lounge Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782278.jpg",
+        "description": "Lounge Aspect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782279.jpg",
+        "description": "Lounge Aspect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782282.jpg",
+        "description": "Kitchen/Diner Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782285.jpg",
+        "description": "Kitchen/Diner ASpect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782286.jpg",
+        "description": "Kitchen/Diner ASpect 3"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782283.jpg",
+        "description": "Kitchen/Diner Aspect 3"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782284.jpg",
+        "description": "Kitchen/Diner Aspect 5"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782292.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782287.jpg",
+        "description": "Utility Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782288.jpg",
+        "description": "Bedroom 1 Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782289.jpg",
+        "description": "Bedroom 1 Aspect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782290.jpg",
+        "description": "Bathroom Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782291.jpg",
+        "description": "Bedroom Aspect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782294.jpg",
+        "description": "Bedroom 2 Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782295.jpg",
+        "description": "Bedroom 2 Aspect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782293.jpg",
+        "description": "Bedroom 2 Aspect 3"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782296.jpg",
+        "description": "Bedroom 3 Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782297.jpg",
+        "description": "Bedroom 3 Aspect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782302.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782298.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782299.jpg",
+        "description": "Garden Aspect 1"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782301.jpg",
+        "description": "Garden Aspect 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385955/Image/6782300.jpg",
+        "description": "External Aspect 2"
+      }
+    ]
+  },
+  {
+    "id": "aspc_438800",
+    "provider_id": "438800",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438800",
+    "price": 145000,
+    "bedrooms": 4,
+    "location_line_1": "13 Silverbank Crescent",
+    "location_line_2": "Banchory, AB31\u00a05YQ",
+    "coordinates": {
+      "lat": 57.0566381411973,
+      "lng": -2.47741018650818
+    },
+    "published_datetime": "2026-01-09T13:02:21.267000",
+    "retrieved_datetime": "2026-01-09T17:45:43.448366Z",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781823.jpg",
+        "description": "External"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781822.jpg",
+        "description": "Garden Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781821.jpg",
+        "description": "Garden Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781824.jpg",
+        "description": "Main Hallway"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781825.jpg",
+        "description": "Lounge/Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781827.jpg",
+        "description": "Lounge/Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781826.jpg",
+        "description": "Lounge/Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781828.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781829.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781831.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781830.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781833.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781832.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781834.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781836.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781835.jpg",
+        "description": "Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781837.jpg",
+        "description": "Outside"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781839.jpg",
+        "description": "Outside"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385945/Image/6781838.jpg",
+        "description": "Silverbank Crescent Cul-De-Sac"
+      }
+    ]
+  },
+  {
+    "id": "aspc_438797",
+    "provider_id": "438797",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438797",
+    "price": 330000,
+    "bedrooms": 3,
+    "location_line_1": "46 Abbotshall Drive",
+    "location_line_2": "Cults, Aberdeen, AB15\u00a09JD",
+    "coordinates": {
+      "lat": 57.1205822,
+      "lng": -2.1761374
+    },
+    "published_datetime": "2026-01-09T12:05:21.270000",
+    "retrieved_datetime": "2026-01-09T17:45:43.894898Z",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782200.jpg",
+        "description": "EXTERNAL"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782205.jpg",
+        "description": "LOUNGE"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782207.jpg",
+        "description": "KITCHEN"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782221.jpg",
+        "description": "BEDROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782222.jpg",
+        "description": "REAR"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782202.jpg",
+        "description": "REAR"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782201.jpg",
+        "description": "ENTRANCE"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782203.jpg",
+        "description": "HALLWAY"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782204.jpg",
+        "description": "LOUNGE"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782206.jpg",
+        "description": "KITCHEN"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782223.jpg",
+        "description": "KITCHEN"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782213.jpg",
+        "description": "DINING AREA"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782208.jpg",
+        "description": "DINING AREA"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782209.jpg",
+        "description": "SUN LOUNGE"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782210.jpg",
+        "description": "SUN LOUNGE"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782211.jpg",
+        "description": "BEDROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782212.jpg",
+        "description": "BATHROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782215.jpg",
+        "description": "BATHROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782214.jpg",
+        "description": "BEDROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782218.jpg",
+        "description": "BEDROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782216.jpg",
+        "description": "BEDROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782217.jpg",
+        "description": "BEDROOM"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782220.jpg",
+        "description": "REAR"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385335/Image/6782219.jpg",
+        "description": "REAR"
+      }
+    ]
+  },
+  {
+    "id": "aspc_438794",
+    "provider_id": "438794",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438794",
+    "price": 670000,
+    "bedrooms": 4,
+    "location_line_1": "Rosemount,  Watson Street",
+    "location_line_2": "Banchory, AB31\u00a05UB",
+    "coordinates": {
+      "lat": 57.051992,
+      "lng": -2.503092
+    },
+    "published_datetime": "2026-01-09T11:52:51.987000",
+    "retrieved_datetime": "2026-01-09T17:45:44.352014Z",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782091.jpg",
+        "description": "External"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782094.jpg",
+        "description": "External"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782090.jpg",
+        "description": "View"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782093.jpg",
+        "description": "Formal Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782092.jpg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782098.jpg",
+        "description": "Sitting Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782100.jpg",
+        "description": "Sitting Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782095.jpg",
+        "description": "Kitchen Diner"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782096.jpg",
+        "description": "Open Plan"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782097.jpg",
+        "description": "Seating Area"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782102.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782099.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782109.jpg",
+        "description": "WC"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782101.jpg",
+        "description": "Hall"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782103.jpg",
+        "description": "Main Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782104.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782105.jpg",
+        "description": "Ensuite"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782110.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782106.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782107.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782108.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782113.jpg",
+        "description": "Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782119.jpg",
+        "description": "Family Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782111.jpg",
+        "description": "Family Bathroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782112.jpg",
+        "description": "Aerial"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782114.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782117.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782115.jpg",
+        "description": "Garden"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782116.jpg",
+        "description": "Drive and Garage"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385445/Image/6782118.jpg",
+        "description": "View"
+      }
+    ]
+  },
+  {
+    "id": "aspc_438788",
+    "provider_id": "438788",
+    "provider": "ASPC",
+    "url": "https://www.aspc.co.uk/search/property/438788",
+    "price": 175000,
+    "bedrooms": 3,
+    "location_line_1": "1 Prince Albert Way",
+    "location_line_2": "Inchmarlo, Banchory, AB31\u00a04FA",
+    "coordinates": {
+      "lat": 57.0588047,
+      "lng": -2.5399633
+    },
+    "published_datetime": "2026-01-09T10:27:05.823000",
+    "retrieved_datetime": "2026-01-09T17:45:44.885211Z",
+    "photos": [
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781909.jpg",
+        "description": "Aerial View"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781890.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781891.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781892.jpg",
+        "description": "Lounge"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781893.jpg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781894.jpg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781896.jpg",
+        "description": "Dining Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781895.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781897.jpg",
+        "description": "Kitchen"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781904.jpg",
+        "description": "Hallway"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781898.jpg",
+        "description": "Master Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781899.jpg",
+        "description": "Master Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781901.jpg",
+        "description": "Master Bedroom"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781900.jpg",
+        "description": "En-Suite Shower Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781902.jpg",
+        "description": "Bedroom 2"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781903.jpg",
+        "description": "Shower Room"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781905.jpg",
+        "description": "Study"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781912.jpg",
+        "description": "1 Prince Albert Way"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781906.jpg",
+        "description": "Grounds"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781907.jpg",
+        "description": "Patio"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781908.jpg",
+        "description": "Grounds"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781910.jpg",
+        "description": "Aerial Views"
+      },
+      {
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385924/Image/6781911.jpg",
+        "description": "Golf Course"
+      }
+    ]
+  },
+  {
     "id": "aspc_438778",
     "provider_id": "438778",
     "provider": "ASPC",
@@ -13,7 +693,7 @@
       "lng": -2.20288652039795
     },
     "published_datetime": "2026-01-08T14:18:26.657000",
-    "retrieved_datetime": "2026-01-08T18:44:30.143986Z",
+    "retrieved_datetime": "2026-01-09T17:45:45.349685Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385918/Image/6780385.jpg",
@@ -39,7 +719,7 @@
       "lng": -2.2134136
     },
     "published_datetime": "2026-01-08T13:10:30.420000",
-    "retrieved_datetime": "2026-01-08T18:44:30.660182Z",
+    "retrieved_datetime": "2026-01-09T17:45:45.885729Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385911/Image/6779979.jpg",
@@ -149,7 +829,7 @@
       "lng": -2.47992953736495
     },
     "published_datetime": "2026-01-08T10:02:21.187000",
-    "retrieved_datetime": "2026-01-08T18:44:31.060756Z",
+    "retrieved_datetime": "2026-01-09T17:45:46.512787Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385910/Image/6779889.jpg",
@@ -227,7 +907,7 @@
       "lng": -2.48038829510651
     },
     "published_datetime": "2026-01-07T12:25:54.757000",
-    "retrieved_datetime": "2026-01-08T18:44:31.568052Z",
+    "retrieved_datetime": "2026-01-09T17:45:47.143773Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385894/Image/6778900.jpg",
@@ -349,7 +1029,7 @@
       "lng": -2.1768711
     },
     "published_datetime": "2025-12-23T12:08:42.843000",
-    "retrieved_datetime": "2026-01-08T18:44:32.082321Z",
+    "retrieved_datetime": "2026-01-09T17:45:47.743041Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385838/Image/6774658.jpg",
@@ -487,7 +1167,7 @@
       "lng": -2.2296931
     },
     "published_datetime": "2025-12-23T11:59:42.360000",
-    "retrieved_datetime": "2026-01-08T18:44:32.593178Z",
+    "retrieved_datetime": "2026-01-09T17:45:48.311084Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385836/Image/6779502.jpg",
@@ -617,7 +1297,7 @@
       "lng": -2.54224666375427
     },
     "published_datetime": "2025-12-23T11:43:34.893000",
-    "retrieved_datetime": "2026-01-08T18:44:32.996111Z",
+    "retrieved_datetime": "2026-01-09T17:45:48.735418Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385835/Image/6776915.jpg",
@@ -695,7 +1375,7 @@
       "lng": -2.545872
     },
     "published_datetime": "2025-12-18T16:51:29.350000",
-    "retrieved_datetime": "2026-01-08T18:44:33.425347Z",
+    "retrieved_datetime": "2026-01-09T17:45:49.185147Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385784/Image/6776931.jpg",
@@ -833,7 +1513,7 @@
       "lng": -2.1807968
     },
     "published_datetime": "2025-12-17T16:39:31.483000",
-    "retrieved_datetime": "2026-01-08T18:44:33.844318Z",
+    "retrieved_datetime": "2026-01-09T17:45:49.641281Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385767/Image/6769738.jpg",
@@ -959,82 +1639,82 @@
       "lng": -2.2757798
     },
     "published_datetime": "2025-12-17T11:33:08.107000",
-    "retrieved_datetime": "2026-01-08T18:44:34.242502Z",
+    "retrieved_datetime": "2026-01-09T17:45:50.086938Z",
     "photos": [
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768990.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781064.jpg",
         "description": "External"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768991.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781065.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768989.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781063.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768992.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781066.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768993.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781067.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768995.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781069.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768996.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781070.jpg",
         "description": "Bathroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768994.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781068.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768998.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781072.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768997.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781071.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6768999.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781073.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769004.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781078.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769000.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781074.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769001.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781075.jpg",
         "description": "Garden"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769002.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781076.jpg",
         "description": "Garden"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769003.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781077.jpg",
         "description": "Garden"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769007.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781081.jpg",
         "description": "Garden"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769005.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781079.jpg",
         "description": "Garden"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6769006.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385754/Image/6781080.jpg",
         "description": "External"
       }
     ]
@@ -1053,7 +1733,7 @@
       "lng": -2.22748500259399
     },
     "published_datetime": "2025-12-10T17:10:00.757000",
-    "retrieved_datetime": "2026-01-08T18:44:34.617356Z",
+    "retrieved_datetime": "2026-01-09T17:45:50.501927Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385691/Image/6777242.jpg",
@@ -1123,7 +1803,7 @@
       "lng": -2.240935
     },
     "published_datetime": "2025-12-10T12:19:14.600000",
-    "retrieved_datetime": "2026-01-08T18:44:35.160017Z",
+    "retrieved_datetime": "2026-01-09T17:45:51.062938Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385436/Image/6746082.jpg",
@@ -1261,7 +1941,7 @@
       "lng": -2.183689
     },
     "published_datetime": "2025-12-09T11:03:24.507000",
-    "retrieved_datetime": "2026-01-08T18:44:35.699066Z",
+    "retrieved_datetime": "2026-01-09T17:45:51.523255Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385663/Image/6762301.jpg",
@@ -1399,7 +2079,7 @@
       "lng": -2.17977096137695
     },
     "published_datetime": "2025-12-08T11:50:06.193000",
-    "retrieved_datetime": "2026-01-08T18:44:36.213293Z",
+    "retrieved_datetime": "2026-01-09T17:45:52.313628Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385529/Image/6777183.jpg",
@@ -1537,7 +2217,7 @@
       "lng": -2.2228139
     },
     "published_datetime": "2025-12-05T09:31:08.533000",
-    "retrieved_datetime": "2026-01-08T18:44:36.761568Z",
+    "retrieved_datetime": "2026-01-09T17:45:53.501854Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385627/Image/6759713.jpg",
@@ -1675,7 +2355,7 @@
       "lng": -2.47905549629517
     },
     "published_datetime": "2025-12-03T17:27:12.613000",
-    "retrieved_datetime": "2026-01-08T18:44:37.152187Z",
+    "retrieved_datetime": "2026-01-09T17:45:53.917502Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385609/Image/6776658.jpg",
@@ -1733,7 +2413,7 @@
       "lng": -2.2123479
     },
     "published_datetime": "2025-12-03T15:50:40.553000",
-    "retrieved_datetime": "2026-01-08T18:44:37.685844Z",
+    "retrieved_datetime": "2026-01-09T17:45:54.530315Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385607/Image/6771248.jpg",
@@ -1851,7 +2531,7 @@
       "lng": -2.4970383
     },
     "published_datetime": "2025-12-02T16:43:08.253000",
-    "retrieved_datetime": "2026-01-08T18:44:38.187298Z",
+    "retrieved_datetime": "2026-01-09T17:45:55.111339Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385469/Image/6756621.jpg",
@@ -1989,7 +2669,7 @@
       "lng": -2.215433
     },
     "published_datetime": "2025-12-02T14:11:23.877000",
-    "retrieved_datetime": "2026-01-08T18:44:38.583397Z",
+    "retrieved_datetime": "2026-01-09T17:45:55.528407Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385588/Image/6772641.jpg",
@@ -2063,7 +2743,7 @@
       "lng": -2.225438
     },
     "published_datetime": "2025-12-01T17:03:55.633000",
-    "retrieved_datetime": "2026-01-08T18:44:38.986691Z",
+    "retrieved_datetime": "2026-01-09T17:45:55.954900Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385575/Image/6773668.jpg",
@@ -2149,126 +2829,126 @@
       "lng": -2.2287716
     },
     "published_datetime": "2025-11-28T12:32:54.997000",
-    "retrieved_datetime": "2026-01-08T18:44:40.055541Z",
+    "retrieved_datetime": "2026-01-09T17:45:56.549095Z",
     "photos": [
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749321.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781795.jpg",
         "description": "Exterior (Front)"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749317.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781791.jpg",
         "description": "Lounge - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749329.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781803.jpg",
         "description": "Lounge - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749330.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781804.jpg",
         "description": "Lounge - View 3"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749322.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781796.jpg",
         "description": "Open Plan Kitchen & Family/Dining Room - View 3"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749319.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781793.jpg",
         "description": "Open Plan Kitchen & Family/Dining Room - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749318.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781792.jpg",
         "description": "Open Plan Kitchen & Family/Dining Room - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749331.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781805.jpg",
         "description": "Open Plan Kitchen & Family/Dining Room - View 3"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749337.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781811.jpg",
         "description": "Utility Room"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749381.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781819.jpg",
         "description": "Cloakroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749325.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781799.jpg",
         "description": "Bedroom 5 - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749383.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781820.jpg",
         "description": "Bedroom 5 - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749333.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781807.jpg",
         "description": "Hallway"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749332.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781806.jpg",
         "description": "Upper Hallway"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749323.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781797.jpg",
         "description": "Master Bedroom - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749334.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781808.jpg",
         "description": "Master Bedroom - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749324.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781798.jpg",
         "description": "En-Suite Bathroom - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749335.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781809.jpg",
         "description": "En-Suite Bathroom - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749320.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781794.jpg",
         "description": "Guest Bedroom - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749336.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781810.jpg",
         "description": "Guest Bedroom - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749339.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781813.jpg",
         "description": "En-Suite Shower Room - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749344.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781818.jpg",
         "description": "En-Suite Shower Room - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749338.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781812.jpg",
         "description": "Bedroom 3 - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749340.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781814.jpg",
         "description": "Bedroom 3 - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749343.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781817.jpg",
         "description": "Bedroom 4 - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749341.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781815.jpg",
         "description": "Bedroom 4 - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749328.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781802.jpg",
         "description": "Family Bathroom - View 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749342.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781816.jpg",
         "description": "Family Bathroom - View 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749326.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781800.jpg",
         "description": "Exterior (Rear)"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6749327.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385492/Image/6781801.jpg",
         "description": "Aerial View (Rear)"
       }
     ]
@@ -2287,7 +2967,7 @@
       "lng": -2.50129847063904
     },
     "published_datetime": "2025-11-28T11:20:23.717000",
-    "retrieved_datetime": "2026-01-08T18:44:40.551268Z",
+    "retrieved_datetime": "2026-01-09T17:45:57.088435Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385530/Image/6752521.jpg",
@@ -2413,7 +3093,7 @@
       "lng": -2.191644
     },
     "published_datetime": "2025-11-28T10:11:27.907000",
-    "retrieved_datetime": "2026-01-08T18:44:40.939170Z",
+    "retrieved_datetime": "2026-01-09T17:45:57.551577Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385528/Image/6752504.jpg",
@@ -2531,7 +3211,7 @@
       "lng": -2.2027644
     },
     "published_datetime": "2025-11-27T16:54:44.583000",
-    "retrieved_datetime": "2026-01-08T18:44:41.502399Z",
+    "retrieved_datetime": "2026-01-09T17:45:58.086286Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385522/Image/6768293.jpg",
@@ -2665,7 +3345,7 @@
       "lng": -2.47632656309052
     },
     "published_datetime": "2025-11-21T14:02:50.687000",
-    "retrieved_datetime": "2026-01-08T18:44:42.012712Z",
+    "retrieved_datetime": "2026-01-09T17:45:58.691554Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385424/Image/6758864.jpg",
@@ -2791,7 +3471,7 @@
       "lng": -2.4749877
     },
     "published_datetime": "2025-11-21T11:43:15.720000",
-    "retrieved_datetime": "2026-01-08T18:44:42.450617Z",
+    "retrieved_datetime": "2026-01-09T17:45:59.223245Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385077/Image/6743045.jpg",
@@ -2925,7 +3605,7 @@
       "lng": -2.54037750793457
     },
     "published_datetime": "2025-11-20T16:08:20.730000",
-    "retrieved_datetime": "2026-01-08T18:44:42.972759Z",
+    "retrieved_datetime": "2026-01-09T17:45:59.755255Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385284/Image/6741846.jpg",
@@ -3043,7 +3723,7 @@
       "lng": -2.47950610740967
     },
     "published_datetime": "2025-11-20T12:47:48.117000",
-    "retrieved_datetime": "2026-01-08T18:44:43.407045Z",
+    "retrieved_datetime": "2026-01-09T17:46:00.185397Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385403/Image/6747804.jpg",
@@ -3169,7 +3849,7 @@
       "lng": -2.540635
     },
     "published_datetime": "2025-11-20T12:13:23.210000",
-    "retrieved_datetime": "2026-01-08T18:44:43.818862Z",
+    "retrieved_datetime": "2026-01-09T17:46:00.648150Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385149/Image/6739772.jpg",
@@ -3251,7 +3931,7 @@
       "lng": -2.1719193
     },
     "published_datetime": "2025-11-18T09:09:19.470000",
-    "retrieved_datetime": "2026-01-08T18:44:44.344224Z",
+    "retrieved_datetime": "2026-01-09T17:46:01.110491Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385155/Image/6737435.jpg",
@@ -3341,7 +4021,7 @@
       "lng": -2.1923237
     },
     "published_datetime": "2025-11-14T12:26:29.610000",
-    "retrieved_datetime": "2026-01-08T18:44:44.892182Z",
+    "retrieved_datetime": "2026-01-09T17:46:01.689513Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384616/Image/6730280.jpg",
@@ -3471,74 +4151,74 @@
       "lng": -2.26305702416992
     },
     "published_datetime": "2025-11-14T12:23:11.443000",
-    "retrieved_datetime": "2026-01-08T18:44:45.291925Z",
+    "retrieved_datetime": "2026-01-09T17:46:02.154959Z",
     "photos": [
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734900.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782401.jpg",
         "description": "External"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734897.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782398.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734899.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782400.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734898.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782399.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734908.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782405.jpg",
         "description": "Balcony"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734902.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782403.jpg",
         "description": "Balcony"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734901.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782402.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734903.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782404.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734925.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782414.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734916.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782411.jpg",
         "description": "En-Suite"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734913.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782408.jpg",
         "description": "En-Suite"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734924.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782413.jpg",
         "description": "Bedroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734909.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782406.jpg",
         "description": "Bathroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734910.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782407.jpg",
         "description": "Bathroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734914.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782409.jpg",
         "description": "Communal Garden"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734915.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782410.jpg",
         "description": "Communal Garden"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6734917.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/385302/Image/6782412.jpg",
         "description": "External"
       }
     ]
@@ -3557,7 +4237,7 @@
       "lng": -2.2296632
     },
     "published_datetime": "2025-11-13T17:42:22.447000",
-    "retrieved_datetime": "2026-01-08T18:44:45.779919Z",
+    "retrieved_datetime": "2026-01-09T17:46:02.810045Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385116/Image/6734613.jpg",
@@ -3679,7 +4359,7 @@
       "lng": -2.17322084603271
     },
     "published_datetime": "2025-11-13T16:35:34.993000",
-    "retrieved_datetime": "2026-01-08T18:44:46.249026Z",
+    "retrieved_datetime": "2026-01-09T17:46:03.267503Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385291/Image/6751410.jpg",
@@ -3817,7 +4497,7 @@
       "lng": -2.209923
     },
     "published_datetime": "2025-11-12T17:02:24.987000",
-    "retrieved_datetime": "2026-01-08T18:44:46.762462Z",
+    "retrieved_datetime": "2026-01-09T17:46:04.485665Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385262/Image/6731967.jpg",
@@ -3955,7 +4635,7 @@
       "lng": -2.2753004
     },
     "published_datetime": "2025-11-12T14:31:02.550000",
-    "retrieved_datetime": "2026-01-08T18:44:47.192070Z",
+    "retrieved_datetime": "2026-01-09T17:46:04.943113Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384996/Image/6722037.jpg",
@@ -4025,7 +4705,7 @@
       "lng": -2.50177430151366
     },
     "published_datetime": "2025-11-11T16:06:50.813000",
-    "retrieved_datetime": "2026-01-08T18:44:47.635543Z",
+    "retrieved_datetime": "2026-01-09T17:46:05.382038Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385237/Image/6753968.jpg",
@@ -4135,7 +4815,7 @@
       "lng": -2.5031962
     },
     "published_datetime": "2025-11-11T10:28:10.033000",
-    "retrieved_datetime": "2026-01-08T18:44:48.117248Z",
+    "retrieved_datetime": "2026-01-09T17:46:05.912794Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385211/Image/6731824.jpg",
@@ -4253,7 +4933,7 @@
       "lng": -2.4717961
     },
     "published_datetime": "2025-11-11T09:55:15.607000",
-    "retrieved_datetime": "2026-01-08T18:44:48.563121Z",
+    "retrieved_datetime": "2026-01-09T17:46:06.372125Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385210/Image/6776692.jpg",
@@ -4391,7 +5071,7 @@
       "lng": -2.49530327511596
     },
     "published_datetime": "2025-11-06T15:41:39.307000",
-    "retrieved_datetime": "2026-01-08T18:44:48.984313Z",
+    "retrieved_datetime": "2026-01-09T17:46:06.828648Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384580/Image/6723667.jpg",
@@ -4501,7 +5181,7 @@
       "lng": -2.1706414
     },
     "published_datetime": "2025-11-06T15:25:10.840000",
-    "retrieved_datetime": "2026-01-08T18:44:50.100572Z",
+    "retrieved_datetime": "2026-01-09T17:46:07.358465Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383496/Image/6723555.jpg",
@@ -4627,7 +5307,7 @@
       "lng": -2.2349189
     },
     "published_datetime": "2025-11-04T16:22:29.290000",
-    "retrieved_datetime": "2026-01-08T18:44:50.619988Z",
+    "retrieved_datetime": "2026-01-09T17:46:07.912853Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385092/Image/6740522.jpg",
@@ -4765,7 +5445,7 @@
       "lng": -2.17804278650818
     },
     "published_datetime": "2025-11-04T11:41:47.843000",
-    "retrieved_datetime": "2026-01-08T18:44:51.054157Z",
+    "retrieved_datetime": "2026-01-09T17:46:08.381013Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384875/Image/6704084.jpg",
@@ -4859,7 +5539,7 @@
       "lng": -2.26595012750854
     },
     "published_datetime": "2025-11-04T10:24:31.040000",
-    "retrieved_datetime": "2026-01-08T18:44:51.451924Z",
+    "retrieved_datetime": "2026-01-09T17:46:08.837317Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383917/Image/6638218.jpg",
@@ -4961,7 +5641,7 @@
       "lng": -2.2308129
     },
     "published_datetime": "2025-11-03T17:48:34.590000",
-    "retrieved_datetime": "2026-01-08T18:44:51.865715Z",
+    "retrieved_datetime": "2026-01-09T17:46:09.393196Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385071/Image/6743160.jpg",
@@ -5099,7 +5779,7 @@
       "lng": -2.168479
     },
     "published_datetime": "2025-11-03T16:12:37.877000",
-    "retrieved_datetime": "2026-01-08T18:44:52.343982Z",
+    "retrieved_datetime": "2026-01-09T17:46:10.006407Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384042/Image/6688339.jpg",
@@ -5237,7 +5917,7 @@
       "lng": -2.474446
     },
     "published_datetime": "2025-10-30T16:18:30.823000",
-    "retrieved_datetime": "2026-01-08T18:44:52.742003Z",
+    "retrieved_datetime": "2026-01-09T17:46:10.556880Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385003/Image/6713106.jpg",
@@ -5343,7 +6023,7 @@
       "lng": -2.4826626
     },
     "published_datetime": "2025-10-30T16:08:26.413000",
-    "retrieved_datetime": "2026-01-08T18:44:53.159158Z",
+    "retrieved_datetime": "2026-01-09T17:46:11.014789Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/385002/Image/6753496.jpg",
@@ -5445,7 +6125,7 @@
       "lng": -2.4813265
     },
     "published_datetime": "2025-10-30T15:50:12.707000",
-    "retrieved_datetime": "2026-01-08T18:44:53.592105Z",
+    "retrieved_datetime": "2026-01-09T17:46:11.471185Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384870/Image/6745087.jpg",
@@ -5535,7 +6215,7 @@
       "lng": -2.1813169
     },
     "published_datetime": "2025-10-30T14:21:40.360000",
-    "retrieved_datetime": "2026-01-08T18:44:54.103139Z",
+    "retrieved_datetime": "2026-01-09T17:46:11.913020Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384948/Image/6709022.jpg",
@@ -5657,7 +6337,7 @@
       "lng": -2.49868476196289
     },
     "published_datetime": "2025-10-30T13:35:09.650000",
-    "retrieved_datetime": "2026-01-08T18:44:54.490672Z",
+    "retrieved_datetime": "2026-01-09T17:46:12.364252Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384994/Image/6774501.jpg",
@@ -5723,7 +6403,7 @@
       "lng": -2.23854480000001
     },
     "published_datetime": "2025-10-29T16:39:55.320000",
-    "retrieved_datetime": "2026-01-08T18:44:55.048134Z",
+    "retrieved_datetime": "2026-01-09T17:46:12.928735Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384371/Image/6698372.jpg",
@@ -5837,7 +6517,7 @@
       "lng": -2.1819872
     },
     "published_datetime": "2025-10-24T16:34:23.443000",
-    "retrieved_datetime": "2026-01-08T18:44:55.447923Z",
+    "retrieved_datetime": "2026-01-09T17:46:13.410509Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384223/Image/6747834.jpg",
@@ -5943,7 +6623,7 @@
       "lng": -2.2037674
     },
     "published_datetime": "2025-10-24T16:19:58.643000",
-    "retrieved_datetime": "2026-01-08T18:44:55.999200Z",
+    "retrieved_datetime": "2026-01-09T17:46:13.973743Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384667/Image/6715292.jpg",
@@ -6081,7 +6761,7 @@
       "lng": -2.24922
     },
     "published_datetime": "2025-10-23T15:49:36.837000",
-    "retrieved_datetime": "2026-01-08T18:44:56.511779Z",
+    "retrieved_datetime": "2026-01-09T17:46:15.211240Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384635/Image/6701759.jpg",
@@ -6219,7 +6899,7 @@
       "lng": -2.47995367724609
     },
     "published_datetime": "2025-10-23T14:56:56.327000",
-    "retrieved_datetime": "2026-01-08T18:44:56.963584Z",
+    "retrieved_datetime": "2026-01-09T17:46:15.801603Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384849/Image/6701680.jpg",
@@ -6329,7 +7009,7 @@
       "lng": -2.46793961901855
     },
     "published_datetime": "2025-10-22T14:28:26.393000",
-    "retrieved_datetime": "2026-01-08T18:44:57.491896Z",
+    "retrieved_datetime": "2026-01-09T17:46:16.383645Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384821/Image/6699682.jpg",
@@ -6467,7 +7147,7 @@
       "lng": -2.2770082
     },
     "published_datetime": "2025-10-22T14:03:39.350000",
-    "retrieved_datetime": "2026-01-08T18:44:58.034580Z",
+    "retrieved_datetime": "2026-01-09T17:46:16.840378Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384818/Image/6699440.jpg",
@@ -6544,100 +7224,6 @@
     ]
   },
   {
-    "id": "aspc_437737",
-    "provider_id": "437737",
-    "provider": "ASPC",
-    "url": "https://www.aspc.co.uk/search/property/437737",
-    "price": 145000,
-    "bedrooms": 4,
-    "location_line_1": "13 Silverbank Crescent",
-    "location_line_2": "Banchory, AB31\u00a05YQ",
-    "coordinates": {
-      "lat": 57.0566381411973,
-      "lng": -2.47741018650818
-    },
-    "published_datetime": "2025-10-22T12:28:49.770000",
-    "retrieved_datetime": "2026-01-08T18:44:58.462175Z",
-    "photos": [
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743957.jpg",
-        "description": "External"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743956.jpg",
-        "description": "Garden Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743955.jpg",
-        "description": "Garden Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743958.jpg",
-        "description": "Main Hallway"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743959.jpg",
-        "description": "Lounge/Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743961.jpg",
-        "description": "Lounge/Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743960.jpg",
-        "description": "Lounge/Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743962.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743963.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743965.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743964.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743967.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743966.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743968.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743970.jpg",
-        "description": "Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743969.jpg",
-        "description": "Bathroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743971.jpg",
-        "description": "Outside"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743973.jpg",
-        "description": "Outside"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/384024/Image/6743972.jpg",
-        "description": "Silverbank Crescent Cul-De-Sac"
-      }
-    ]
-  },
-  {
     "id": "aspc_437734",
     "provider_id": "437734",
     "provider": "ASPC",
@@ -6651,7 +7237,7 @@
       "lng": -2.17654160199128
     },
     "published_datetime": "2025-10-22T11:59:11.477000",
-    "retrieved_datetime": "2026-01-08T18:44:58.991402Z",
+    "retrieved_datetime": "2026-01-09T17:46:17.423988Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384297/Image/6773108.jpg",
@@ -6785,7 +7371,7 @@
       "lng": -2.22908837116394
     },
     "published_datetime": "2025-10-21T11:27:00.777000",
-    "retrieved_datetime": "2026-01-08T18:45:00.274865Z",
+    "retrieved_datetime": "2026-01-09T17:46:17.916225Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384761/Image/6762982.jpg",
@@ -6871,7 +7457,7 @@
       "lng": -2.2665676
     },
     "published_datetime": "2025-10-20T16:22:27.273000",
-    "retrieved_datetime": "2026-01-08T18:45:00.681221Z",
+    "retrieved_datetime": "2026-01-09T17:46:18.373956Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384752/Image/6696192.jpg",
@@ -6965,7 +7551,7 @@
       "lng": -2.17700045753326
     },
     "published_datetime": "2025-10-20T10:22:14.017000",
-    "retrieved_datetime": "2026-01-08T18:45:01.057594Z",
+    "retrieved_datetime": "2026-01-09T17:46:18.840142Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/376256/Image/6694844.jpg",
@@ -7035,7 +7621,7 @@
       "lng": -2.37579223382949
     },
     "published_datetime": "2025-10-18T09:36:39.127000",
-    "retrieved_datetime": "2026-01-08T18:45:01.470974Z",
+    "retrieved_datetime": "2026-01-09T17:46:19.276972Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384716/Image/6693943.jpg",
@@ -7121,7 +7707,7 @@
       "lng": -2.25012504880982
     },
     "published_datetime": "2025-10-16T13:10:48.313000",
-    "retrieved_datetime": "2026-01-08T18:45:01.993930Z",
+    "retrieved_datetime": "2026-01-09T17:46:19.721891Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384672/Image/6722388.jpg",
@@ -7211,7 +7797,7 @@
       "lng": -2.268536
     },
     "published_datetime": "2025-10-15T12:13:18.983000",
-    "retrieved_datetime": "2026-01-08T18:45:02.526730Z",
+    "retrieved_datetime": "2026-01-09T17:46:20.179143Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384417/Image/6686762.jpg",
@@ -7297,7 +7883,7 @@
       "lng": -2.2277166
     },
     "published_datetime": "2025-10-15T10:12:04.790000",
-    "retrieved_datetime": "2026-01-08T18:45:02.957228Z",
+    "retrieved_datetime": "2026-01-09T17:46:20.624607Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384617/Image/6778268.jpg",
@@ -7411,7 +7997,7 @@
       "lng": -2.1795913
     },
     "published_datetime": "2025-10-14T15:12:17.400000",
-    "retrieved_datetime": "2026-01-08T18:45:03.377897Z",
+    "retrieved_datetime": "2026-01-09T17:46:21.069482Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384601/Image/6686261.jpg",
@@ -7537,7 +8123,7 @@
       "lng": -2.4887159
     },
     "published_datetime": "2025-10-14T09:55:43.693000",
-    "retrieved_datetime": "2026-01-08T18:45:03.791467Z",
+    "retrieved_datetime": "2026-01-09T17:46:21.531904Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384584/Image/6776844.jpg",
@@ -7627,7 +8213,7 @@
       "lng": -2.49564529325409
     },
     "published_datetime": "2025-10-13T12:41:23.700000",
-    "retrieved_datetime": "2026-01-08T18:45:04.192453Z",
+    "retrieved_datetime": "2026-01-09T17:46:21.958106Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384205/Image/6683780.jpg",
@@ -7733,7 +8319,7 @@
       "lng": -2.2425279
     },
     "published_datetime": "2025-10-13T10:08:03.073000",
-    "retrieved_datetime": "2026-01-08T18:45:04.689137Z",
+    "retrieved_datetime": "2026-01-09T17:46:22.569929Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384539/Image/6681875.jpg",
@@ -7851,7 +8437,7 @@
       "lng": -2.27311092764739
     },
     "published_datetime": "2025-10-10T14:49:58.867000",
-    "retrieved_datetime": "2026-01-08T18:45:05.110963Z",
+    "retrieved_datetime": "2026-01-09T17:46:23.010201Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384542/Image/6709108.jpg",
@@ -7945,7 +8531,7 @@
       "lng": -2.164901
     },
     "published_datetime": "2025-10-10T14:48:42.283000",
-    "retrieved_datetime": "2026-01-08T18:45:05.524614Z",
+    "retrieved_datetime": "2026-01-09T17:46:23.572755Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384543/Image/6682019.jpg",
@@ -8075,7 +8661,7 @@
       "lng": -2.2752336
     },
     "published_datetime": "2025-10-10T09:24:12.940000",
-    "retrieved_datetime": "2026-01-08T18:45:05.923145Z",
+    "retrieved_datetime": "2026-01-09T17:46:24.041092Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383936/Image/6765778.jpg",
@@ -8149,7 +8735,7 @@
       "lng": -2.48514172394257
     },
     "published_datetime": "2025-10-09T10:02:26.427000",
-    "retrieved_datetime": "2026-01-08T18:45:06.432331Z",
+    "retrieved_datetime": "2026-01-09T17:46:24.602361Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384103/Image/6737695.jpg",
@@ -8279,7 +8865,7 @@
       "lng": -2.3410883
     },
     "published_datetime": "2025-10-08T12:30:02.060000",
-    "retrieved_datetime": "2026-01-08T18:45:06.951667Z",
+    "retrieved_datetime": "2026-01-09T17:46:25.888783Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384470/Image/6776778.jpg",
@@ -8413,7 +8999,7 @@
       "lng": -2.2281171
     },
     "published_datetime": "2025-10-08T09:47:13.457000",
-    "retrieved_datetime": "2026-01-08T18:45:07.357654Z",
+    "retrieved_datetime": "2026-01-09T17:46:26.322827Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384459/Image/6734335.jpg",
@@ -8487,7 +9073,7 @@
       "lng": -2.2281171
     },
     "published_datetime": "2025-10-08T09:37:55.653000",
-    "retrieved_datetime": "2026-01-08T18:45:07.832619Z",
+    "retrieved_datetime": "2026-01-09T17:46:26.760090Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384460/Image/6705586.jpg",
@@ -8557,7 +9143,7 @@
       "lng": -2.2425279
     },
     "published_datetime": "2025-10-07T13:33:50.577000",
-    "retrieved_datetime": "2026-01-08T18:45:08.316836Z",
+    "retrieved_datetime": "2026-01-09T17:46:27.380505Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384430/Image/6674188.jpg",
@@ -8675,7 +9261,7 @@
       "lng": -2.2711684
     },
     "published_datetime": "2025-10-07T12:27:37.810000",
-    "retrieved_datetime": "2026-01-08T18:45:08.849884Z",
+    "retrieved_datetime": "2026-01-09T17:46:27.984641Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384428/Image/6770498.jpg",
@@ -8813,7 +9399,7 @@
       "lng": -2.20296105690002
     },
     "published_datetime": "2025-10-06T16:55:27.467000",
-    "retrieved_datetime": "2026-01-08T18:45:09.811499Z",
+    "retrieved_datetime": "2026-01-09T17:46:28.389770Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384381/Image/6671360.jpg",
@@ -8835,7 +9421,7 @@
       "lng": -2.2370511
     },
     "published_datetime": "2025-10-06T15:52:29.080000",
-    "retrieved_datetime": "2026-01-08T18:45:10.336635Z",
+    "retrieved_datetime": "2026-01-09T17:46:28.963284Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384413/Image/6775864.jpg",
@@ -8941,7 +9527,7 @@
       "lng": -2.5051705
     },
     "published_datetime": "2025-10-06T14:38:14.267000",
-    "retrieved_datetime": "2026-01-08T18:45:10.934464Z",
+    "retrieved_datetime": "2026-01-09T17:46:29.481288Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384404/Image/6673362.jpg",
@@ -9035,7 +9621,7 @@
       "lng": -2.2003304
     },
     "published_datetime": "2025-10-06T11:09:10.480000",
-    "retrieved_datetime": "2026-01-08T18:45:11.424555Z",
+    "retrieved_datetime": "2026-01-09T17:46:30.024342Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384388/Image/6708798.jpg",
@@ -9157,7 +9743,7 @@
       "lng": -2.2419674
     },
     "published_datetime": "2025-10-03T13:28:13.507000",
-    "retrieved_datetime": "2026-01-08T18:45:12.114568Z",
+    "retrieved_datetime": "2026-01-09T17:46:30.557201Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384355/Image/6673783.jpg",
@@ -9283,7 +9869,7 @@
       "lng": -2.5346563
     },
     "published_datetime": "2025-10-02T18:44:11.520000",
-    "retrieved_datetime": "2026-01-08T18:45:12.679828Z",
+    "retrieved_datetime": "2026-01-09T17:46:31.004085Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384221/Image/6770160.jpg",
@@ -9381,7 +9967,7 @@
       "lng": -2.2573709
     },
     "published_datetime": "2025-10-02T17:39:04.630000",
-    "retrieved_datetime": "2026-01-08T18:45:13.091417Z",
+    "retrieved_datetime": "2026-01-09T17:46:31.490289Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384176/Image/6689787.jpg",
@@ -9519,7 +10105,7 @@
       "lng": -2.4957208
     },
     "published_datetime": "2025-10-02T11:55:20.843000",
-    "retrieved_datetime": "2026-01-08T18:45:13.599101Z",
+    "retrieved_datetime": "2026-01-09T17:46:32.034045Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384316/Image/6666634.jpg",
@@ -9625,7 +10211,7 @@
       "lng": -2.25303111104507
     },
     "published_datetime": "2025-10-02T10:13:27.580000",
-    "retrieved_datetime": "2026-01-08T18:45:14.132744Z",
+    "retrieved_datetime": "2026-01-09T17:46:32.664684Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383340/Image/6652573.jpg",
@@ -9723,7 +10309,7 @@
       "lng": -2.5393267
     },
     "published_datetime": "2025-10-02T10:07:35.277000",
-    "retrieved_datetime": "2026-01-08T18:45:14.659631Z",
+    "retrieved_datetime": "2026-01-09T17:46:33.321412Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383933/Image/6657488.jpg",
@@ -9829,7 +10415,7 @@
       "lng": -2.3408001
     },
     "published_datetime": "2025-10-01T17:16:15.877000",
-    "retrieved_datetime": "2026-01-08T18:45:15.072863Z",
+    "retrieved_datetime": "2026-01-09T17:46:33.774458Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384139/Image/6663390.jpg",
@@ -9951,7 +10537,7 @@
       "lng": -2.491432
     },
     "published_datetime": "2025-10-01T12:22:53.733000",
-    "retrieved_datetime": "2026-01-08T18:45:15.591427Z",
+    "retrieved_datetime": "2026-01-09T17:46:34.346195Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383524/Image/6729605.jpg",
@@ -10081,7 +10667,7 @@
       "lng": -2.21294574404144
     },
     "published_datetime": "2025-10-01T11:24:08.047000",
-    "retrieved_datetime": "2026-01-08T18:45:16.002172Z",
+    "retrieved_datetime": "2026-01-09T17:46:34.917255Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384276/Image/6666296.jpg",
@@ -10219,7 +10805,7 @@
       "lng": -2.2374464
     },
     "published_datetime": "2025-10-01T11:03:16.683000",
-    "retrieved_datetime": "2026-01-08T18:45:16.527965Z",
+    "retrieved_datetime": "2026-01-09T17:46:35.373636Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384271/Image/6778213.jpg",
@@ -10353,7 +10939,7 @@
       "lng": -2.246262
     },
     "published_datetime": "2025-09-30T16:44:40.653000",
-    "retrieved_datetime": "2026-01-08T18:45:16.905811Z",
+    "retrieved_datetime": "2026-01-09T17:46:35.816927Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384261/Image/6745947.jpg",
@@ -10387,7 +10973,7 @@
       "lng": -2.1932182
     },
     "published_datetime": "2025-09-30T12:46:21.650000",
-    "retrieved_datetime": "2026-01-08T18:45:17.447755Z",
+    "retrieved_datetime": "2026-01-09T17:46:37.012526Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384248/Image/6662484.jpg",
@@ -10525,7 +11111,7 @@
       "lng": -2.47169895501709
     },
     "published_datetime": "2025-09-29T15:39:31.693000",
-    "retrieved_datetime": "2026-01-08T18:45:17.938131Z",
+    "retrieved_datetime": "2026-01-09T17:46:37.579414Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383976/Image/6695750.jpg",
@@ -10663,7 +11249,7 @@
       "lng": -2.1734373
     },
     "published_datetime": "2025-09-26T16:33:55.597000",
-    "retrieved_datetime": "2026-01-08T18:45:18.456926Z",
+    "retrieved_datetime": "2026-01-09T17:46:38.171234Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384039/Image/6671785.jpg",
@@ -10777,7 +11363,7 @@
       "lng": -2.214287
     },
     "published_datetime": "2025-09-26T13:01:55.757000",
-    "retrieved_datetime": "2026-01-08T18:45:18.932612Z",
+    "retrieved_datetime": "2026-01-09T17:46:38.732233Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384179/Image/6685812.jpg",
@@ -10867,7 +11453,7 @@
       "lng": -2.2366711
     },
     "published_datetime": "2025-09-25T15:54:04.497000",
-    "retrieved_datetime": "2026-01-08T18:45:19.364785Z",
+    "retrieved_datetime": "2026-01-09T17:46:39.190102Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383437/Image/6748087.jpg",
@@ -10949,7 +11535,7 @@
       "lng": -2.2136822
     },
     "published_datetime": "2025-09-24T12:11:32.853000",
-    "retrieved_datetime": "2026-01-08T18:45:20.431479Z",
+    "retrieved_datetime": "2026-01-09T17:46:39.615860Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384106/Image/6659097.jpg",
@@ -11071,7 +11657,7 @@
       "lng": -2.249145
     },
     "published_datetime": "2025-09-23T17:25:46.307000",
-    "retrieved_datetime": "2026-01-08T18:45:20.916926Z",
+    "retrieved_datetime": "2026-01-09T17:46:40.129272Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/384096/Image/6673379.jpg",
@@ -11153,7 +11739,7 @@
       "lng": -2.1969278883606
     },
     "published_datetime": "2025-09-19T13:29:24.497000",
-    "retrieved_datetime": "2026-01-08T18:45:21.452790Z",
+    "retrieved_datetime": "2026-01-09T17:46:40.668122Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383718/Image/6765970.jpg",
@@ -11287,7 +11873,7 @@
       "lng": -2.21008086137694
     },
     "published_datetime": "2025-09-18T13:37:29.663000",
-    "retrieved_datetime": "2026-01-08T18:45:21.992721Z",
+    "retrieved_datetime": "2026-01-09T17:46:41.231791Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383977/Image/6642453.jpg",
@@ -11425,7 +12011,7 @@
       "lng": -2.1806922
     },
     "published_datetime": "2025-09-18T09:46:35.963000",
-    "retrieved_datetime": "2026-01-08T18:45:22.508353Z",
+    "retrieved_datetime": "2026-01-09T17:46:41.776434Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383884/Image/6749127.jpg",
@@ -11527,7 +12113,7 @@
       "lng": -2.4714721
     },
     "published_datetime": "2025-09-18T09:36:37.077000",
-    "retrieved_datetime": "2026-01-08T18:45:23.025516Z",
+    "retrieved_datetime": "2026-01-09T17:46:42.348434Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383958/Image/6767736.jpg",
@@ -11665,7 +12251,7 @@
       "lng": -2.1818142
     },
     "published_datetime": "2025-09-16T13:50:19.430000",
-    "retrieved_datetime": "2026-01-08T18:45:23.507857Z",
+    "retrieved_datetime": "2026-01-09T17:46:42.896910Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383237/Image/6637881.jpg",
@@ -11803,7 +12389,7 @@
       "lng": -2.25511
     },
     "published_datetime": "2025-09-11T16:45:00.793000",
-    "retrieved_datetime": "2026-01-08T18:45:23.906077Z",
+    "retrieved_datetime": "2026-01-09T17:46:43.357050Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383470/Image/6771457.jpg",
@@ -11925,7 +12511,7 @@
       "lng": -2.3420101767212
     },
     "published_datetime": "2025-09-11T13:19:41.590000",
-    "retrieved_datetime": "2026-01-08T18:45:24.271892Z",
+    "retrieved_datetime": "2026-01-09T17:46:43.809190Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383414/Image/6630530.jpg",
@@ -12023,7 +12609,7 @@
       "lng": -2.17358114847947
     },
     "published_datetime": "2025-09-08T12:07:08.770000",
-    "retrieved_datetime": "2026-01-08T18:45:24.821641Z",
+    "retrieved_datetime": "2026-01-09T17:46:44.358295Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383669/Image/6622727.jpg",
@@ -12157,7 +12743,7 @@
       "lng": -2.29566
     },
     "published_datetime": "2025-09-08T11:40:34.983000",
-    "retrieved_datetime": "2026-01-08T18:45:25.225365Z",
+    "retrieved_datetime": "2026-01-09T17:46:44.817679Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383664/Image/6623145.jpg",
@@ -12295,7 +12881,7 @@
       "lng": -2.224817
     },
     "published_datetime": "2025-09-05T10:10:43.600000",
-    "retrieved_datetime": "2026-01-08T18:45:25.718851Z",
+    "retrieved_datetime": "2026-01-09T17:46:45.263046Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383597/Image/6687739.jpg",
@@ -12421,7 +13007,7 @@
       "lng": -2.4835628
     },
     "published_datetime": "2025-09-03T15:12:42.070000",
-    "retrieved_datetime": "2026-01-08T18:45:26.195540Z",
+    "retrieved_datetime": "2026-01-09T17:46:45.807333Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/371665/Image/6615272.jpg",
@@ -12559,7 +13145,7 @@
       "lng": -2.17533
     },
     "published_datetime": "2025-09-03T12:07:40.363000",
-    "retrieved_datetime": "2026-01-08T18:45:26.725987Z",
+    "retrieved_datetime": "2026-01-09T17:46:46.263579Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383289/Image/6735473.jpg",
@@ -12697,7 +13283,7 @@
       "lng": -2.5373714
     },
     "published_datetime": "2025-09-02T13:38:39.953000",
-    "retrieved_datetime": "2026-01-08T18:45:27.264011Z",
+    "retrieved_datetime": "2026-01-09T17:46:46.889322Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383505/Image/6695957.jpg",
@@ -12835,7 +13421,7 @@
       "lng": -2.48617700912324
     },
     "published_datetime": "2025-09-02T11:51:21.187000",
-    "retrieved_datetime": "2026-01-08T18:45:27.677409Z",
+    "retrieved_datetime": "2026-01-09T17:46:47.941865Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383500/Image/6611654.jpg",
@@ -12921,7 +13507,7 @@
       "lng": -2.47470525833587
     },
     "published_datetime": "2025-09-01T16:23:37.277000",
-    "retrieved_datetime": "2026-01-08T18:45:28.182364Z",
+    "retrieved_datetime": "2026-01-09T17:46:48.527811Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382848/Image/6610434.jpg",
@@ -13059,7 +13645,7 @@
       "lng": -2.413354
     },
     "published_datetime": "2025-08-29T09:49:52.620000",
-    "retrieved_datetime": "2026-01-08T18:45:28.747574Z",
+    "retrieved_datetime": "2026-01-09T17:46:49.088335Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383155/Image/6751031.jpg",
@@ -13197,7 +13783,7 @@
       "lng": -2.1877942473297
     },
     "published_datetime": "2025-08-29T09:25:17.440000",
-    "retrieved_datetime": "2026-01-08T18:45:29.263632Z",
+    "retrieved_datetime": "2026-01-09T17:46:49.659972Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383052/Image/6654285.jpg",
@@ -13335,7 +13921,7 @@
       "lng": -2.260843
     },
     "published_datetime": "2025-08-28T15:00:59.333000",
-    "retrieved_datetime": "2026-01-08T18:45:29.778038Z",
+    "retrieved_datetime": "2026-01-09T17:46:50.233181Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383407/Image/6769869.jpg",
@@ -13473,7 +14059,7 @@
       "lng": -2.482675
     },
     "published_datetime": "2025-08-27T14:56:34.403000",
-    "retrieved_datetime": "2026-01-08T18:45:30.986960Z",
+    "retrieved_datetime": "2026-01-09T17:46:50.685073Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382898/Image/6769562.jpg",
@@ -13567,7 +14153,7 @@
       "lng": -2.4813006
     },
     "published_datetime": "2025-08-27T13:55:09.557000",
-    "retrieved_datetime": "2026-01-08T18:45:31.517706Z",
+    "retrieved_datetime": "2026-01-09T17:46:51.131385Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383368/Image/6601609.jpg",
@@ -13689,7 +14275,7 @@
       "lng": -2.17440515344239
     },
     "published_datetime": "2025-08-27T11:57:49.323000",
-    "retrieved_datetime": "2026-01-08T18:45:32.012635Z",
+    "retrieved_datetime": "2026-01-09T17:46:51.590848Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383116/Image/6590059.jpg",
@@ -13783,7 +14369,7 @@
       "lng": -2.2251392
     },
     "published_datetime": "2025-08-26T12:10:34.520000",
-    "retrieved_datetime": "2026-01-08T18:45:32.524441Z",
+    "retrieved_datetime": "2026-01-09T17:46:52.154268Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381237/Image/6690760.jpg",
@@ -13881,7 +14467,7 @@
       "lng": -2.48979001852418
     },
     "published_datetime": "2025-08-25T16:37:40.890000",
-    "retrieved_datetime": "2026-01-08T18:45:32.936624Z",
+    "retrieved_datetime": "2026-01-09T17:46:52.595881Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382846/Image/6597166.jpg",
@@ -13963,7 +14549,7 @@
       "lng": -2.48099727116395
     },
     "published_datetime": "2025-08-25T16:18:39.423000",
-    "retrieved_datetime": "2026-01-08T18:45:33.335271Z",
+    "retrieved_datetime": "2026-01-09T17:46:53.042212Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383302/Image/6776896.jpg",
@@ -14065,7 +14651,7 @@
       "lng": -2.2709956
     },
     "published_datetime": "2025-08-25T14:41:37.687000",
-    "retrieved_datetime": "2026-01-08T18:45:33.836276Z",
+    "retrieved_datetime": "2026-01-09T17:46:53.484648Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382769/Image/6597496.jpg",
@@ -14139,7 +14725,7 @@
       "lng": -2.1682567
     },
     "published_datetime": "2025-08-25T12:43:57.450000",
-    "retrieved_datetime": "2026-01-08T18:45:34.354211Z",
+    "retrieved_datetime": "2026-01-09T17:46:54.037856Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383294/Image/6730582.jpg",
@@ -14277,7 +14863,7 @@
       "lng": -2.4824864
     },
     "published_datetime": "2025-08-21T14:31:13.280000",
-    "retrieved_datetime": "2026-01-08T18:45:34.841842Z",
+    "retrieved_datetime": "2026-01-09T17:46:54.495464Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382739/Image/6746445.jpg",
@@ -14391,7 +14977,7 @@
       "lng": -2.2557062
     },
     "published_datetime": "2025-08-20T11:21:27.357000",
-    "retrieved_datetime": "2026-01-08T18:45:35.416660Z",
+    "retrieved_datetime": "2026-01-09T17:46:55.164238Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382616/Image/6591250.jpg",
@@ -14525,7 +15111,7 @@
       "lng": -2.20298251457214
     },
     "published_datetime": "2025-08-19T10:36:20.753000",
-    "retrieved_datetime": "2026-01-08T18:45:36.008146Z",
+    "retrieved_datetime": "2026-01-09T17:46:55.755674Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383105/Image/6720615.jpg",
@@ -14663,7 +15249,7 @@
       "lng": -2.2030791
     },
     "published_datetime": "2025-08-18T16:19:06.627000",
-    "retrieved_datetime": "2026-01-08T18:45:36.552039Z",
+    "retrieved_datetime": "2026-01-09T17:46:56.307090Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382861/Image/6584874.jpg",
@@ -14761,7 +15347,7 @@
       "lng": -2.266613
     },
     "published_datetime": "2025-08-15T15:50:51.777000",
-    "retrieved_datetime": "2026-01-08T18:45:37.134874Z",
+    "retrieved_datetime": "2026-01-09T17:46:56.752682Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382617/Image/6581943.jpg",
@@ -14847,7 +15433,7 @@
       "lng": -2.2693926
     },
     "published_datetime": "2025-08-15T15:45:40.563000",
-    "retrieved_datetime": "2026-01-08T18:45:37.591476Z",
+    "retrieved_datetime": "2026-01-09T17:46:57.201045Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382618/Image/6568243.jpg",
@@ -14917,7 +15503,7 @@
       "lng": -2.24008482547837
     },
     "published_datetime": "2025-08-14T15:43:14.143000",
-    "retrieved_datetime": "2026-01-08T18:45:37.995919Z",
+    "retrieved_datetime": "2026-01-09T17:46:57.647086Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/383037/Image/6724227.jpg",
@@ -15019,7 +15605,7 @@
       "lng": -2.23253793464051
     },
     "published_datetime": "2025-08-12T11:55:04.573000",
-    "retrieved_datetime": "2026-01-08T18:45:38.598721Z",
+    "retrieved_datetime": "2026-01-09T17:46:58.858579Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382701/Image/6571829.jpg",
@@ -15153,7 +15739,7 @@
       "lng": -2.2503925
     },
     "published_datetime": "2025-08-06T06:54:31.880000",
-    "retrieved_datetime": "2026-01-08T18:45:39.119832Z",
+    "retrieved_datetime": "2026-01-09T17:46:59.431592Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382441/Image/6774771.jpg",
@@ -15267,7 +15853,7 @@
       "lng": -2.4948809
     },
     "published_datetime": "2025-08-01T14:30:43.753000",
-    "retrieved_datetime": "2026-01-08T18:45:39.561528Z",
+    "retrieved_datetime": "2026-01-09T17:46:59.896271Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382692/Image/6776805.jpg",
@@ -15353,7 +15939,7 @@
       "lng": -2.4889466
     },
     "published_datetime": "2025-07-31T11:38:57.650000",
-    "retrieved_datetime": "2026-01-08T18:45:40.085173Z",
+    "retrieved_datetime": "2026-01-09T17:47:00.455147Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382258/Image/6689826.jpg",
@@ -15467,7 +16053,7 @@
       "lng": -2.20063289947509
     },
     "published_datetime": "2025-07-30T17:20:34.937000",
-    "retrieved_datetime": "2026-01-08T18:45:40.709579Z",
+    "retrieved_datetime": "2026-01-09T17:47:00.990889Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382487/Image/6575026.jpg",
@@ -15605,7 +16191,7 @@
       "lng": -2.49955251108399
     },
     "published_datetime": "2025-07-29T16:44:00.383000",
-    "retrieved_datetime": "2026-01-08T18:45:41.750599Z",
+    "retrieved_datetime": "2026-01-09T17:47:01.447290Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382595/Image/6700992.jpg",
@@ -15659,7 +16245,7 @@
       "lng": -2.2662706
     },
     "published_datetime": "2025-07-29T16:09:42.123000",
-    "retrieved_datetime": "2026-01-08T18:45:42.209220Z",
+    "retrieved_datetime": "2026-01-09T17:47:01.909062Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382584/Image/6696315.jpg",
@@ -15737,7 +16323,7 @@
       "lng": -2.37403608518067
     },
     "published_datetime": "2025-07-29T10:31:41.847000",
-    "retrieved_datetime": "2026-01-08T18:45:42.751512Z",
+    "retrieved_datetime": "2026-01-09T17:47:02.486127Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382231/Image/6680801.jpg",
@@ -15859,7 +16445,7 @@
       "lng": -2.1766179
     },
     "published_datetime": "2025-07-28T15:02:33.810000",
-    "retrieved_datetime": "2026-01-08T18:45:43.151184Z",
+    "retrieved_datetime": "2026-01-09T17:47:02.955217Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382541/Image/6754021.jpg",
@@ -15957,7 +16543,7 @@
       "lng": -2.21590506878662
     },
     "published_datetime": "2025-07-25T14:45:46.210000",
-    "retrieved_datetime": "2026-01-08T18:45:43.669037Z",
+    "retrieved_datetime": "2026-01-09T17:47:03.490473Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382493/Image/6749041.jpg",
@@ -16095,7 +16681,7 @@
       "lng": -2.2017683
     },
     "published_datetime": "2025-07-24T17:28:55.767000",
-    "retrieved_datetime": "2026-01-08T18:45:44.169375Z",
+    "retrieved_datetime": "2026-01-09T17:47:04.061409Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381488/Image/6717673.jpg",
@@ -16225,7 +16811,7 @@
       "lng": -2.2022199
     },
     "published_datetime": "2025-07-24T11:08:57.217000",
-    "retrieved_datetime": "2026-01-08T18:45:44.874943Z",
+    "retrieved_datetime": "2026-01-09T17:47:04.515516Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382444/Image/6652421.jpg",
@@ -16351,7 +16937,7 @@
       "lng": -2.5024315
     },
     "published_datetime": "2025-07-23T15:47:20.893000",
-    "retrieved_datetime": "2026-01-08T18:45:45.265910Z",
+    "retrieved_datetime": "2026-01-09T17:47:04.966509Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382423/Image/6539110.jpg",
@@ -16433,7 +17019,7 @@
       "lng": -2.2746811
     },
     "published_datetime": "2025-07-23T15:03:58.880000",
-    "retrieved_datetime": "2026-01-08T18:45:45.669735Z",
+    "retrieved_datetime": "2026-01-09T17:47:05.398790Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382424/Image/6694237.jpg",
@@ -16503,7 +17089,7 @@
       "lng": -2.173976
     },
     "published_datetime": "2025-07-23T14:39:30.660000",
-    "retrieved_datetime": "2026-01-08T18:45:46.130485Z",
+    "retrieved_datetime": "2026-01-09T17:47:05.856682Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382060/Image/6779382.jpg",
@@ -16617,7 +17203,7 @@
       "lng": -2.5425578
     },
     "published_datetime": "2025-07-23T13:28:44.620000",
-    "retrieved_datetime": "2026-01-08T18:45:46.690217Z",
+    "retrieved_datetime": "2026-01-09T17:47:06.415663Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381956/Image/6532076.jpg",
@@ -16719,7 +17305,7 @@
       "lng": -2.53497803862304
     },
     "published_datetime": "2025-07-23T13:23:35.717000",
-    "retrieved_datetime": "2026-01-08T18:45:47.088607Z",
+    "retrieved_datetime": "2026-01-09T17:47:06.987154Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382415/Image/6538649.jpg",
@@ -16829,7 +17415,7 @@
       "lng": -2.2524687
     },
     "published_datetime": "2025-07-23T11:14:15.720000",
-    "retrieved_datetime": "2026-01-08T18:45:47.621664Z",
+    "retrieved_datetime": "2026-01-09T17:47:07.532286Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382407/Image/6539755.jpg",
@@ -16967,7 +17553,7 @@
       "lng": -2.1963145
     },
     "published_datetime": "2025-07-22T13:28:48.927000",
-    "retrieved_datetime": "2026-01-08T18:45:48.045328Z",
+    "retrieved_datetime": "2026-01-09T17:47:07.989773Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382355/Image/6673082.jpg",
@@ -16989,7 +17575,7 @@
       "lng": -2.1782513
     },
     "published_datetime": "2025-07-21T16:05:34.987000",
-    "retrieved_datetime": "2026-01-08T18:45:48.631068Z",
+    "retrieved_datetime": "2026-01-09T17:47:08.434070Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377374/Image/6718682.jpg",
@@ -17079,7 +17665,7 @@
       "lng": -2.4772446
     },
     "published_datetime": "2025-07-21T12:50:43.223000",
-    "retrieved_datetime": "2026-01-08T18:45:49.115180Z",
+    "retrieved_datetime": "2026-01-09T17:47:09.595975Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381976/Image/6534273.jpg",
@@ -17105,7 +17691,7 @@
       "lng": -2.20296808475951
     },
     "published_datetime": "2025-07-19T10:07:30.737000",
-    "retrieved_datetime": "2026-01-08T18:45:49.491666Z",
+    "retrieved_datetime": "2026-01-09T17:47:10.043836Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382247/Image/6676894.jpg",
@@ -17151,7 +17737,7 @@
       "lng": -2.4841161
     },
     "published_datetime": "2025-07-18T16:29:45.870000",
-    "retrieved_datetime": "2026-01-08T18:45:50.016435Z",
+    "retrieved_datetime": "2026-01-09T17:47:10.607648Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382337/Image/6583137.jpg",
@@ -17285,7 +17871,7 @@
       "lng": -2.54024067514649
     },
     "published_datetime": "2025-07-18T09:53:03.497000",
-    "retrieved_datetime": "2026-01-08T18:45:50.490530Z",
+    "retrieved_datetime": "2026-01-09T17:47:11.110405Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381853/Image/6585822.jpg",
@@ -17383,7 +17969,7 @@
       "lng": -2.20294662708739
     },
     "published_datetime": "2025-07-17T09:12:04.297000",
-    "retrieved_datetime": "2026-01-08T18:45:50.853595Z",
+    "retrieved_datetime": "2026-01-09T17:47:11.521099Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378397/Image/6676947.jpg",
@@ -17405,7 +17991,7 @@
       "lng": -2.5060899
     },
     "published_datetime": "2025-07-16T09:41:29.250000",
-    "retrieved_datetime": "2026-01-08T18:45:51.931910Z",
+    "retrieved_datetime": "2026-01-09T17:47:11.943222Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382208/Image/6521661.jpg",
@@ -17499,7 +18085,7 @@
       "lng": -2.1772278
     },
     "published_datetime": "2025-07-15T17:38:02.220000",
-    "retrieved_datetime": "2026-01-08T18:45:52.360730Z",
+    "retrieved_datetime": "2026-01-09T17:47:12.515572Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380398/Image/6680283.jpg",
@@ -17585,7 +18171,7 @@
       "lng": -2.47391
     },
     "published_datetime": "2025-07-09T16:03:46.787000",
-    "retrieved_datetime": "2026-01-08T18:45:52.773981Z",
+    "retrieved_datetime": "2026-01-09T17:47:12.980018Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/382039/Image/6777605.jpg",
@@ -17687,7 +18273,7 @@
       "lng": -2.30847720602111
     },
     "published_datetime": "2025-07-04T14:13:44.603000",
-    "retrieved_datetime": "2026-01-08T18:45:53.498451Z",
+    "retrieved_datetime": "2026-01-09T17:47:13.513815Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381486/Image/6758340.jpg",
@@ -17821,7 +18407,7 @@
       "lng": -2.2027024
     },
     "published_datetime": "2025-07-01T11:31:08.613000",
-    "retrieved_datetime": "2026-01-08T18:45:54.029007Z",
+    "retrieved_datetime": "2026-01-09T17:47:14.060662Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381005/Image/6751867.jpg",
@@ -17959,7 +18545,7 @@
       "lng": -2.500374
     },
     "published_datetime": "2025-06-30T14:46:34.767000",
-    "retrieved_datetime": "2026-01-08T18:45:54.558889Z",
+    "retrieved_datetime": "2026-01-09T17:47:14.614020Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380665/Image/6669881.jpg",
@@ -18093,7 +18679,7 @@
       "lng": -2.17302955026244
     },
     "published_datetime": "2025-06-30T11:56:55.620000",
-    "retrieved_datetime": "2026-01-08T18:45:54.973512Z",
+    "retrieved_datetime": "2026-01-09T17:47:15.065028Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381759/Image/6639207.jpg",
@@ -18171,7 +18757,7 @@
       "lng": -2.2616495
     },
     "published_datetime": "2025-06-27T15:59:22.317000",
-    "retrieved_datetime": "2026-01-08T18:45:55.601791Z",
+    "retrieved_datetime": "2026-01-09T17:47:15.633870Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381220/Image/6746003.jpg",
@@ -18305,7 +18891,7 @@
       "lng": -2.27227757672118
     },
     "published_datetime": "2025-06-25T10:35:45.643000",
-    "retrieved_datetime": "2026-01-08T18:45:56.002924Z",
+    "retrieved_datetime": "2026-01-09T17:47:16.063789Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381641/Image/6484043.jpg",
@@ -18379,7 +18965,7 @@
       "lng": -2.1863941
     },
     "published_datetime": "2025-06-23T17:09:44.400000",
-    "retrieved_datetime": "2026-01-08T18:45:56.659582Z",
+    "retrieved_datetime": "2026-01-09T17:47:16.510278Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381248/Image/6693570.jpg",
@@ -18513,7 +19099,7 @@
       "lng": -2.50770299021302
     },
     "published_datetime": "2025-06-23T10:32:53.977000",
-    "retrieved_datetime": "2026-01-08T18:45:57.480636Z",
+    "retrieved_datetime": "2026-01-09T17:47:16.960971Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381549/Image/6760205.jpg",
@@ -18607,7 +19193,7 @@
       "lng": -2.273999
     },
     "published_datetime": "2025-06-19T16:20:03.300000",
-    "retrieved_datetime": "2026-01-08T18:45:57.991890Z",
+    "retrieved_datetime": "2026-01-09T17:47:17.417009Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380726/Image/6472288.jpg",
@@ -18705,7 +19291,7 @@
       "lng": -2.4821195
     },
     "published_datetime": "2025-06-19T11:14:13.320000",
-    "retrieved_datetime": "2026-01-08T18:45:58.528107Z",
+    "retrieved_datetime": "2026-01-09T17:47:17.944228Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381033/Image/6471056.jpg",
@@ -18843,7 +19429,7 @@
       "lng": -2.239372
     },
     "published_datetime": "2025-06-12T10:20:01.103000",
-    "retrieved_datetime": "2026-01-08T18:45:59.031067Z",
+    "retrieved_datetime": "2026-01-09T17:47:18.511202Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380961/Image/6647774.jpg",
@@ -18981,7 +19567,7 @@
       "lng": -2.5602828
     },
     "published_datetime": "2025-06-09T13:35:10.260000",
-    "retrieved_datetime": "2026-01-08T18:45:59.531783Z",
+    "retrieved_datetime": "2026-01-09T17:47:19.059948Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380699/Image/6662144.jpg",
@@ -19111,7 +19697,7 @@
       "lng": -2.20106890859832
     },
     "published_datetime": "2025-06-05T10:25:20.803000",
-    "retrieved_datetime": "2026-01-08T18:46:00.032628Z",
+    "retrieved_datetime": "2026-01-09T17:47:20.306548Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/381008/Image/6441924.jpg",
@@ -19249,7 +19835,7 @@
       "lng": -2.266613
     },
     "published_datetime": "2025-06-04T11:44:54.747000",
-    "retrieved_datetime": "2026-01-08T18:46:00.715041Z",
+    "retrieved_datetime": "2026-01-09T17:47:20.751598Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380971/Image/6656588.jpg",
@@ -19387,7 +19973,7 @@
       "lng": -2.20898677168884
     },
     "published_datetime": "2025-05-30T13:06:56.430000",
-    "retrieved_datetime": "2026-01-08T18:46:01.283808Z",
+    "retrieved_datetime": "2026-01-09T17:47:21.308298Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380368/Image/6420062.jpg",
@@ -19521,7 +20107,7 @@
       "lng": -2.2356663
     },
     "published_datetime": "2025-05-29T12:22:50.470000",
-    "retrieved_datetime": "2026-01-08T18:46:01.831458Z",
+    "retrieved_datetime": "2026-01-09T17:47:21.771268Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380788/Image/6721107.jpg",
@@ -19651,7 +20237,7 @@
       "lng": -2.5071893
     },
     "published_datetime": "2025-05-28T16:13:26.560000",
-    "retrieved_datetime": "2026-01-08T18:46:02.252564Z",
+    "retrieved_datetime": "2026-01-09T17:47:22.229709Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380758/Image/6612912.jpg",
@@ -19757,7 +20343,7 @@
       "lng": -2.50765471045075
     },
     "published_datetime": "2025-05-27T17:18:43.047000",
-    "retrieved_datetime": "2026-01-08T18:46:03.395230Z",
+    "retrieved_datetime": "2026-01-09T17:47:22.677025Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380723/Image/6425099.jpg",
@@ -19863,7 +20449,7 @@
       "lng": -2.43853109224854
     },
     "published_datetime": "2025-05-26T16:20:49.867000",
-    "retrieved_datetime": "2026-01-08T18:46:03.870291Z",
+    "retrieved_datetime": "2026-01-09T17:47:23.204296Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380204/Image/6421894.jpg",
@@ -20001,7 +20587,7 @@
       "lng": -2.47929045396729
     },
     "published_datetime": "2025-05-26T13:00:51.150000",
-    "retrieved_datetime": "2026-01-08T18:46:04.300357Z",
+    "retrieved_datetime": "2026-01-09T17:47:23.778915Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380659/Image/6682705.jpg",
@@ -20135,7 +20721,7 @@
       "lng": -2.186821
     },
     "published_datetime": "2025-05-19T13:36:12.307000",
-    "retrieved_datetime": "2026-01-08T18:46:04.804379Z",
+    "retrieved_datetime": "2026-01-09T17:47:24.351995Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380427/Image/6588320.jpg",
@@ -20229,7 +20815,7 @@
       "lng": -2.33876269577027
     },
     "published_datetime": "2025-05-19T13:11:28.770000",
-    "retrieved_datetime": "2026-01-08T18:46:05.385031Z",
+    "retrieved_datetime": "2026-01-09T17:47:24.888595Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379814/Image/6480591.jpg",
@@ -20367,7 +20953,7 @@
       "lng": -2.1898194
     },
     "published_datetime": "2025-05-19T12:40:02.653000",
-    "retrieved_datetime": "2026-01-08T18:46:05.992246Z",
+    "retrieved_datetime": "2026-01-09T17:47:25.426733Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379645/Image/6760124.jpg",
@@ -20493,7 +21079,7 @@
       "lng": -2.28592265359497
     },
     "published_datetime": "2025-05-17T09:23:50.227000",
-    "retrieved_datetime": "2026-01-08T18:46:06.434860Z",
+    "retrieved_datetime": "2026-01-09T17:47:25.885407Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/380401/Image/6405226.jpg",
@@ -20583,7 +21169,7 @@
       "lng": -2.2755115
     },
     "published_datetime": "2025-05-14T10:32:44.493000",
-    "retrieved_datetime": "2026-01-08T18:46:07.061699Z",
+    "retrieved_datetime": "2026-01-09T17:47:26.478591Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379319/Image/6637692.jpg",
@@ -20693,7 +21279,7 @@
       "lng": -2.24209556315994
     },
     "published_datetime": "2025-05-03T09:37:42.207000",
-    "retrieved_datetime": "2026-01-08T18:46:07.698929Z",
+    "retrieved_datetime": "2026-01-09T17:47:27.046098Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379955/Image/6410248.jpg",
@@ -20827,7 +21413,7 @@
       "lng": -2.4903365
     },
     "published_datetime": "2025-05-01T11:04:14.327000",
-    "retrieved_datetime": "2026-01-08T18:46:08.274836Z",
+    "retrieved_datetime": "2026-01-09T17:47:27.488709Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379879/Image/6769621.jpg",
@@ -20893,7 +21479,7 @@
       "lng": -2.18684
     },
     "published_datetime": "2025-04-30T12:22:16.257000",
-    "retrieved_datetime": "2026-01-08T18:46:08.810739Z",
+    "retrieved_datetime": "2026-01-09T17:47:28.070508Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379845/Image/6724947.jpg",
@@ -21031,7 +21617,7 @@
       "lng": -2.2740364
     },
     "published_datetime": "2025-04-29T11:23:10.487000",
-    "retrieved_datetime": "2026-01-08T18:46:09.278577Z",
+    "retrieved_datetime": "2026-01-09T17:47:28.538908Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379783/Image/6440757.jpg",
@@ -21101,7 +21687,7 @@
       "lng": -2.239798
     },
     "published_datetime": "2025-04-22T13:46:55.740000",
-    "retrieved_datetime": "2026-01-08T18:46:09.795436Z",
+    "retrieved_datetime": "2026-01-09T17:47:29.139536Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379139/Image/6493098.jpg",
@@ -21239,7 +21825,7 @@
       "lng": -2.49039613054963
     },
     "published_datetime": "2025-04-17T13:35:51.277000",
-    "retrieved_datetime": "2026-01-08T18:46:10.202481Z",
+    "retrieved_datetime": "2026-01-09T17:47:29.586664Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379484/Image/6736319.jpg",
@@ -21377,7 +21963,7 @@
       "lng": -2.1892997382843
     },
     "published_datetime": "2025-04-10T17:27:43.527000",
-    "retrieved_datetime": "2026-01-08T18:46:10.611496Z",
+    "retrieved_datetime": "2026-01-09T17:47:30.045075Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/379223/Image/6529985.jpg",
@@ -21515,7 +22101,7 @@
       "lng": -2.20779298954926
     },
     "published_datetime": "2025-04-10T10:05:08.693000",
-    "retrieved_datetime": "2026-01-08T18:46:11.111687Z",
+    "retrieved_datetime": "2026-01-09T17:47:31.247756Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378633/Image/6619982.jpg",
@@ -21641,7 +22227,7 @@
       "lng": -2.23664919482879
     },
     "published_datetime": "2025-04-09T16:06:02.613000",
-    "retrieved_datetime": "2026-01-08T18:46:11.800162Z",
+    "retrieved_datetime": "2026-01-09T17:47:31.820229Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378365/Image/6541133.jpg",
@@ -21779,7 +22365,7 @@
       "lng": -2.34526630818176
     },
     "published_datetime": "2025-04-08T16:40:28.127000",
-    "retrieved_datetime": "2026-01-08T18:46:12.359871Z",
+    "retrieved_datetime": "2026-01-09T17:47:32.356300Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378872/Image/6321344.jpg",
@@ -21909,7 +22495,7 @@
       "lng": -2.203741
     },
     "published_datetime": "2025-04-02T15:13:26.277000",
-    "retrieved_datetime": "2026-01-08T18:46:12.855956Z",
+    "retrieved_datetime": "2026-01-09T17:47:32.916478Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378971/Image/6525629.jpg",
@@ -22043,7 +22629,7 @@
       "lng": -2.1780106
     },
     "published_datetime": "2025-04-02T12:03:16.007000",
-    "retrieved_datetime": "2026-01-08T18:46:13.401437Z",
+    "retrieved_datetime": "2026-01-09T17:47:33.373323Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378514/Image/6341156.jpg",
@@ -22169,7 +22755,7 @@
       "lng": -2.49079297301636
     },
     "published_datetime": "2025-04-01T16:07:13.967000",
-    "retrieved_datetime": "2026-01-08T18:46:14.374811Z",
+    "retrieved_datetime": "2026-01-09T17:47:33.942412Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378924/Image/6776750.jpg",
@@ -22291,7 +22877,7 @@
       "lng": -2.1993312
     },
     "published_datetime": "2025-03-31T16:21:50.150000",
-    "retrieved_datetime": "2026-01-08T18:46:14.979336Z",
+    "retrieved_datetime": "2026-01-09T17:47:34.492822Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377758/Image/6735416.jpg",
@@ -22405,7 +22991,7 @@
       "lng": -2.48049769133225
     },
     "published_datetime": "2025-03-31T11:19:00.153000",
-    "retrieved_datetime": "2026-01-08T18:46:15.485119Z",
+    "retrieved_datetime": "2026-01-09T17:47:35.071165Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378486/Image/6589577.jpg",
@@ -22515,7 +23101,7 @@
       "lng": -2.18771831904908
     },
     "published_datetime": "2025-03-27T16:28:12.287000",
-    "retrieved_datetime": "2026-01-08T18:46:16.026547Z",
+    "retrieved_datetime": "2026-01-09T17:47:35.631282Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378568/Image/6752210.jpg",
@@ -22649,7 +23235,7 @@
       "lng": -2.2756583
     },
     "published_datetime": "2025-03-27T15:44:06.193000",
-    "retrieved_datetime": "2026-01-08T18:46:16.435217Z",
+    "retrieved_datetime": "2026-01-09T17:47:36.088824Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378492/Image/6684351.jpg",
@@ -22755,7 +23341,7 @@
       "lng": -2.1654592
     },
     "published_datetime": "2025-03-24T17:46:41.360000",
-    "retrieved_datetime": "2026-01-08T18:46:16.828920Z",
+    "retrieved_datetime": "2026-01-09T17:47:36.532095Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378670/Image/6703913.jpg",
@@ -22837,7 +23423,7 @@
       "lng": -2.1767613
     },
     "published_datetime": "2025-03-14T11:46:49.973000",
-    "retrieved_datetime": "2026-01-08T18:46:17.350610Z",
+    "retrieved_datetime": "2026-01-09T17:47:37.130058Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/378024/Image/6771367.jpg",
@@ -22927,7 +23513,7 @@
       "lng": -2.2727281
     },
     "published_datetime": "2025-03-03T11:40:32.867000",
-    "retrieved_datetime": "2026-01-08T18:46:17.765812Z",
+    "retrieved_datetime": "2026-01-09T17:47:37.566890Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377330/Image/6254335.jpg",
@@ -23021,7 +23607,7 @@
       "lng": -2.1794612
     },
     "published_datetime": "2025-02-24T13:51:14.827000",
-    "retrieved_datetime": "2026-01-08T18:46:18.268363Z",
+    "retrieved_datetime": "2026-01-09T17:47:38.115385Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377066/Image/6759217.jpg",
@@ -23159,7 +23745,7 @@
       "lng": -2.400553
     },
     "published_datetime": "2025-02-24T12:09:27.327000",
-    "retrieved_datetime": "2026-01-08T18:46:18.808591Z",
+    "retrieved_datetime": "2026-01-09T17:47:38.680282Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377323/Image/6666381.jpg",
@@ -23293,7 +23879,7 @@
       "lng": -2.48249826109925
     },
     "published_datetime": "2025-02-19T15:16:40.053000",
-    "retrieved_datetime": "2026-01-08T18:46:19.363782Z",
+    "retrieved_datetime": "2026-01-09T17:47:39.243730Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377732/Image/6625500.jpg",
@@ -23431,7 +24017,7 @@
       "lng": -2.477177
     },
     "published_datetime": "2025-02-10T12:23:00.617000",
-    "retrieved_datetime": "2026-01-08T18:46:19.881544Z",
+    "retrieved_datetime": "2026-01-09T17:47:39.822049Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/376870/Image/6670156.jpg",
@@ -23569,7 +24155,7 @@
       "lng": -2.22943
     },
     "published_datetime": "2025-02-06T11:30:42.817000",
-    "retrieved_datetime": "2026-01-08T18:46:20.402728Z",
+    "retrieved_datetime": "2026-01-09T17:47:40.400408Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377282/Image/6766426.jpg",
@@ -23687,7 +24273,7 @@
       "lng": -2.50607917116394
     },
     "published_datetime": "2025-02-05T16:04:35.973000",
-    "retrieved_datetime": "2026-01-08T18:46:20.794330Z",
+    "retrieved_datetime": "2026-01-09T17:47:40.824221Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377260/Image/6374006.jpg",
@@ -23753,7 +24339,7 @@
       "lng": -2.2668758
     },
     "published_datetime": "2025-01-31T11:26:58.140000",
-    "retrieved_datetime": "2026-01-08T18:46:21.215773Z",
+    "retrieved_datetime": "2026-01-09T17:47:41.529081Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/376531/Image/6728141.jpg",
@@ -23835,7 +24421,7 @@
       "lng": -2.2853943
     },
     "published_datetime": "2025-01-29T16:41:53.297000",
-    "retrieved_datetime": "2026-01-08T18:46:21.814090Z",
+    "retrieved_datetime": "2026-01-09T17:47:42.739774Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/377093/Image/6200025.jpg",
@@ -23969,7 +24555,7 @@
       "lng": -2.2678965
     },
     "published_datetime": "2024-10-04T16:48:41",
-    "retrieved_datetime": "2026-01-08T18:46:22.364559Z",
+    "retrieved_datetime": "2026-01-09T17:47:43.330630Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/374672/Image/6275626.jpg",
@@ -24107,7 +24693,7 @@
       "lng": -2.1823111
     },
     "published_datetime": "2024-09-03T16:39:33.077000",
-    "retrieved_datetime": "2026-01-08T18:46:22.882076Z",
+    "retrieved_datetime": "2026-01-09T17:47:43.925023Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/374093/Image/6714883.jpg",
@@ -24237,7 +24823,7 @@
       "lng": -2.53810328531952
     },
     "published_datetime": "2024-08-26T10:29:10.450000",
-    "retrieved_datetime": "2026-01-08T18:46:23.271599Z",
+    "retrieved_datetime": "2026-01-09T17:47:44.362804Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/373803/Image/6761838.jpg",
@@ -24335,7 +24921,7 @@
       "lng": -2.1963145
     },
     "published_datetime": "2024-08-23T13:40:38.187000",
-    "retrieved_datetime": "2026-01-08T18:46:23.659566Z",
+    "retrieved_datetime": "2026-01-09T17:47:44.818067Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/373743/Image/6676979.jpg",
@@ -24417,7 +25003,7 @@
       "lng": -2.2760311
     },
     "published_datetime": "2024-08-09T09:33:19.397000",
-    "retrieved_datetime": "2026-01-08T18:46:24.739708Z",
+    "retrieved_datetime": "2026-01-09T17:47:45.261935Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/373231/Image/6708735.jpg",
@@ -24507,7 +25093,7 @@
       "lng": -2.207338
     },
     "published_datetime": "2024-08-05T11:12:23.780000",
-    "retrieved_datetime": "2026-01-08T18:46:25.335482Z",
+    "retrieved_datetime": "2026-01-09T17:47:45.842059Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/373186/Image/6320147.jpg",
@@ -24632,116 +25218,6 @@
     ]
   },
   {
-    "id": "aspc_425942",
-    "provider_id": "425942",
-    "provider": "ASPC",
-    "url": "https://www.aspc.co.uk/search/property/425942",
-    "price": 199000,
-    "bedrooms": 3,
-    "location_line_1": "1 Prince Albert Way",
-    "location_line_2": "Inchmarlo, Banchory, AB31\u00a04FA",
-    "coordinates": {
-      "lat": 57.0588047,
-      "lng": -2.5399633
-    },
-    "published_datetime": "2024-06-27T09:51:32.217000",
-    "retrieved_datetime": "2026-01-08T18:46:25.823354Z",
-    "photos": [
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543059.jpg",
-        "description": "1 Prince Albert Way"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543037.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543038.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543039.jpg",
-        "description": "Lounge"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543040.jpg",
-        "description": "Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543041.jpg",
-        "description": "Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543043.jpg",
-        "description": "Dining Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543042.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543044.jpg",
-        "description": "Kitchen"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543051.jpg",
-        "description": "Hallway"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543045.jpg",
-        "description": "Master Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543046.jpg",
-        "description": "Master Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543048.jpg",
-        "description": "Master Bedroom"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543047.jpg",
-        "description": "En-Suite Shower Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543049.jpg",
-        "description": "Bedroom 2"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543050.jpg",
-        "description": "Shower Room"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543052.jpg",
-        "description": "Study"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543053.jpg",
-        "description": "Grounds"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543054.jpg",
-        "description": "Patio"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543055.jpg",
-        "description": "Grounds"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543056.jpg",
-        "description": "Aerial View"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543057.jpg",
-        "description": "Aerial Views"
-      },
-      {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/372102/Image/6543058.jpg",
-        "description": "Golf Course"
-      }
-    ]
-  },
-  {
     "id": "aspc_425035",
     "provider_id": "425035",
     "provider": "ASPC",
@@ -24755,7 +25231,7 @@
       "lng": -2.48364710807343
     },
     "published_datetime": "2024-05-28T12:32:54.593000",
-    "retrieved_datetime": "2026-01-08T18:46:26.248169Z",
+    "retrieved_datetime": "2026-01-09T17:47:46.339205Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/371116/Image/6747611.jpg",
@@ -24881,7 +25357,7 @@
       "lng": -2.177638
     },
     "published_datetime": "2024-05-17T16:21:34.073000",
-    "retrieved_datetime": "2026-01-08T18:46:26.766769Z",
+    "retrieved_datetime": "2026-01-09T17:47:46.972368Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/370272/Image/6270637.jpg",
@@ -25011,7 +25487,7 @@
       "lng": -2.3513346
     },
     "published_datetime": "2024-05-16T16:11:21.460000",
-    "retrieved_datetime": "2026-01-08T18:46:27.290400Z",
+    "retrieved_datetime": "2026-01-09T17:47:47.514164Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/370313/Image/6635934.jpg",
@@ -25149,7 +25625,7 @@
       "lng": -2.1702849
     },
     "published_datetime": "2024-05-10T16:00:26.420000",
-    "retrieved_datetime": "2026-01-08T18:46:27.711866Z",
+    "retrieved_datetime": "2026-01-09T17:47:47.962475Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/369803/Image/6078499.jpg",
@@ -25287,7 +25763,7 @@
       "lng": -2.2852988
     },
     "published_datetime": "2024-04-30T13:53:58.753000",
-    "retrieved_datetime": "2026-01-08T18:46:28.174091Z",
+    "retrieved_datetime": "2026-01-09T17:47:48.419421Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/370281/Image/6460499.jpg",
@@ -25377,7 +25853,7 @@
       "lng": -2.45933380527954
     },
     "published_datetime": "2024-04-26T13:16:12.117000",
-    "retrieved_datetime": "2026-01-08T18:46:28.693903Z",
+    "retrieved_datetime": "2026-01-09T17:47:48.990549Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/368058/Image/6475438.jpg",
@@ -25515,7 +25991,7 @@
       "lng": -2.2738812
     },
     "published_datetime": "2024-04-24T11:17:40.500000",
-    "retrieved_datetime": "2026-01-08T18:46:29.194633Z",
+    "retrieved_datetime": "2026-01-09T17:47:49.448354Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/369734/Image/6737260.jpg",
@@ -25633,7 +26109,7 @@
       "lng": -2.2399952
     },
     "published_datetime": "2024-04-12T14:15:09.027000",
-    "retrieved_datetime": "2026-01-08T18:46:29.735074Z",
+    "retrieved_datetime": "2026-01-09T17:47:49.906355Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/369587/Image/6391707.jpg",
@@ -25735,7 +26211,7 @@
       "lng": -2.2753896
     },
     "published_datetime": "2024-04-03T15:51:40.567000",
-    "retrieved_datetime": "2026-01-08T18:46:30.313315Z",
+    "retrieved_datetime": "2026-01-09T17:47:50.464607Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/369150/Image/6761874.jpg",
@@ -25861,7 +26337,7 @@
       "lng": -2.53713500786514
     },
     "published_datetime": "2024-02-12T11:16:54.620000",
-    "retrieved_datetime": "2026-01-08T18:46:30.777564Z",
+    "retrieved_datetime": "2026-01-09T17:47:50.999651Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/367810/Image/6108206.jpg",
@@ -25975,7 +26451,7 @@
       "lng": -2.17940303862304
     },
     "published_datetime": "2024-02-08T11:48:17.557000",
-    "retrieved_datetime": "2026-01-08T18:46:31.159240Z",
+    "retrieved_datetime": "2026-01-09T17:47:51.395538Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/366980/Image/6672469.jpg",
@@ -26045,7 +26521,7 @@
       "lng": -2.28482245714722
     },
     "published_datetime": "2023-12-11T16:48:20.540000",
-    "retrieved_datetime": "2026-01-08T18:46:31.572946Z",
+    "retrieved_datetime": "2026-01-09T17:47:51.845066Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/366841/Image/6752122.jpg",
@@ -26135,7 +26611,7 @@
       "lng": -2.171381
     },
     "published_datetime": "2023-11-17T12:25:34.497000",
-    "retrieved_datetime": "2026-01-08T18:46:32.067420Z",
+    "retrieved_datetime": "2026-01-09T17:47:52.384259Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/365850/Image/6585432.jpg",
@@ -26241,7 +26717,7 @@
       "lng": -2.5343351
     },
     "published_datetime": "2023-10-19T11:12:15.357000",
-    "retrieved_datetime": "2026-01-08T18:46:32.636407Z",
+    "retrieved_datetime": "2026-01-09T17:47:53.438813Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/365806/Image/6763665.jpg",
@@ -26339,7 +26815,7 @@
       "lng": -2.5007513
     },
     "published_datetime": "2023-10-04T15:52:26.440000",
-    "retrieved_datetime": "2026-01-08T18:46:33.152154Z",
+    "retrieved_datetime": "2026-01-09T17:47:53.990673Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/364984/Image/5535606.jpg",
@@ -26477,7 +26953,7 @@
       "lng": -2.2190495
     },
     "published_datetime": "2023-09-29T14:56:53.867000",
-    "retrieved_datetime": "2026-01-08T18:46:33.565985Z",
+    "retrieved_datetime": "2026-01-09T17:47:54.432256Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/365248/Image/6527734.jpg",
@@ -26499,7 +26975,7 @@
       "lng": -2.2741775
     },
     "published_datetime": "2023-09-15T13:20:18.463000",
-    "retrieved_datetime": "2026-01-08T18:46:33.967376Z",
+    "retrieved_datetime": "2026-01-09T17:47:54.840990Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/365186/Image/6066969.jpg",
@@ -26569,7 +27045,7 @@
       "lng": -2.1830061227539
     },
     "published_datetime": "2023-08-18T15:45:26.080000",
-    "retrieved_datetime": "2026-01-08T18:46:35.138380Z",
+    "retrieved_datetime": "2026-01-09T17:47:55.447491Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/364219/Image/6546737.jpg",
@@ -26659,7 +27135,7 @@
       "lng": -2.5404204232788
     },
     "published_datetime": "2023-08-07T17:24:45.403000",
-    "retrieved_datetime": "2026-01-08T18:46:35.577469Z",
+    "retrieved_datetime": "2026-01-09T17:47:55.906347Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/364044/Image/6685149.jpg",
@@ -26757,7 +27233,7 @@
       "lng": -2.26991273795929
     },
     "published_datetime": "2023-05-29T12:52:13.707000",
-    "retrieved_datetime": "2026-01-08T18:46:35.967088Z",
+    "retrieved_datetime": "2026-01-09T17:47:56.494749Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/361434/Image/5268952.jpg",
@@ -26895,7 +27371,7 @@
       "lng": -2.1791743
     },
     "published_datetime": "2023-05-03T15:01:43.327000",
-    "retrieved_datetime": "2026-01-08T18:46:36.491533Z",
+    "retrieved_datetime": "2026-01-09T17:47:57.037969Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/360900/Image/6172786.jpg",
@@ -27021,7 +27497,7 @@
       "lng": -2.53713232565613
     },
     "published_datetime": "2023-03-17T14:32:10.040000",
-    "retrieved_datetime": "2026-01-08T18:46:36.890472Z",
+    "retrieved_datetime": "2026-01-09T17:47:57.482315Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/360077/Image/6511416.jpg",
@@ -27103,7 +27579,7 @@
       "lng": -2.1839408
     },
     "published_datetime": "2023-02-24T11:25:38.650000",
-    "retrieved_datetime": "2026-01-08T18:46:37.303888Z",
+    "retrieved_datetime": "2026-01-09T17:47:57.930413Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/359479/Image/6559162.jpg",
@@ -27241,78 +27717,78 @@
       "lng": -2.4947745
     },
     "published_datetime": "2022-11-03T12:12:08.900000",
-    "retrieved_datetime": "2026-01-08T18:46:37.838736Z",
+    "retrieved_datetime": "2026-01-09T17:47:58.478562Z",
     "photos": [
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525561.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782046.jpg",
         "description": "External"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525558.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782043.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525559.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782044.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525563.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782048.jpg",
         "description": "Bedroom 3/Dining Room"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525569.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782054.jpg",
         "description": "Outside"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525562.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782047.jpg",
         "description": "Lounge"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525560.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782045.jpg",
         "description": "Kitchen"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525574.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782059.jpg",
         "description": "Hall"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525575.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782060.jpg",
         "description": "Hall"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525564.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782049.jpg",
         "description": "Double Bedroom 1"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525565.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782050.jpg",
         "description": "Double Bedroom 2"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525566.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782051.jpg",
         "description": "Bathroom"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525567.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782052.jpg",
         "description": "Outside"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525573.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782058.jpg",
         "description": "Outside"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525568.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782053.jpg",
         "description": "Outside"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525570.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782055.jpg",
         "description": "Outside"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525572.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782057.jpg",
         "description": "Outside"
       },
       {
-        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6525571.jpg",
+        "url": "https://cdn.aspc.co.uk/resources/office/Property/357033/Image/6782056.jpg",
         "description": "Outlook to Front"
       }
     ]
@@ -27331,7 +27807,7 @@
       "lng": -2.2114613
     },
     "published_datetime": "2022-09-27T16:46:42.323000",
-    "retrieved_datetime": "2026-01-08T18:46:38.247283Z",
+    "retrieved_datetime": "2026-01-09T17:47:58.877063Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/356508/Image/6706209.jpg",
@@ -27381,7 +27857,7 @@
       "lng": -2.1794839
     },
     "published_datetime": "2022-09-23T16:51:43.480000",
-    "retrieved_datetime": "2026-01-08T18:46:38.733582Z",
+    "retrieved_datetime": "2026-01-09T17:47:59.442155Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/356446/Image/5003909.jpg",
@@ -27503,7 +27979,7 @@
       "lng": -2.21966578203125
     },
     "published_datetime": "2022-04-25T14:47:39.407000",
-    "retrieved_datetime": "2026-01-08T18:46:39.295624Z",
+    "retrieved_datetime": "2026-01-09T17:47:59.908261Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/351714/Image/6527021.jpg",
@@ -27597,7 +28073,7 @@
       "lng": -2.2684281
     },
     "published_datetime": "2021-09-10T16:23:20.873000",
-    "retrieved_datetime": "2026-01-08T18:46:39.709581Z",
+    "retrieved_datetime": "2026-01-09T17:48:00.353515Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/346362/Image/6420075.jpg",
@@ -27671,7 +28147,7 @@
       "lng": -2.17067689999999
     },
     "published_datetime": "2018-07-10T14:08:31.423000",
-    "retrieved_datetime": "2026-01-08T18:46:40.131484Z",
+    "retrieved_datetime": "2026-01-09T17:48:00.795624Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/312256/Image/5397413.jpg",
@@ -27729,7 +28205,7 @@
       "lng": -2.41581
     },
     "published_datetime": "2017-04-04T11:48:01.903000",
-    "retrieved_datetime": "2026-01-08T18:46:40.652068Z",
+    "retrieved_datetime": "2026-01-09T17:48:01.341281Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/295320/Image/5077894.jpg",
@@ -27843,7 +28319,7 @@
       "lng": -2.17971209999996
     },
     "published_datetime": "2016-06-23T15:51:45.847000",
-    "retrieved_datetime": "2026-01-08T18:46:41.229508Z",
+    "retrieved_datetime": "2026-01-09T17:48:01.783779Z",
     "photos": [
       {
         "url": "https://cdn.aspc.co.uk/resources/office/Property/284233/Image/6079112.jpg",
@@ -27905,7 +28381,7 @@
       "lng": -2.47068
     },
     "published_datetime": "2026-01-08T11:04:01Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454518Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.225858Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/147k/146942/87419313/146942_49533_IMG_00_0000_max_476x317.jpeg",
@@ -27959,7 +28435,7 @@
       "lng": -2.538214
     },
     "published_datetime": "2025-07-10T14:36:11Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920694Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986223Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/288k/287249/87208434/287249_BCH230018_IMG_00_0000_max_476x317.jpeg",
@@ -28093,7 +28569,7 @@
       "lng": -2.313065
     },
     "published_datetime": "2026-01-02T13:44:30Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454256Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.225613Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/212k/211805/170768492/211805_322077_IMG_00_0000_max_476x317.jpeg",
@@ -28207,7 +28683,7 @@
       "lng": -2.17103
     },
     "published_datetime": "2025-12-26T00:01:18Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454546Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.225883Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/b9716598c/170591366/b9716598c0e08525b3b2a89bb1a110fc_max_476x317.jpeg",
@@ -28317,7 +28793,7 @@
       "lng": -2.507266
     },
     "published_datetime": "2025-12-22T17:21:10Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454606Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.225937Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/271k/270008/170523083/270008_a19392b3-940f-454c-af57-0774ea135a05_IMG_00_0000_max_476x317.jpeg",
@@ -28479,7 +28955,7 @@
       "lng": -2.21545
     },
     "published_datetime": "2025-12-18T09:57:07Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455192Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226410Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/275k/274601/170408891/274601_323073_IMG_00_0000_max_476x317.jpeg",
@@ -28617,7 +29093,7 @@
       "lng": -2.50613
     },
     "published_datetime": "2025-12-17T16:00:59Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454673Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.225979Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7798842f6/170379590/7798842f6199268d6a4d5da9cb1ae84b_max_476x317.jpeg",
@@ -28695,7 +29171,7 @@
       "lng": -2.285333
     },
     "published_datetime": "2025-11-28T14:18:03Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454861Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226132Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/76da3b3eb/169822715/76da3b3ebb8c8212bc3828e4a2cf8d58_max_476x317.jpeg",
@@ -28801,7 +29277,7 @@
       "lng": -2.192098
     },
     "published_datetime": "2025-11-26T10:15:42Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454895Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226160Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/119k/118192/169726163/118192_MFL8249523_IMG_15_0000_max_476x317.jpeg",
@@ -28895,7 +29371,7 @@
       "lng": -2.284813
     },
     "published_datetime": "2025-11-19T15:18:37Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454924Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226182Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/271k/270008/169496678/270008_b332932e-8a66-4f23-ad2b-32e686aee0c0_IMG_00_0000_max_476x317.jpeg",
@@ -28989,7 +29465,7 @@
       "lng": -2.17964
     },
     "published_datetime": "2025-11-17T15:44:15Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454952Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226207Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/43k/42924/169412705/42924_P5530_IMG_00_0000_max_476x317.jpeg",
@@ -29075,7 +29551,7 @@
       "lng": -2.20128
     },
     "published_datetime": "2025-11-17T10:21:08Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454985Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226228Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/9aadd05a0/169392401/9aadd05a0ad1ac207d274c420e9e7bf9_max_476x317.jpeg",
@@ -29213,7 +29689,7 @@
       "lng": -2.286003
     },
     "published_datetime": "2025-11-13T16:02:41Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454580Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.225914Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/630b3364e/169313663/630b3364ed135d9a0a1f15948858f84e_max_476x317.jpeg",
@@ -29295,7 +29771,7 @@
       "lng": -2.168021
     },
     "published_datetime": "2025-11-13T14:05:45Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455024Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226261Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/a1908a0d0/169304762/a1908a0d0951241bf836b5269b4fed38_max_476x317.jpeg",
@@ -29437,7 +29913,7 @@
       "lng": -2.237735
     },
     "published_datetime": "2025-11-11T11:50:44Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454799Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226084Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/3169af942/169220066/3169af9424ef4def5093176c5a844ed5_max_476x317.jpeg",
@@ -29635,7 +30111,7 @@
       "lng": -2.21361
     },
     "published_datetime": "2025-11-03T13:23:22Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455088Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226323Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/78k/77046/168922775/77046_467940_IMG_00_0000_max_476x317.jpeg",
@@ -29729,7 +30205,7 @@
       "lng": -2.35144
     },
     "published_datetime": "2025-10-29T12:23:06Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454756Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226049Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/43k/42924/168744962/42924_P5718_IMG_00_0001_max_476x317.jpeg",
@@ -29871,7 +30347,7 @@
       "lng": -2.474263
     },
     "published_datetime": "2025-10-27T12:12:53Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455149Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226371Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/98k/97867/168638651/97867_ABN250135_IMG_00_0000_max_476x317.jpeg",
@@ -29953,7 +30429,7 @@
       "lng": -2.22533
     },
     "published_datetime": "2025-10-23T08:19:04Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455179Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226391Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/226k/225881/168511856/225881_RS3572_IMG_00_0001_max_476x317.jpeg",
@@ -29975,7 +30451,7 @@
       "lng": -2.22533
     },
     "published_datetime": "2025-10-23T08:19:03Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455172Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226397Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/e373ca86e/168511850/e373ca86e68d0a0ef52c6a3c8ec16f63_max_476x317.jpeg",
@@ -29997,7 +30473,7 @@
       "lng": -2.22533
     },
     "published_datetime": "2025-10-23T08:18:58Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455185Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226403Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/18475accb/168511838/18475accbd5f1ba067310ce9ab3b0bac_max_476x317.jpeg",
@@ -30019,7 +30495,7 @@
       "lng": -2.191481
     },
     "published_datetime": "2025-10-15T17:03:06Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454698Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.225999Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/119k/118192/168223154/118192_MFL4246349_IMG_00_0000_max_476x317.jpeg",
@@ -30101,7 +30577,7 @@
       "lng": -2.342986
     },
     "published_datetime": "2025-09-30T10:12:26Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920431Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.985996Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/0743449fd/167593667/0743449fddc0e419fdcbecd0e3136834_max_476x317.jpeg",
@@ -30275,7 +30751,7 @@
       "lng": -2.53848
     },
     "published_datetime": "2025-09-19T12:43:29Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920470Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986044Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/99e0ebda8/167190026/99e0ebda8e64144aca6ea2f46a83fbf8_max_476x317.jpeg",
@@ -30449,7 +30925,7 @@
       "lng": -2.212313
     },
     "published_datetime": "2025-09-12T10:13:46Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920538Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986103Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/287k/286826/166911887/286826_ABN250139_IMG_36_0000_max_476x317.jpeg",
@@ -30615,7 +31091,7 @@
       "lng": -2.27477
     },
     "published_datetime": "2025-08-28T13:07:41Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.454722Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226021Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/247k/246740/166306487/246740_220224810_IMG_00_0000_max_476x317.jpeg",
@@ -30729,7 +31205,7 @@
       "lng": -2.542563
     },
     "published_datetime": "2025-08-28T11:20:18Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455116Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226346Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/62k/61544/166299335/61544_29451310_IMG_00_0000_max_476x317.jpeg",
@@ -30835,7 +31311,7 @@
       "lng": -2.360814
     },
     "published_datetime": "2025-08-12T08:55:19Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920602Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986158Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/86k/85856/165635711/85856_5116_IMG_00_0000_max_476x317.jpeg",
@@ -31013,7 +31489,7 @@
       "lng": -2.263498
     },
     "published_datetime": "2025-08-07T15:49:59Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920409Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.985961Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/131k/130174/165477422/130174_5e94df57-d79e-4fd5-8085-7ef8947f7624_IMG_28_0000_max_476x317.png",
@@ -31087,7 +31563,7 @@
       "lng": -2.259613
     },
     "published_datetime": "2025-06-06T17:37:02Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920748Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986271Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/7ee5f0979/162981638/7ee5f0979f036a84ace5e84951cb1c7a_max_476x317.jpeg",
@@ -31193,7 +31669,7 @@
       "lng": -2.218507
     },
     "published_datetime": "2025-06-05T15:54:53Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920780Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986298Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/38102fa70/162913730/38102fa70bfaed14910d71902e8769f4_max_476x317.jpeg",
@@ -31323,7 +31799,7 @@
       "lng": -2.186177
     },
     "published_datetime": "2025-05-09T12:52:04Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920344Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.985905Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2ea63ad28/161735195/2ea63ad28f8f2a0f147ad371bf76bf30_max_476x317.jpeg",
@@ -31417,7 +31893,7 @@
       "lng": -2.433814
     },
     "published_datetime": "2025-05-07T13:46:54Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920729Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986255Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/f51ae277a/161609273/f51ae277a9114def56475c8ee9fb0584_max_476x317.jpeg",
@@ -31483,7 +31959,7 @@
       "lng": -2.22409
     },
     "published_datetime": "2025-04-09T10:59:10Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920522Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986088Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/6a2e60aa5/160446251/6a2e60aa5c41470d301b3bb51c485c88_max_476x317.jpeg",
@@ -31545,7 +32021,7 @@
       "lng": -2.269407
     },
     "published_datetime": "2025-04-04T14:58:27Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920901Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986417Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/98k/97867/160269428/97867_ABN250008_IMG_01_0000_max_476x317.jpeg",
@@ -31675,7 +32151,7 @@
       "lng": -2.492425
     },
     "published_datetime": "2025-03-17T17:11:04Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920938Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986832Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/71k/70239/159523535/70239_PRT230030_IMG_14_0000_max_476x317.jpeg",
@@ -31757,7 +32233,7 @@
       "lng": -2.205307
     },
     "published_datetime": "2025-03-06T12:03:47Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920582Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986143Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/159068867/119857_ABS240124_IMG_00_0000_max_476x317.jpeg",
@@ -31823,7 +32299,7 @@
       "lng": -2.17783
     },
     "published_datetime": "2024-12-03T12:12:35Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920851Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986366Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/43k/42924/155613293/42924_P4230_IMG_00_0002_max_476x317.jpeg",
@@ -32017,7 +32493,7 @@
       "lng": -2.332329
     },
     "published_datetime": "2024-11-21T09:48:00Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920813Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986331Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/155206535/119857_CLI216717_IMG_00_0000_max_476x317.jpeg",
@@ -32083,7 +32559,7 @@
       "lng": -2.178898
     },
     "published_datetime": "2024-11-18T16:45:48Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.455067Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.226302Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/98k/97867/155103266/97867_ABN240143_IMG_00_0000_max_476x317.jpeg",
@@ -32157,7 +32633,7 @@
       "lng": -2.242469
     },
     "published_datetime": "2024-11-12T12:39:57Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920667Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986200Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/00e888c18/154875326/00e888c1873e2fd870fadce1cb3eb504_max_476x317.jpeg",
@@ -32251,7 +32727,7 @@
       "lng": -2.30881
     },
     "published_datetime": "2024-10-18T16:18:07Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.921006Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986899Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/108k/107152/153937337/107152_FOW005_IMG_00_0000_max_476x317.jpeg",
@@ -32385,7 +32861,7 @@
       "lng": -2.270802
     },
     "published_datetime": "2024-05-27T11:00:22Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920984Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986874Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/d537497c9/148436234/d537497c9ac3858069a264f09ec3d3cc_max_476x317.jpeg",
@@ -32471,7 +32947,7 @@
       "lng": -2.20992
     },
     "published_datetime": "2024-05-21T15:04:22Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920833Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986348Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/120k/119857/148239872/119857_ABS240062_IMG_11_0001_max_476x317.jpeg",
@@ -32537,7 +33013,7 @@
       "lng": -2.182796
     },
     "published_datetime": "2022-06-17T00:26:04Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.920960Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986856Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/2c2bebf37/124004657/2c2bebf3789247b7b4c5f05a3331c595_max_476x317.jpeg",
@@ -32603,7 +33079,7 @@
       "lng": -2.291349
     },
     "published_datetime": "2022-04-19T15:08:44Z",
-    "retrieved_datetime": "2026-01-08T18:46:42.921045Z",
+    "retrieved_datetime": "2026-01-09T17:48:03.986936Z",
     "photos": [
       {
         "url": "https://media.rightmove.co.uk:443/dir/crop/10:9-16:9/property-photo/c9ddde7ec/122563739/c9ddde7ec59ede4b13e7ec370077ff89_max_476x317.jpeg",
@@ -32741,7 +33217,7 @@
       "lng": -2.50613
     },
     "published_datetime": "2025-12-17T16:02:49",
-    "retrieved_datetime": "2026-01-08T18:46:50.740060Z",
+    "retrieved_datetime": "2026-01-09T17:48:11.207524Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/cf053928a59fdcae54ed23cf771d23c14c9aafe8.jpg",
@@ -32819,7 +33295,7 @@
       "lng": -2.214764
     },
     "published_datetime": "2025-11-28T00:14:02",
-    "retrieved_datetime": "2026-01-08T18:47:09.742461Z",
+    "retrieved_datetime": "2026-01-09T17:48:13.837075Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/03d2d854b1f38815bd894091efe71671c076757f.jpg",
@@ -32877,7 +33353,7 @@
       "lng": -2.191577
     },
     "published_datetime": "2025-11-26T19:58:03",
-    "retrieved_datetime": "2026-01-08T18:46:54.184203Z",
+    "retrieved_datetime": "2026-01-09T17:48:14.938534Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/061a65d6d46fb74acb8e51d35916ed2d20fc19c1.jpg",
@@ -32971,7 +33447,7 @@
       "lng": -2.214764
     },
     "published_datetime": "2025-11-20T00:15:02",
-    "retrieved_datetime": "2026-01-08T18:47:10.274565Z",
+    "retrieved_datetime": "2026-01-09T17:48:32.995763Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/6971fe6f193ebff09bb1b35a3cafd22f7607b8b2.jpg",
@@ -33021,7 +33497,7 @@
       "lng": -2.22533
     },
     "published_datetime": "2025-10-23T07:21:27",
-    "retrieved_datetime": "2026-01-08T18:47:03.613826Z",
+    "retrieved_datetime": "2026-01-09T17:48:26.501953Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/fbc17ed46e661eba2b6e4cc48093f891d1852157.jpg",
@@ -33043,7 +33519,7 @@
       "lng": -2.22533
     },
     "published_datetime": "2025-10-23T07:21:27",
-    "retrieved_datetime": "2026-01-08T18:47:03.173152Z",
+    "retrieved_datetime": "2026-01-09T17:48:25.567799Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/b66be5b7d795ddc7d08ed3a85476fea43c461078.jpg",
@@ -33065,7 +33541,7 @@
       "lng": -2.22533
     },
     "published_datetime": "2025-10-23T07:21:27",
-    "retrieved_datetime": "2026-01-08T18:47:02.425275Z",
+    "retrieved_datetime": "2026-01-09T17:48:24.618463Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/96edb9cf35466fc24ee9e33ceb13a0b56320f20e.jpg",
@@ -33087,7 +33563,7 @@
       "lng": -2.18607631877729
     },
     "published_datetime": "2025-10-15T19:59:07",
-    "retrieved_datetime": "2026-01-08T18:47:04.547824Z",
+    "retrieved_datetime": "2026-01-09T17:48:27.441247Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/0aaaf8853b1c5014c0893398fcca03b1d4d30391.jpg",
@@ -33169,7 +33645,7 @@
       "lng": -2.214764
     },
     "published_datetime": "2025-10-03T00:08:14",
-    "retrieved_datetime": "2026-01-08T18:46:45.025376Z",
+    "retrieved_datetime": "2026-01-09T17:48:28.257300Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/6971fe6f193ebff09bb1b35a3cafd22f7607b8b2.jpg",
@@ -33219,7 +33695,7 @@
       "lng": -2.214764
     },
     "published_datetime": "2025-09-02T16:13:29",
-    "retrieved_datetime": "2026-01-08T18:47:09.020152Z",
+    "retrieved_datetime": "2026-01-09T17:48:34.342759Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/fe396e3ca4db4c5a29781644e8455a45e0ef3d15.jpg",
@@ -33273,7 +33749,7 @@
       "lng": -2.214764
     },
     "published_datetime": "2025-09-02T16:13:29",
-    "retrieved_datetime": "2026-01-08T18:47:10.883700Z",
+    "retrieved_datetime": "2026-01-09T17:48:33.822529Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/71cebed5d8f95bfdf7c3e9d941aa97215211d58f.jpg",
@@ -33331,7 +33807,7 @@
       "lng": -2.214764
     },
     "published_datetime": "2025-09-02T16:13:28",
-    "retrieved_datetime": "2026-01-08T18:47:11.627221Z",
+    "retrieved_datetime": "2026-01-09T17:48:33.457132Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/d2aeae002578d759e0eef65ffe1374b68a5d528a.jpg",
@@ -33389,7 +33865,7 @@
       "lng": -2.271915
     },
     "published_datetime": "2025-04-16T12:46:59",
-    "retrieved_datetime": "2026-01-08T18:47:20.061570Z",
+    "retrieved_datetime": "2026-01-09T17:48:42.516682Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/8d44cb0148875186b0ca914c114d82fba16d5041.jpg",
@@ -33455,7 +33931,7 @@
       "lng": -2.309026
     },
     "published_datetime": "2024-10-18T15:19:15",
-    "retrieved_datetime": "2026-01-08T18:47:25.792482Z",
+    "retrieved_datetime": "2026-01-09T17:48:48.467776Z",
     "photos": [
       {
         "url": "https://lid.zoocdn.com/u/1200/900/7867634cc2ef2ba8ae4dc9efd03309124d659a6b.jpg",
