@@ -13,7 +13,7 @@ import {
 } from 'lucide-react';
 import type {Classification} from '../types/classification';
 import type {Property} from '../types/property';
-import {type JSX, memo} from "react";
+import {type JSX, memo, useEffect} from "react";
 
 const APPLE_DEVICE = isAppleDevice();
 
@@ -81,6 +81,32 @@ function SelectedSidebarContentComponent({
 }): JSX.Element {
     const appleMapsUri = `maps://?ll=${property.coordinates.latitude},${property.coordinates.longitude}&z=40&t=k&q=${property.title}`;
     const streetViewUri = `https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${property.coordinates.latitude},${property.coordinates.longitude}`;
+
+    useEffect(() => {
+        const handleKeyPress = (event: KeyboardEvent) => {
+            if (event.ctrlKey || event.metaKey || event.altKey) {
+                return;
+            }
+            if (event.key.toLowerCase() !== 'r') {
+                return;
+            }
+            const target = event.target as HTMLElement;
+            if (
+                target.isContentEditable ||
+                target.tagName === 'TEXTAREA' ||
+                target.tagName === 'INPUT' ||
+                target.tagName === 'SELECT'
+            ) {
+                return;
+            }
+
+            event.preventDefault();
+            classifyProperty(property, 'reject');
+        };
+
+        window.addEventListener('keydown', handleKeyPress);
+        return () => window.removeEventListener('keydown', handleKeyPress);
+    }, [property, classifyProperty]);
 
     return (
         <div className="sidebar">
