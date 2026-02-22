@@ -20,7 +20,7 @@ It is hosted at https://craigwalton.github.io/PropertyExplorer/
 * Select a property marker to see basic info like price, main photo.
 * You can shortlist or reject any property, and write notes.
 
-## Limitations
+### Limitations
 
 * Google Maps 3D tiles are not available in all areas. Apple Maps 3D tiles are more widely available, but there is no
   public API to access them.
@@ -57,12 +57,18 @@ The GeoJSON files are stored in `web-app/public/data/*-school-catchments.geojson
 
 ## Run web app locally (for development)
 
-Create a `web-app/.env` file and add a Google Maps API key. The API key should be restricted to just 3D map tiles.
-Consider also restricting which domain requests can come from.
+Create a `web-app/.env` file and add a Google Maps API key with the following restrictions:
+
+| Property               | Value         |
+| ---------------------- | ------------- |
+| Restricted to websites | `localhost`   |
+| Restricted to APIs     | Map Tiles API |
 
     VITE_GOOGLE_MAPS_API_KEY=
 
-Ensure you have Vite installed:
+Best practice is to generate a separate API key for production (which will have a different website restriction).
+
+Ensure you have [Vite](https://vite.dev/guide/) installed:
 
     npm install -D vite
 
