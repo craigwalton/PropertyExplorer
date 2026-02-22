@@ -14,9 +14,6 @@ repo and are used here for personal, non-commercial use only.
 
 It is hosted at https://craigwalton.github.io/PropertyExplorer/
 
-> [!NOTE]  
-> This uses a Google Maps tiles API key which will expire in February 2026 due to billing reasons.
-
 ### Features
 
 * Navigate the 3D environment (drag to pan, hold `ctrl` key to orbit) to explore the area.
@@ -91,3 +88,4 @@ and open a browser at the URL shown in your terminal.
 * Why do markers/billboards have rendering artifacts when overlapping? This is not an issue when using Cesium without
   Resium.
 * Poor UX: Catchment areas interfere with normal panning and double-clicking on them zooms to fit.
+* Show user-visible error message if Google Maps API key is invalid/expired
