@@ -66,14 +66,14 @@ Create a `web-app/.env` file and add a Google Maps API key with the following re
 
 Best practice is to generate a separate API key for production (which will have a different website restriction).
 
-Ensure you have [Vite](https://vite.dev/guide/) installed:
+Install project dependencies (including [Vite](https://vite.dev/guide/)):
 
-    npm install -D vite
+    npm install
 
 Then run the web app:
 
     cd web-app/
-    npx vite
+    npx run dev
 
 and open a browser at the URL shown in your terminal.
 
