@@ -42,16 +42,18 @@ areas.
 
 ### School catchment areas
 
-The school catchment areas were obtained from Aberdeen City Council and Aberdeenshire Council in November 2025. Only
-the catchment areas of interest were retained. The transformation from the datasets at the URLs below into the GeoJSON
-files in `web-app/public/data/*-school-catchments.geojson` is performed by scripts which are not made available.
+The school catchment areas were obtained from Aberdeen City Council and Aberdeenshire Council in November 2025 via the
+datasets below.
 
 | Dataset                         | Source                                                                                               |
-|---------------------------------|------------------------------------------------------------------------------------------------------|
+| ------------------------------- | ---------------------------------------------------------------------------------------------------- |
 | Aberdeen City Primary Schools   | https://spatialdata-accabdn.opendata.arcgis.com/datasets/f606a1b1b5b746aea68955d5d8458e6e_58/explore |
 | Aberdeen City Secondary Schools | https://spatialdata-accabdn.opendata.arcgis.com/datasets/c8e7887f4519434b8564a608754002cb_5/explore  |
 | Aberdeenshire Primary Schools   | https://opendata.scot/datasets/aberdeenshire+council-school+catchments+-+aberdeenshire/              |
 | Aberdeenshire Secondary Schools | https://opendata.scot/datasets/aberdeenshire+council-school+catchments+-+aberdeenshire/              |
+
+These were transformed into 2 datasets (one for primary, one for secondary) with only the catchment areas of interest
+retained. The resulting GeoJSON files are `web-app/public/data/*-school-catchments.geojson`.
 
 ## Run web app locally (for development)
 
