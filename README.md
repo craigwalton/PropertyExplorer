@@ -75,7 +75,7 @@ Install project dependencies (including [Vite](https://vite.dev/guide/)):
 Then run the web app:
 
     cd web-app/
-    npx run dev
+    npm run dev
 
 and open a browser at the URL shown in your terminal.
 
