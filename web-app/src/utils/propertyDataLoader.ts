@@ -1,22 +1,17 @@
 import type {Property} from "../types/property";
 
 export interface LoadedPropertyData {
+    writtenAt: Date;
     properties: Property[];
-    retrievedAt: Date | null;
 }
 
 export async function loadPropertyData(): Promise<LoadedPropertyData> {
     const response = await fetch("data/properties.json");
-    const responseData = await response.json() as unknown[];
-    const retrievedTimestamps = responseData
-        .map((p) => new Date((p as Record<string, unknown>).retrieved_datetime as string))
-        .filter((date) => !Number.isNaN(date.getTime()));
+    const responseData = await response.json() as Record<string, unknown>;
 
     return {
-        retrievedAt: retrievedTimestamps.length
-            ? new Date(Math.max(...retrievedTimestamps.map((date) => date.getTime())))
-            : null,
-        properties: responseData.map((p: unknown) => {
+        writtenAt: new Date(responseData["written_at_datetime"] as string),
+        properties: (responseData["properties"] as unknown[]).map((p: unknown) => {
             const r = p as Record<string, unknown>;
             const coordinates = r.coordinates as Record<string, number>;
             const photos = r.photos as Array<{url: string}>;

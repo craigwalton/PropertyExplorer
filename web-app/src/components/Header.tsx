@@ -5,19 +5,18 @@ import type {Property} from "../types/property.ts";
 import {VisibilityControls} from "./VisibilityControls.tsx";
 
 const STALE_DATA_THRESHOLD_DAYS = 28;
+const MS_PER_DAY = 24 * 60 * 60 * 1000;
 
-function getDataAgeInDays(retrievedAt: Date | null): number | null {
-    if (!retrievedAt) return null;
+function getDataAgeInDays(writtenAt: Date | null): number | null {
+    if (!writtenAt) return null;
 
-    const elapsedMilliseconds = Date.now() - retrievedAt.getTime();
-    if (elapsedMilliseconds <= STALE_DATA_THRESHOLD_DAYS * 24 * 60 * 60 * 1000) return null;
-
-    return Math.ceil(elapsedMilliseconds / (24 * 60 * 60 * 1000));
+    const elapsedMilliseconds = Date.now() - writtenAt.getTime();
+    return Math.ceil(elapsedMilliseconds / MS_PER_DAY);
 }
 
 export function Header({
                            properties,
-                           propertyDataRetrievedAt,
+                           propertyDataWrittenAt,
                            onFilterChange,
                            classifications,
                            showPrimaryCatchmentsState,
@@ -25,18 +24,19 @@ export function Header({
                            centreMapOnSelectedPropertyState
 }: {
     properties: Property[],
-    propertyDataRetrievedAt: Date | null,
+    propertyDataWrittenAt: Date | null,
     onFilterChange: (filteredProperties: Property[]) => void,
     classifications: Record<string, string>,
     showPrimaryCatchmentsState: [boolean | undefined, (value: boolean | undefined) => void],
     showSecondaryCatchmentsState: [boolean | undefined, (value: boolean | undefined) => void],
     centreMapOnSelectedPropertyState: [boolean | undefined, (value: boolean | undefined) => void],
 }) {
-    const dataAgeInDays = getDataAgeInDays(propertyDataRetrievedAt);
+    const dataAgeInDays = getDataAgeInDays(propertyDataWrittenAt);
+    const displayStaleBanner = dataAgeInDays !== null && dataAgeInDays > STALE_DATA_THRESHOLD_DAYS;
 
     return (
         <>
-            {dataAgeInDays && (
+            {displayStaleBanner && (
                 <div className="stale-data-banner" role="status">
                     <strong>Source property data is {dataAgeInDays} days old.</strong>
                     <span> New listings, price changes, and availability may not be up to date.</span>
