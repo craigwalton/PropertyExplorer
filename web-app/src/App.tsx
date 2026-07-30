@@ -32,6 +32,7 @@ export function App(): JSX.Element {
     const [hoveredProperty, setHoveredProperty] = useState<Property | null>(null);
     const [selectedProperty, setSelectedProperty] = useState<Property | null>(null);
     const [properties, setProperties] = useState<Property[]>([]);
+    const [propertyDataRetrievedAt, setPropertyDataRetrievedAt] = useState<Date | null>(null);
     const [filteredProperties, setFilteredProperties] = useState<Property[]>([]);
     const [cursor, setCursor] = useState<"default" | "pointer">("default");
     const [hoveredCatchmentArea, setHoveredCatchmentArea] = useState<string | null>(null);
@@ -54,7 +55,10 @@ export function App(): JSX.Element {
     );
 
     useEffect(() => {
-        loadPropertyData().then(setProperties);
+        loadPropertyData().then(({properties, retrievedAt}) => {
+            setProperties(properties);
+            setPropertyDataRetrievedAt(retrievedAt);
+        });
     }, []);
 
     useEffect(() => {
@@ -124,6 +128,7 @@ export function App(): JSX.Element {
     return (
         <>
             <Header properties={properties}
+                    propertyDataRetrievedAt={propertyDataRetrievedAt}
                     onFilterChange={handleFilterChange}
                     classifications={classifications ?? {}}
                     showPrimaryCatchmentsState={[showPrimaryCatchments, setShowPrimaryCatchments]}
